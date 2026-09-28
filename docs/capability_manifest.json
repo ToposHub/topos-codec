@@ -1,0 +1,470 @@
+{
+ "$comment": "Topos Video Codec 能力单一真相源（复验 O5 / R-28 重关条件）。spec/query/UI/preflight/SDK/计划表从本文件生成或经 tests/media/test_capability_manifest.py 校验——任何能力变更必须先改这里，再改实现，最后跑校验。人工手抄多处即视为漂移（P2-07/P2-08 根因）。 v1.9（2026-09-21，P2）：422 家族 proxy/lt/standard/hq target_bpp 按 ProRes 容量上限重标定（同母版实测 bpp 取紧端 ×0.98×0.95）；新增 netproxy 网络代理档。 v1.9（2026-09-21，产品化计划 M0/M4）：新增图片编码档位注册表（22 档）与 raw 视频 RAW 档激活（TRAW profile 7，位深 12/16；R7 CFA 直入编码链 + R2 RAW→RAW 直出车道落地，available=true）。",
+ "schema_version": 1,
+ "codec": {
+  "label": "Topos Video Codec V1 Preview（Intra 4:2:2/4:4:4/GBR 10/12/16-bit）",
+  "label_short": "Topos Codec V1 Preview",
+  "experimental": true,
+  "abi_version": 2,
+  "audio": false,
+  "audio_note": "视频帧编码器不编码音频；MOV 容器支持最多 16 条宿主已编码音轨（container_spec v1.9 附录 A.7）。"
+ },
+ "reduced_decode": {
+  "max_source_width": 16384,
+  "max_source_height": 16384,
+  "auto2k_max_dim": 2048,
+  "fixed_ratio_divisors": [
+   2,
+   3,
+   4,
+   8
+  ],
+  "cpu_surface_output": true,
+  "host_visible_gpu_surface": true,
+  "v7a_band_decode": false,
+  "v7b_scalable_base": false,
+  "status_note": "V7-A band decode retired 2026-09-13 (V consolidation, D1=archive): no product consumer, capability bit no longer broadcast; replay only via TOPOS_DEV_REPLAY build + TOPOS_DEV=1. V7-B reader+writer exist as reference quality only (status=reference, opt-in), default MOV writer remains gated until P4 matched-quality gates pass",
+  "v7b_scalable_status": "reference",
+  "scalable_status_states": {
+   "vocabulary": [
+    "reference",
+    "experimental",
+    "eligible",
+    "default"
+   ],
+   "semantics": {
+    "experimental": "开发中布局（如 v7b minor-3/4）；不可用于任何用户文件默认路径",
+    "reference": "读写链路完整、可 opt-in 复现，但未通过质量/体积/速度门禁；不得宣传为 native scalable release",
+    "eligible": "全部门禁通过（P4），具备默认开启资格，等待 rollout 决策",
+    "default": "已作为高分辨率新素材默认 writer 发布"
+   },
+   "query": "tc_query_scalable_status() / tc_scalable_status_name()（ABI v2 追加符号）"
+  }
+ },
+ "bitstream_profiles": {
+  "3": {
+   "name": "Standard",
+   "pixel_formats": [
+    "yuv422",
+    "yuv444",
+    "gbr"
+   ],
+   "bit_depths": [
+    10,
+    12,
+    16
+   ]
+  },
+  "5": {
+   "name": "Pro 444",
+   "pixel_formats": [
+    "yuv444",
+    "gbr"
+   ],
+   "bit_depths": [
+    10,
+    12,
+    16
+   ]
+  },
+  "6": {
+   "name": "Extreme",
+   "pixel_formats": [
+    "yuv444",
+    "gbr"
+   ],
+   "bit_depths": [
+    12
+   ]
+  },
+  "7": {
+   "name": "TRAW",
+   "pixel_formats": [
+    "cfa"
+   ],
+   "bit_depths": [
+    12,
+    16
+   ]
+  }
+ },
+ "pixel_formats": {
+  "yuv422": {
+   "pf_enum": 0,
+   "chroma_width": "ceil(w/2)",
+   "planes": [
+    "Y",
+    "U",
+    "V"
+   ]
+  },
+  "yuv444": {
+   "pf_enum": 1,
+   "chroma_width": "w",
+   "planes": [
+    "Y",
+    "U",
+    "V"
+   ]
+  },
+  "gbr": {
+   "pf_enum": 2,
+   "chroma_width": "w",
+   "planes": [
+    "G",
+    "B",
+    "R"
+   ],
+   "matrix": "identity",
+   "output_mode": "planar_rgb"
+  },
+  "cfa": {
+   "pf_enum": 3,
+   "chroma_width": "ceil(w/2)",
+   "planes": [
+    "R",
+    "Gr",
+    "Gb",
+    "B"
+   ],
+   "plane_height": "ceil(h/2)",
+   "matrix": "identity",
+   "transfer": 20,
+   "transfer_name": "topos-traw-log0 (PWL-log12)",
+   "qmatrix": "仅 qm0（TRAW 冻结）",
+   "alpha": "恒 none（与 CFA 互斥）",
+   "aq": "关闭（单色平面无色度语义）",
+   "note": "TRAW（Topos RAW）Bayer 相位平面：4 平面各 (w/2)×(h/2)，profile 7 ⇔ pf=3 ∧ bd∈{12,16}（12=LOG0 制作 / 16=linear 归档，批 4）。V1 流走 minor=5/6 扩展代；V2+ 枚举天然开放；bd≥13 只许宽域熵 {V7-R/V7-R2/V8}——V1/V2-Rice 及 VLC/C1/C2/intra/range 族（12-bit 冻结解码域）编码侧显式拒绝（2026-09-13 复查扩展）。档位 = CQ 质量锚定预设（比率为定位标签，码率随内容浮动），见 docs/codec/topos_traw_format_plan_2026-09-12.md §1.1.1/§3。"
+  }
+ },
+ "traw_tiers": {
+  "12bit": [
+   {
+    "id": "raw12-2",
+    "label": "Topos RAW 12-bit 2:1",
+    "qp": 45,
+    "nominal_ratio": "2:1",
+    "measured_ratio": "1.97~2.10:1",
+    "code_maxerr": "1-1"
+   },
+   {
+    "id": "raw12-4",
+    "label": "Topos RAW 12-bit 4:1",
+    "qp": 59,
+    "nominal_ratio": "4:1",
+    "default": true,
+    "accept_margin_db_min": 12,
+    "measured_ratio": "3.61~4.02:1",
+    "code_maxerr": "5-6"
+   },
+   {
+    "id": "raw12-6",
+    "label": "Topos RAW 12-bit 6:1",
+    "qp": 64,
+    "nominal_ratio": "6:1",
+    "measured_ratio": "5.24~6.11:1",
+    "code_maxerr": "11-13"
+   },
+   {
+    "id": "raw12-8",
+    "label": "Topos RAW 12-bit 8:1",
+    "qp": 66,
+    "nominal_ratio": "8:1",
+    "measured_ratio": "6.41~7.81:1",
+    "code_maxerr": "15-19"
+   },
+   {
+    "id": "raw12-12",
+    "label": "Topos RAW 12-bit 12:1",
+    "qp": 68,
+    "nominal_ratio": "12:1",
+    "measured_ratio": "8.38~11.04:1",
+    "code_maxerr": "25-27"
+   },
+   {
+    "id": "raw12-16",
+    "label": "Topos RAW 12-bit 16:1",
+    "qp": 70,
+    "nominal_ratio": "16:1",
+    "measured_ratio": "12.09~18.30:1",
+    "code_maxerr": "32-38",
+    "note": "12-bit 档实测 = 批 1 两场景（real=ProRes 派生仿真 / synth，tools/traw_batch1_2026-09-13.json；噪声裕量 25.0/14.3/7.8/5.0/2.4/0.5dB 全达验收下限）；比率随内容浮动（CQ）"
+   }
+  ],
+  "16bit": [
+   {
+    "id": "raw16-2",
+    "label": "Topos RAW 16-bit 2:1",
+    "qp": 51,
+    "nominal_ratio": "2:1",
+    "measured_ratio": "1.50~1.97:1",
+    "code_maxerr": "5-6"
+   },
+   {
+    "id": "raw16-4",
+    "label": "Topos RAW 16-bit 4:1",
+    "qp": 72,
+    "nominal_ratio": "4:1",
+    "measured_ratio": "3.03~6.24:1",
+    "code_maxerr": "195-266",
+    "default": true
+   },
+   {
+    "id": "raw16-6",
+    "label": "Topos RAW 16-bit 6:1",
+    "qp": 76,
+    "nominal_ratio": "6:1",
+    "measured_ratio": "3.81~10.77:1",
+    "code_maxerr": "404-564"
+   },
+   {
+    "id": "raw16-8",
+    "label": "Topos RAW 16-bit 8:1",
+    "qp": 78,
+    "nominal_ratio": "8:1",
+    "measured_ratio": "4.40~14.74:1",
+    "code_maxerr": "547-785"
+   },
+   {
+    "id": "raw16-12",
+    "label": "Topos RAW 16-bit 12:1",
+    "qp": 80,
+    "nominal_ratio": "12:1",
+    "measured_ratio": "5.24~21.08:1",
+    "code_maxerr": "802-1012"
+   },
+   {
+    "id": "raw16-16",
+    "label": "Topos RAW 16-bit 16:1",
+    "qp": 82,
+    "nominal_ratio": "16:1",
+    "measured_ratio": "6.45~31.90:1",
+    "code_maxerr": "1114-1600",
+    "note": "码率随内容浮动（CQ）：实测区间 = 出货锚点固定 qp 下四传感器 UHD 中心裁剪（DJI 4P/Leica CL/Pentax K-1/K-3 III，tools/traw_batch4_2026-09-13.json）。锚点融合在有效 qe 域（qe=qp+12 封顶后；可分 qe=[0..63]∪[76..95]，64..75 死区；raw16-2 存 qp51=+12 恰好触顶，51..63 字节同径）。四传感器无损边界一致 qp36（1.11~1.35:1，maxerr=0）"
+   }
+  ]
+ },
+ "alpha": {
+  "modes": {
+   "0": "none",
+   "1": "lossless",
+   "2": "restricted-approx"
+  },
+  "bit_depths": [
+   8,
+   10,
+   12,
+   16
+  ],
+  "budget_tpcB": true,
+  "budget_flag_bits": {
+   "overrun": 1,
+   "authorized": 2,
+   "adapted": 4,
+   "ratio_saturated": 8
+  }
+ },
+ "tiers": [
+  {
+   "id": "netproxy",
+   "native_profile": 3,
+   "is_preset": true,
+   "label": "Topos 422 Net Proxy",
+   "available": true,
+   "format_bases": [
+    "yuv422p"
+   ],
+   "$comment": "P2（2026-09-21，画质对齐计划 §5 P2）：旧 Proxy 低码率档（target_bpp 0.29108）保留为独立网络代理档——低带宽远程预览/流转码，非 ProRes 对标档；容器 tpcD tier id 复用 TC_TIER_PROXY(1)（native 域上限 7，新增 id 属容器规范变更），档位身份由 label 区分。"
+  },
+  {
+   "id": "proxy",
+   "native_profile": 3,
+   "is_preset": true,
+   "label": "Topos 422 Proxy",
+   "available": true,
+   "format_bases": [
+    "yuv422p"
+   ]
+  },
+  {
+   "id": "lt",
+   "native_profile": 3,
+   "is_preset": true,
+   "label": "Topos 422 LT",
+   "available": true,
+   "format_bases": [
+    "yuv422p"
+   ]
+  },
+  {
+   "id": "standard",
+   "native_profile": 3,
+   "is_preset": true,
+   "label": "Topos 422",
+   "available": true,
+   "format_bases": [
+    "yuv422p"
+   ]
+  },
+  {
+   "id": "hq",
+   "native_profile": 3,
+   "is_preset": true,
+   "label": "Topos 422 HQ",
+   "available": true,
+   "format_bases": [
+    "yuv422p",
+    "yuv444p",
+    "gbrp"
+   ]
+  },
+  {
+   "id": "4444",
+   "native_profile": 5,
+   "is_preset": false,
+   "label": "Topos 4444",
+   "available": true,
+   "format_bases": [
+    "yuv444p",
+    "gbrp"
+   ]
+  },
+  {
+   "id": "4444xq",
+   "native_profile": 6,
+   "is_preset": false,
+   "label": "Topos 4444 XQ",
+   "available": true,
+   "format_bases": [
+    "yuv444p",
+    "gbrp"
+   ]
+  },
+  {
+   "id": "lp",
+   "native_profile": 3,
+   "is_preset": true,
+   "label": "Topos 422 LP",
+   "available": true,
+   "format_bases": [
+    "yuv422p"
+   ],
+   "alpha_supported": false,
+   "anchor_qp": 72,
+   "bitstream_carrier": "v7r3"
+  },
+  {
+   "id": "raw",
+   "native_profile": 7,
+   "is_preset": false,
+   "label": "Topos RAW",
+   "available": true,
+   "format_bases": [
+    "topos_cfa"
+   ],
+   "alpha_supported": false,
+   "note": "M4-R5/R7（D3 单 tier + 位深×比率参数化）：帧 profile 7 + pf=3 CFA；规格名 'Topos RAW <bd>-bit <N>:1'（12 档与图片线共享 qp 锚点）；R7 编码链（CFA 平面直入 + GOP intra 强制 + V7-R2 载体）与 R2 RAW→RAW 直出车道已落地"
+  }
+ ],
+ "ui_codec_ids": [
+  "topos_proxy",
+  "topos_lt",
+  "topos",
+  "topos_hq",
+  "topos_4444",
+  "topos_4444xq",
+  "topos_lp",
+  "topos_raw"
+ ],
+ "ui_containers": {
+  "topos_*": [
+   "mov"
+  ]
+ },
+ "quant_matrices": {
+  "video_422_id": 4,
+  "video_444_id": 0,
+  "lp_id": 0,
+  "note": "422 视频档 qmatrix_id=4「边缘均衡」（2026-09-21 锯齿战役：低频略粗/高频略细 HF:LF≈0.4，同尺寸边缘 PSNR 2K proxy/standard/hq +0.66/+0.54/+0.29 dB、4K proxy/lt +1.01/+0.78 dB；速度持平）。生效域：YUV422 10-bit profile3，且 4K（宽≥3840）下 standard/hq 回退 0（flat）——近透明工作点实测负收益；netproxy/proxy/lt 恒生效。444 家族与 lp 恒 0；图片档 1/2/3。旧 ADR-C023「统一 id=1」与 P5.1「422 flat id=0」已被本战役取代。"
+ },
+ "output_features": {
+  "carrier": "fh.flags bit2=DEBLOCK / bit3=QPT2（V7-R4/R5，2026-09-21 锯齿战役 P6/P5-go；cfg reserved[5] bit0/bit1 选载，仅 em9 intra 产品路径）",
+  "deblock": "全部 4:2:2 10-bit 视频档：输出端 8×8 网格去块，强度随 qp 自适应（step_px=scale·3/173056，alpha=clamp(2·step_px,3,48)），m1/m2<beta 真边缘保护；spec 见 src/codec/deblock.h。旧解码器对保留 flags 位非零干净拒绝（版本门控）；target-size 缩放交付暂不过滤（批 3 接入）",
+  "qpt2": "细化 qp 表：qp≤63 与冻结表逐值一致，64..95 每 6 qp 翻倍（qp95 7053950→1176987）。仅 4K standard/hq 档（A/B +0.53 dB @ −0.1% 体积；2K/4K proxy 域实测负收益不启用）"
+ },
+ "performance_gate": {
+  "protocol_section": "benchmark_protocol.md §6/§9",
+  "gate_script": "native/topos_codec/scripts/perf_gate.py",
+  "thresholds_v2": {
+   "1080p_encode_p50_ms": 40,
+   "1080p_decode_p95_ms": 36,
+   "1080p_sized_p50_ms": 160,
+   "4k_encode_p50_ms": 160,
+   "4k_decode_p95_ms": 130,
+   "4k_sized_p50_ms": 550
+  },
+  "gate_multiplier_default": 3.0,
+  "product_realtime_note": "应用 sized 路径 1080p 为离线/近实时档；4K=代理预览+离线交付（P0-05）"
+ },
+ "container": {
+  "spec": "container_spec_v1.md v1.3",
+  "mdat_required": true,
+  "sample_containment": "every sample within an mdat payload (declared extent for truncated tails, spec §7.2a/§7.6)",
+  "co64": "auto when any offset >4GiB; hand-upgrade legal; reader verified at real >4GiB sparse offsets",
+  "video_only": true
+ },
+ "v9_micro_gop": {
+  "major": 9,
+  "entropy_triple": [
+   9,
+   0,
+   0
+  ],
+  "cfg_selector": 10,
+  "frame_types": {
+   "I": 0,
+   "P": 1
+  },
+  "gop": "ip2",
+  "motion": "none (zero-motion P0 only, ADR-C047)",
+  "alpha": false,
+  "scaled_decode": false,
+  "pixel_formats": [
+   "yuv422"
+  ],
+  "bit_depths": [
+   10,
+   12
+  ],
+  "state": "experimental",
+  "adr": "ADR-C047",
+  "note": "V9 zero-motion IP-2（topos_v9_micro_gop_plan 批 2~5）：包布局 V8 同构；P=残差伪图；stss 只列 I；P 帧解码须 GOP context（无状态入口仅 I）"
+ },
+ "v7r3_micro_gop": {
+  "major": 7,
+  "entropy_triple": [
+   8,
+   0,
+   0
+  ],
+  "cfg_selector": 11,
+  "frame_types": {
+   "I": 0,
+   "P": 1
+  },
+  "gop": "ip2",
+  "motion": "none (zero-motion P0 only, ADR-C047)",
+  "alpha": false,
+  "scaled_decode": false,
+  "pixel_formats": [
+   "yuv422"
+  ],
+  "bit_depths": [
+   10,
+   12
+  ],
+  "state": "experimental",
+  "adr": "ADR-C048",
+  "note": "V7-R3 zero-motion IP-2（ADR-C048 载体更换）：V7-R2 同构子代际承载（band 并行机器，编码实时友好）；P=残差伪图；stss 只列 I；P 帧解码须 GOP context（无状态入口仅 I）；tpcC major=7 与 V7-R2 帧内流靠首包 entropy 字节区分"
+ }
+}

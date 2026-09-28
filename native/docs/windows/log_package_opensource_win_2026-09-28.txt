@@ -1,0 +1,4 @@
+✅ 开源发布目录已生成：C:\Users\heng\AppData\Local\Temp\tmp.RTYQJ3pzhb\topos-codec
+   native 文件 772 个；docs 99 个；CI workflow 3 个；共 940 个文件
+   动态库：python\topos_codec\lib\topos_codec.dll
+   下一步：cd <dest> && git init && git add -A && git commit

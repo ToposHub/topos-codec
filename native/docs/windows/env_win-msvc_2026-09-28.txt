@@ -1,0 +1,14 @@
+== cmake ==
+cmake version 3.31.6-msvc6
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+== ctest ==
+ctest version 3.31.6-msvc6
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+== python ==
+Python 3.12.10
+== cl /Bv ==
+系统找不到指定的文件。
+'cl' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。

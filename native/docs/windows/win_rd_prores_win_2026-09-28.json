@@ -1,0 +1,339 @@
+{
+ "meta": {
+  "frames": 32,
+  "machine": "win-msvc 16C24T",
+  "note": "同一母版同帧区间；PSNR 为整数码值域分通道；码率为包字节均值"
+ },
+ "cases": {
+  "2K_422": {
+   "master": "2K_prores422HQ.mov",
+   "w": 1920,
+   "h": 1080,
+   "chroma_w": 960,
+   "planes": "422",
+   "tiers": {
+    "proxy": {
+     "target_bytes": 167140,
+     "topos": {
+      "bytes": 160186,
+      "bpp": 0.618,
+      "psnr_yuv": [
+       36.71,
+       44.42,
+       41.61
+      ],
+      "enc_ms": 5.7,
+      "dec_ms": 3.6
+     },
+     "prores": {
+      "bytes": 203824,
+      "bpp": 0.786,
+      "psnr_yuv": [
+       38.48,
+       44.72,
+       42.02
+      ],
+      "container": "mov"
+     }
+    },
+    "lt": {
+     "target_bytes": 350527,
+     "topos": {
+      "bytes": 345610,
+      "bpp": 1.333,
+      "psnr_yuv": [
+       41.64,
+       49.83,
+       47.3
+      ],
+      "enc_ms": 6.9,
+      "dec_ms": 4.0
+     },
+     "prores": {
+      "bytes": 454634,
+      "bpp": 1.754,
+      "psnr_yuv": [
+       43.47,
+       49.45,
+       47.07
+      ],
+      "container": "mov"
+     }
+    },
+    "standard": {
+     "target_bytes": 547376,
+     "topos": {
+      "bytes": 522912,
+      "bpp": 2.017,
+      "psnr_yuv": [
+       44.28,
+       52.94,
+       50.43
+      ],
+      "enc_ms": 9.3,
+      "dec_ms": 5.1
+     },
+     "prores": {
+      "bytes": 648464,
+      "bpp": 2.502,
+      "psnr_yuv": [
+       46.44,
+       51.56,
+       49.56
+      ],
+      "container": "mov"
+     }
+    },
+    "hq": {
+     "target_bytes": 816674,
+     "topos": {
+      "bytes": 804995,
+      "bpp": 3.106,
+      "psnr_yuv": [
+       47.09,
+       56.31,
+       53.73
+      ],
+      "enc_ms": 11.7,
+      "dec_ms": 7.6
+     },
+     "prores": {
+      "bytes": 964733,
+      "bpp": 3.722,
+      "psnr_yuv": [
+       50.88,
+       54.32,
+       52.92
+      ],
+      "container": "mov"
+     }
+    }
+   }
+  },
+  "4K_422": {
+   "master": "4K_prores422HQ.mov",
+   "w": 3840,
+   "h": 2160,
+   "chroma_w": 1920,
+   "planes": "422",
+   "tiers": {
+    "proxy": {
+     "target_bytes": 668560,
+     "topos": {
+      "bytes": 641851,
+      "bpp": 0.619,
+      "psnr_yuv": [
+       52.55,
+       58.83,
+       57.89
+      ],
+      "enc_ms": 20.8,
+      "dec_ms": 13.3
+     },
+     "prores": {
+      "bytes": 409616,
+      "bpp": 0.395,
+      "psnr_yuv": [
+       53.7,
+       58.87,
+       58.02
+      ],
+      "container": "mov"
+     }
+    },
+    "lt": {
+     "target_bytes": 1402106,
+     "topos": {
+      "bytes": 1331662,
+      "bpp": 1.284,
+      "psnr_yuv": [
+       55.87,
+       62.07,
+       61.46
+      ],
+      "enc_ms": 30.2,
+      "dec_ms": 18.9
+     },
+     "prores": {
+      "bytes": 1487947,
+      "bpp": 1.435,
+      "psnr_yuv": [
+       58.21,
+       63.27,
+       62.72
+      ],
+      "container": "mov"
+     }
+    },
+    "standard": {
+     "target_bytes": 2189504,
+     "topos": {
+      "bytes": 2099649,
+      "bpp": 2.025,
+      "psnr_yuv": [
+       57.68,
+       64.32,
+       63.82
+      ],
+      "enc_ms": 33.7,
+      "dec_ms": 18.6
+     },
+     "prores": {
+      "bytes": 2163140,
+      "bpp": 2.086,
+      "psnr_yuv": [
+       60.43,
+       65.13,
+       64.71
+      ],
+      "container": "mov"
+     }
+    },
+    "hq": {
+     "target_bytes": 3266698,
+     "topos": {
+      "bytes": 3076891,
+      "bpp": 2.968,
+      "psnr_yuv": [
+       59.43,
+       66.8,
+       66.4
+      ],
+      "enc_ms": 52.0,
+      "dec_ms": 23.4
+     },
+     "prores": {
+      "bytes": 3283977,
+      "bpp": 3.167,
+      "psnr_yuv": [
+       64.94,
+       68.41,
+       68.18
+      ],
+      "container": "mov"
+     }
+    }
+   }
+  },
+  "4K_444": {
+   "master": "4K_prores4444.mov",
+   "w": 3840,
+   "h": 2160,
+   "chroma_w": 3840,
+   "planes": "444",
+   "tiers": {
+    "4444": {
+     "target_bytes": 4420241,
+     "topos": {
+      "bytes": 4313690,
+      "bpp": 4.161,
+      "psnr_yuv": [
+       55.99,
+       64.64,
+       62.31
+      ],
+      "enc_ms": 58.8,
+      "dec_ms": 31.1
+     },
+     "prores": {
+      "bytes": 4529962,
+      "bpp": 4.369,
+      "psnr_yuv": [
+       63.08,
+       64.79,
+       63.31
+      ],
+      "container": "mov"
+     }
+    },
+    "4444xq": {
+     "target_bytes": 6519233,
+     "topos": {
+      "bytes": 5405046,
+      "bpp": 5.213,
+      "psnr_yuv": [
+       61.09,
+       68.87,
+       66.21
+      ],
+      "enc_ms": 91.0,
+      "dec_ms": 39.0
+     },
+     "prores": {
+      "na": "prores_ks 444/4444xq 不接受 yuv444p12le 输入（ffmpeg 实现域），无对应规格 → N/A"
+     }
+    }
+   }
+  }
+ },
+ "multigen": {
+  "2K_422/hq": [
+   {
+    "gen": 1,
+    "psnr_yuv": [
+     46.98,
+     56.19,
+     53.59
+    ]
+   },
+   {
+    "gen": 3,
+    "psnr_yuv": [
+     46.86,
+     56.02,
+     53.44
+    ]
+   },
+   {
+    "gen": 5,
+    "psnr_yuv": [
+     46.8,
+     55.93,
+     53.35
+    ]
+   },
+   {
+    "gen": 10,
+    "psnr_yuv": [
+     46.8,
+     55.93,
+     53.35
+    ]
+   }
+  ],
+  "4K_444/4444": [
+   {
+    "gen": 1,
+    "psnr_yuv": [
+     55.97,
+     64.56,
+     62.21
+    ]
+   },
+   {
+    "gen": 3,
+    "psnr_yuv": [
+     55.65,
+     64.23,
+     61.87
+    ]
+   },
+   {
+    "gen": 5,
+    "psnr_yuv": [
+     55.55,
+     64.14,
+     61.77
+    ]
+   },
+   {
+    "gen": 10,
+    "psnr_yuv": [
+     55.55,
+     64.12,
+     61.76
+    ]
+   }
+  ]
+ }
+}

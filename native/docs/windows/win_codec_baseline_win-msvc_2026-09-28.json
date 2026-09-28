@@ -1,0 +1,60 @@
+{
+  "report": "win_codec_baseline_win-msvc_2026-09-28",
+  "plan_tasks": ["W01", "W02"],
+  "status": "pass",
+  "date": "2026-09-28",
+  "machine": {
+    "cpu": "Intel 16C/24T (GenuineIntel)",
+    "ram_bytes": 68523704320,
+    "os": "Windows 11 Enterprise 10.0.26200 x64",
+    "compiler": "MSVC 19.44.35228 (VS2022 BuildTools 14.44.35207)",
+    "windows_sdk": "10.0.26100.0",
+    "cmake": "3.31.6-msvc6",
+    "python": "3.12.10 (.venv-win)",
+    "commit_start": "a77733b474ede0880e67833a3a39418b40",
+    "commit_fixed": "7200e65e"
+  },
+  "generator": "Visual Studio 17 2022 -A x64",
+  "build_dir": "native/topos_codec/build/win-msvc",
+  "portability_fixes_w01": [
+    "codec.c: malloc/malloc.h -> tc_malloc_size shim (mac/win/glibc)",
+    "codec.c rans2_put_x: __int128 guard + exact-division fallback",
+    "codec.c tc_log2_e8_u64: __builtin_clzll -> _BitScanReverse64/loop",
+    "golden_v73/v9.c: __builtin_bswap32 -> GV_SWAP32",
+    "benchmark x3: clock_gettime -> QPC now_ns on _WIN32",
+    "test_mov_audio.c: EDTS[32] with 36 initializers -> well-formed 36B box",
+    "test_v7_scalable.c VLA -> enum arrays; test_m10.c small/big -> small_b/big_b",
+    "CMakeLists: /STACK:8388608 (MSVC) / -Wl,--stack (MinGW) for 0xC00000FD stack overflow"
+  ],
+  "results": {
+    "build_debug": {"exit": 0, "warnings": 0},
+    "build_release": {"exit": 0, "warnings": 57},
+    "ctest_debug": {"passed": 93, "failed": 0, "total": 93, "seconds": 115.05},
+    "ctest_release": {"passed": 93, "failed": 0, "total": 93, "seconds": 58.44},
+    "check_exports_debug": {"exit": 0, "exported": 474, "pinned": 62},
+    "dll_load_test_debug": {"exit": 0, "abi": 2, "roundtrip": "qp20@10bit maxdiff<=64"},
+    "dll_load_test_release": {"exit": 0, "abi": 2, "roundtrip": "qp20@10bit maxdiff<=64"},
+    "cli_smoke": {"exit": 0, "verify": "4/4", "decoded": 4, "concealed_frames": 0}
+  },
+  "dll_sha256": {
+    "debug_before_stack_fix": "c9ac7e10da645b09a42191ada9a7502fb3fa9155b043513eb4789183037ca321",
+    "release": "deaba5328d746562ee3ee22751bdae02db0d64dcf598bed105d8e4c34bed7477"
+  },
+  "notes": [
+    "Release DLL size 580096 B, import lib 112550 B, PE machine 0x8664",
+    "Windows 1MB default stack caused 0xC00000FD in golden_v9/v73 + unit_mov_audio; tpool workers inherit exe stack (stack=0)",
+    "57 Release C4701 warnings in mov.c remain (goto-cleanup heuristics), tracked for W13"
+  ],
+  "evidence_logs": [
+    "env_win-msvc_2026-09-28.txt",
+    "cmake_system_information_2026-09-28.txt",
+    "CMakeCache_win-msvc_2026-09-28.txt",
+    "log_configure_win-msvc_2026-09-28.txt",
+    "log_build_debug_win-msvc_2026-09-28.txt",
+    "log_build_release_win-msvc_2026-09-28.txt",
+    "log_ctest_debug_win-msvc_2026-09-28.txt",
+    "log_ctest_release_win-msvc_2026-09-28.txt",
+    "log_cli_smoke_win-msvc_2026-09-28.txt",
+    "build_artifacts_win-msvc_2026-09-28.txt"
+  ]
+}

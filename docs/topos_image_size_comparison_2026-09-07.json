@@ -1,0 +1,173 @@
+{
+  "schema": "topos.image_size_comparison.v1",
+  "date": "2026-09-07",
+  "git_commit": "db8661e5011a3086693337592ad152fa04296a72",
+  "source": {
+    "path": "tests/test_videos/2K_h264.mp4",
+    "sha256": "3d420027cb4b6afcff11e5cc7b3510ddbb019de732ee403d21f6f40b3f1af04f",
+    "frame_index": 0,
+    "size": "1920x1080",
+    "source_pix_fmt": "yuv420p",
+    "derived_inputs": {
+      "422": "yuv422p10le planar uint16 LE (Y,U,V)",
+      "444": "gbrp12le planar uint16 LE (G,B,R)"
+    }
+  },
+  "environment": {
+    "os": "15.3.1",
+    "cpu": "Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz",
+    "logical_cpus": "16",
+    "binary": "native/topos_codec/build/release/toos",
+    "benchmark_iters": 20,
+    "cache": "hot cache for toos benchmark"
+  },
+  "topos": [
+    {
+      "tier": "422-low",
+      "bytes": 1116689,
+      "mb_decimal": 1.116689,
+      "mib": 1.064957618713379,
+      "encode_wall_ms": 75.50107299903175,
+      "decode_ms": {
+        "decode_p50_ms": 4.044,
+        "decode_p95_ms": 4.632,
+        "decode_p99_ms": 4.632,
+        "decode_max_ms": 5.493
+      },
+      "validate_ms": {
+        "validate_p50_ms": 0.6,
+        "validate_p95_ms": 0.664,
+        "validate_p99_ms": 0.664,
+        "validate_max_ms": 0.822
+      }
+    },
+    {
+      "tier": "422-medium",
+      "bytes": 1364980,
+      "mb_decimal": 1.36498,
+      "mib": 1.3017463684082031,
+      "encode_wall_ms": 77.14028800546657,
+      "decode_ms": {
+        "decode_p50_ms": 4.657,
+        "decode_p95_ms": 5.882,
+        "decode_p99_ms": 5.882,
+        "decode_max_ms": 6.27
+      },
+      "validate_ms": {
+        "validate_p50_ms": 0.736,
+        "validate_p95_ms": 0.931,
+        "validate_p99_ms": 0.931,
+        "validate_max_ms": 1.026
+      }
+    },
+    {
+      "tier": "422-high",
+      "bytes": 1769571,
+      "mb_decimal": 1.769571,
+      "mib": 1.6875944137573242,
+      "encode_wall_ms": 80.01420900109224,
+      "decode_ms": {
+        "decode_p50_ms": 6.071,
+        "decode_p95_ms": 7.829,
+        "decode_p99_ms": 7.829,
+        "decode_max_ms": 8.954
+      },
+      "validate_ms": {
+        "validate_p50_ms": 1.013,
+        "validate_p95_ms": 1.087,
+        "validate_p99_ms": 1.087,
+        "validate_max_ms": 1.22
+      }
+    },
+    {
+      "tier": "422-ultra",
+      "bytes": 2793851,
+      "mb_decimal": 2.793851,
+      "mib": 2.664423942565918,
+      "encode_wall_ms": 87.04211100121029,
+      "decode_ms": {
+        "decode_p50_ms": 7.971,
+        "decode_p95_ms": 8.693,
+        "decode_p99_ms": 8.693,
+        "decode_max_ms": 8.829
+      },
+      "validate_ms": {
+        "validate_p50_ms": 1.599,
+        "validate_p95_ms": 1.747,
+        "validate_p99_ms": 1.747,
+        "validate_max_ms": 1.866
+      }
+    },
+    {
+      "tier": "444-high",
+      "bytes": 7001195,
+      "mb_decimal": 7.001195,
+      "mib": 6.6768598556518555,
+      "encode_wall_ms": 116.148166001949,
+      "decode_ms": {
+        "decode_p50_ms": 16.265,
+        "decode_p95_ms": 17.747,
+        "decode_p99_ms": 17.747,
+        "decode_max_ms": 18.027
+      },
+      "validate_ms": {
+        "validate_p50_ms": 3.853,
+        "validate_p95_ms": 4.324,
+        "validate_p99_ms": 4.324,
+        "validate_max_ms": 4.368
+      }
+    },
+    {
+      "tier": "444-ultra",
+      "bytes": 7643358,
+      "mb_decimal": 7.643358,
+      "mib": 7.289274215698242,
+      "encode_wall_ms": 123.09193699911702,
+      "decode_ms": {
+        "decode_p50_ms": 16.148,
+        "decode_p95_ms": 18.336,
+        "decode_p99_ms": 18.336,
+        "decode_max_ms": 18.573
+      },
+      "validate_ms": {
+        "validate_p50_ms": 4.355,
+        "validate_p95_ms": 4.696,
+        "validate_p99_ms": 4.696,
+        "validate_max_ms": 4.775
+      }
+    }
+  ],
+  "references": [
+    {
+      "name": "PNG 8-bit RGB",
+      "file": "frame_rgb.png",
+      "bytes": 2994150,
+      "mb_decimal": 2.99415,
+      "mib": 2.8554439544677734,
+      "nominal_bits_per_channel": "8"
+    },
+    {
+      "name": "PNG 16-bit RGB",
+      "file": "frame_rgb16.png",
+      "bytes": 3941403,
+      "mb_decimal": 3.941403,
+      "mib": 3.758814811706543,
+      "nominal_bits_per_channel": "16"
+    },
+    {
+      "name": "JPEG q2",
+      "file": "frame_jpeg.jpg",
+      "bytes": 619347,
+      "mb_decimal": 0.619347,
+      "mib": 0.5906553268432617,
+      "nominal_bits_per_channel": "~8"
+    }
+  ],
+  "commands": {
+    "extract_422": "ffmpeg -i tests/test_videos/2K_h264.mp4 -frames:v 1 -pix_fmt yuv422p10le -f rawvideo frame_422p10.raw",
+    "extract_444": "ffmpeg -i tests/test_videos/2K_h264.mp4 -frames:v 1 -pix_fmt gbrp12le -f rawvideo frame_gbrp12.raw",
+    "encode": "toos encode <raw> -o <out.toos> --width 1920 --height 1080 --tier <tier> --overwrite",
+    "verify": "toos verify <out.toos> --deep",
+    "decode_benchmark": "toos benchmark <out.toos> --iters 20"
+  }
+}

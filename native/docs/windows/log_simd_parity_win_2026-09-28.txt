@@ -1,0 +1,7 @@
+422 bd10           backend scalar/avx2  bitstream=一致(7835B)  pixels=逐位一致  [OK]
+422 bd12           backend scalar/avx2  bitstream=一致(5124B)  pixels=逐位一致  [OK]
+422 bd16 v9        backend scalar/avx2  bitstream=一致(2454B)  pixels=逐位一致  [OK]
+444 bd10           backend scalar/avx2  bitstream=一致(12774B)  pixels=逐位一致  [OK]
+GBR bd12           backend scalar/avx2  bitstream=一致(8428B)  pixels=逐位一致  [OK]
+422 bd10 alpha2    backend scalar/avx2  bitstream=一致(9092B)  pixels=逐位一致  [OK]
+simd parity: 全部逐位一致（位流 + 像素）

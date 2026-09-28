@@ -1,0 +1,104 @@
+适用于 .NET Framework MSBuild 版本 17.14.51+25f168cee
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/CMakeLists.txt
+  version.c
+  error.c
+  alloc.c
+  color_convert.c
+  planar_convert.c
+  cpudetect.c
+  crc32.c
+  tpool.c
+  transform.c
+  transform16.c
+  sparse_inverse.c
+  quant.c
+  fastdiv.c
+  plane.c
+  base_scale.c
+  pyramid_transform.c
+  bitio.c
+  frame_header.c
+  slice_map.c
+  packet.c
+  正在生成代码...
+  正在编译...
+  band_tokens.c
+  band_codec.c
+  layer_directory.c
+  v7_band_decode.c
+  v7_frame_codec.c
+  slice_codec.c
+  rice.c
+  vlc.c
+  rans.c
+  range.c
+  block_coding.c
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\entropy\rans.c(257,39): warning C4018: “<”: 有符号/无符号不匹配 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+  codec.c
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\codec.c(764,13): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\codec.c(2226,20): warning C4189: “fshift”: 局部变量已初始化但不引用 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\codec.c(2225,20): warning C4189: “magic”: 局部变量已初始化但不引用 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\codec.c(3942,50): warning C4132: “zeros”: 应初始化常量对象 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+  ctx_ceiling.c
+  base_encoder.c
+  base_residual.c
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\base_residual.c(132,50): warning C4100: 'reciprocal': 未引用的参数 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\base_residual.c(229,36): warning C4100: 'reciprocal': 未引用的参数 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+  base_decoder.c
+  base_policy.c
+  deblock.c
+  v7_scalable.c
+  intra.c
+  正在生成代码...
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\intra.c(321,1): warning C4702: 无法访问的代码 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\codec\codec.c(6646,1): warning C4702: 无法访问的代码 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+  正在编译...
+  decoder_ctx.c
+  gop_context.c
+  mov.c
+  image_container.c
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\image\image_container.c(796,27): warning C4389: “!=”: 有符号/无符号不匹配 [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+  image_reader.c
+  image_writer.c
+  half_map.c
+  dispatch.c
+  transform_neon.c
+  正在生成代码...
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1214,1): warning C4701: 使用了可能未初始化的局部变量“ent” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1456,1): warning C4701: 使用了可能未初始化的局部变量“ent” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1409,1): warning C4701: 使用了可能未初始化的局部变量“f2” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1435,1): warning C4701: 使用了可能未初始化的局部变量“e” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1514,1): warning C4701: 使用了可能未初始化的局部变量“tk” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1527,1): warning C4701: 使用了可能未初始化的局部变量“ed” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1526,1): warning C4701: 使用了可能未初始化的局部变量“el” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1680,1): warning C4701: 使用了可能未初始化的局部变量“a_mdia” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1542,1): warning C4701: 使用了可能未初始化的局部变量“mh” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1554,1): warning C4701: 使用了可能未初始化的局部变量“hl” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1679,1): warning C4701: 使用了可能未初始化的局部变量“a_minf” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1585,1): warning C4701: 使用了可能未初始化的局部变量“gm” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1570,1): warning C4701: 使用了可能未初始化的局部变量“tm2” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1583,1): warning C4701: 使用了可能未初始化的局部变量“ti” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1597,1): warning C4701: 使用了可能未初始化的局部变量“hl” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1610,1): warning C4701: 使用了可能未初始化的局部变量“di” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1609,1): warning C4701: 使用了可能未初始化的局部变量“dr” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1608,1): warning C4701: 使用了可能未初始化的局部变量“ur” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1678,1): warning C4701: 使用了可能未初始化的局部变量“a_stbl” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1633,1): warning C4701: 使用了可能未初始化的局部变量“sd” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1632,1): warning C4701: 使用了可能未初始化的局部变量“ent2” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1737,1): warning C4701: 使用了可能未初始化的局部变量“el” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1816,1): warning C4701: 使用了可能未初始化的局部变量“d” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1815,1): warning C4701: 使用了可能未初始化的局部变量“u” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1863,1): warning C4701: 使用了可能未初始化的局部变量“ud” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1862,1): warning C4701: 使用了可能未初始化的局部变量“nm” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(1967,1): warning C4701: 使用了可能未初始化的局部变量“tr2” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(2037,1): warning C4701: 使用了可能未初始化的局部变量“d” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\src\mov\mov.c(2036,1): warning C4701: 使用了可能未初始化的局部变量“u” [C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\topos_codec.vcxproj]
+  transform_avx2.c
+  color_convert_avx2.c
+  planar_convert_avx2.c
+  正在生成代码...
+  Auto build dll exports
+    正在创建库 C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc-rel/Release/topos_codec.lib 和对象 C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc-rel/Release/topos_codec.exp
+  topos_codec.vcxproj -> C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\build\win-msvc-rel\Release\topos_codec.dll

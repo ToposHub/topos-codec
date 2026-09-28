@@ -1,0 +1,114 @@
+{
+ "label": "2k",
+ "axis": "10bit",
+ "width": 1920,
+ "height": 1080,
+ "frames": 16,
+ "bit_depth": 10,
+ "anchors": [
+  {
+   "anchor": "4444",
+   "bytes": 23271760,
+   "bpp": 5.611439043209876,
+   "frame_bytes": 1454485,
+   "psnr": {
+    "psnr_y": 45.565594970164454,
+    "psnr_u": 45.657044648852036,
+    "psnr_v": 45.74470905026696,
+    "combined": 45.6551671372081
+   }
+  }
+ ],
+ "runs": [
+  {
+   "run": "matched@4444/flat",
+   "profile": 5,
+   "qmatrix": 0,
+   "dchroma": 4,
+   "target_frame_bytes": 1454485,
+   "bytes": 23843173,
+   "bpp": 5.749221884645062,
+   "secs": 1.3546619480002846,
+   "qp0": 70,
+   "qp_mean": 69.125,
+   "psnr": {
+    "psnr_y": 55.77916330460563,
+    "psnr_u": 49.30779809001744,
+    "psnr_v": 49.32312516887836,
+    "combined": 50.61190217736211
+   }
+  },
+  {
+   "run": "matched@4444/standard",
+   "profile": 5,
+   "qmatrix": 1,
+   "dchroma": 4,
+   "target_frame_bytes": 1454485,
+   "bytes": 22580575,
+   "bpp": 5.444775993441358,
+   "secs": 1.21294565000062,
+   "qp0": 64,
+   "qp_mean": 64.0,
+   "psnr": {
+    "psnr_y": 50.39717445888421,
+    "psnr_u": 48.348585164378946,
+    "psnr_v": 48.37849333042296,
+    "combined": 48.94163681523559
+   }
+  },
+  {
+   "run": "matched@4444/flat-dc0",
+   "profile": 5,
+   "qmatrix": 0,
+   "dchroma": 0,
+   "target_frame_bytes": 1454485,
+   "bytes": 23527253,
+   "bpp": 5.673045187114197,
+   "secs": 1.2600298279976414,
+   "qp0": 73,
+   "qp_mean": 72.125,
+   "psnr": {
+    "psnr_y": 50.60937273244862,
+    "psnr_u": 50.72265686562477,
+    "psnr_v": 50.73526350942336,
+    "combined": 50.68872768456484
+   }
+  },
+  {
+   "run": "tier@pro444/standard",
+   "profile": 5,
+   "qmatrix": 1,
+   "dchroma": 4,
+   "target_frame_bytes": 1065475,
+   "bytes": 16725848,
+   "bpp": 4.033045910493827,
+   "secs": 1.0716957839977113,
+   "qp0": 67,
+   "qp_mean": 66.875,
+   "psnr": {
+    "psnr_y": 46.86450732519667,
+    "psnr_u": 45.17928976509482,
+    "psnr_v": 45.21404909206686,
+    "combined": 45.684712368032166
+   }
+  },
+  {
+   "run": "tier@pro444/flat",
+   "profile": 5,
+   "qmatrix": 0,
+   "dchroma": 4,
+   "target_frame_bytes": 1065475,
+   "bytes": 17168881,
+   "bpp": 4.139872926311728,
+   "secs": 1.1405212880017643,
+   "qp0": 73,
+   "qp_mean": 72.125,
+   "psnr": {
+    "psnr_y": 50.60937273244862,
+    "psnr_u": 45.19043669547511,
+    "psnr_v": 45.19959193816056,
+    "combined": 46.37270633702177
+   }
+  }
+ ]
+}

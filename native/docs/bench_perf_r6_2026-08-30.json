@@ -1,0 +1,205 @@
+{
+ "meta": {
+  "date": "2026-08-30",
+  "machine": "i9-9900K 8C / 32GB / macOS 15.3",
+  "compiler": "AppleClang -O2 -DNDEBUG",
+  "t0": "git c44b3720 (R5 end)",
+  "t1": "R6 worktree",
+  "content": "synthetic grain qmatrix=1 10-bit 422 (topos_quality perf)",
+  "method": "alternating T0/T1 x3 rounds x {4,8} threads + final pair; per-round load logged (4.8-8.8); best-round p50 per binary; ambient noise measured up to 2x",
+  "load_log": [
+   "01:15:09 load: 4.78 5.12 5.29 bin=t0 threads=4",
+   "01:15:38 load: 5.16 5.19 5.31 bin=t0 threads=8",
+   "01:16:01 load: 5.93 5.36 5.37 bin=t1 threads=4",
+   "01:16:37 load: 5.93 5.43 5.39 bin=t1 threads=8",
+   "01:17:07 load: 6.21 5.56 5.44 bin=t0 threads=4",
+   "01:17:36 load: 7.03 5.81 5.53 bin=t0 threads=8",
+   "01:17:58 load: 7.42 5.97 5.59 bin=t1 threads=4",
+   "01:18:36 load: 7.07 6.14 5.68 bin=t1 threads=8",
+   "01:19:06 load: 8.79 6.66 5.88 bin=t0 threads=4",
+   "01:19:38 load: 7.88 6.66 5.91 bin=t0 threads=8",
+   "01:20:01 load: 8.35 6.85 6.00 bin=t1 threads=4",
+   "01:20:38 load: 7.65 6.82 6.02 bin=t1 threads=8"
+  ]
+ },
+ "main_threads4_best_of_3": {
+  "1080p_encode": {
+   "t0": [
+    72.0,
+    77.2
+   ],
+   "t1": [
+    31.9,
+    32.9
+   ]
+  },
+  "1080p_decode": {
+   "t0": [
+    28.0,
+    29.4
+   ],
+   "t1": [
+    29.3,
+    30.0
+   ]
+  },
+  "1080p_sized": {
+   "t0": [
+    254.3,
+    266.2
+   ],
+   "t1_final": [
+    108.8,
+    151.6
+   ],
+   "note": "t1 uses final-pair (search restructured mid-session; t0 rows from rounds r1-r3 comparable, final-pair t0 279.3/405.9)"
+  },
+  "4k_encode": {
+   "t0": [
+    261.1,
+    281.5
+   ],
+   "t1": [
+    122.6,
+    124.8
+   ]
+  },
+  "4k_decode": {
+   "t0": [
+    110.7,
+    130.4
+   ],
+   "t1": [
+    115.3,
+    117.7
+   ]
+  },
+  "4k_sized": {
+   "t0_final": [
+    967.9,
+    1039.6
+   ],
+   "t1_final": [
+    435.4,
+    573.4
+   ]
+  },
+  "t0_all_rounds_1080p_encode_p50": [
+   72,
+   74,
+   85
+  ],
+  "t1_all_rounds_1080p_encode_p50": [
+   32,
+   32,
+   32
+  ]
+ },
+ "export_threads8_best_of_3": {
+  "1080p_encode": {
+   "t0": [
+    69.7,
+    79.6
+   ],
+   "t1": [
+    29.8,
+    30.7
+   ]
+  },
+  "1080p_decode": {
+   "t0": [
+    24.3,
+    26.3
+   ],
+   "t1": [
+    25.3,
+    26.0
+   ]
+  },
+  "4k_encode": {
+   "t0": [
+    194.6,
+    218.1
+   ],
+   "t1": [
+    154.7,
+    168.3
+   ]
+  },
+  "4k_decode": {
+   "t0": [
+    76.6,
+    82.4
+   ],
+   "t1": [
+    78.6,
+    87.3
+   ]
+  }
+ },
+ "single_thread": {
+  "1080p_encode": {
+   "t0": 92.4,
+   "t1": 85.6
+  },
+  "1080p_decode": {
+   "t0": 85.1,
+   "t1": 89.9
+  }
+ },
+ "kernels_cycles_per_block": {
+  "fwd": [
+   185,
+   180
+  ],
+  "quant_qp20": [
+   475,
+   496
+  ],
+  "entropy_enc": [
+   4646,
+   4564
+  ],
+  "entropy_dec": [
+   6097,
+   6286
+  ],
+  "inv": [
+   1056,
+   1041
+  ]
+ },
+ "sized_iterations_640x512_qp20": {
+  "0.60x": {
+   "fast": 4,
+   "legacy": 4
+  },
+  "2.0x": {
+   "fast": 6,
+   "legacy": 10
+  },
+  "4.0x": {
+   "fast": 5,
+   "legacy": 21
+  },
+  "0.1x": {
+   "fast": 9,
+   "legacy": 9
+  },
+  "0.02x": {
+   "fast": 9,
+   "legacy": 9
+  },
+  "qp_match_all": true
+ },
+ "peak_rss_kb_tool_process": 368324,
+ "power": "not auto-captured (powermetrics requires root); manual: scripts/bench_power_manual.sh",
+ "thresholds_v2_check": {
+  "1080p_enc_fps": 31.3,
+  "1080p_dec_p95": 30.0,
+  "1080p_sized_p50": 108.8,
+  "4k_enc_p50": 122.6,
+  "4k_dec_p95": 117.7,
+  "all_pass": true
+ }
+}

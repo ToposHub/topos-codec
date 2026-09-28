@@ -1,0 +1,602 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "bit_depth": 10,
+  "pixel_format": "yuv422p10le",
+  "threads": 4,
+  "repeats": 3,
+  "comparison": "same QP; inspect PSNR separately",
+  "results": [
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "low",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 879040,
+      "psnr_yuv": [
+        54.187509197120356,
+        62.213838743486164,
+        63.53950849737384
+      ],
+      "encode_ms": 5.641198999910557,
+      "decode_ms": 12.218929000027856
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "low",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 794046,
+      "psnr_yuv": [
+        48.4488238437962,
+        61.3918521539953,
+        62.93205165356963
+      ],
+      "encode_ms": 10.94426100007695,
+      "decode_ms": 12.04498400011289
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "low",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 870509,
+      "psnr_yuv": [
+        54.356111989865866,
+        62.444767553072786,
+        63.714844554117406
+      ],
+      "encode_ms": 65.38559499995245,
+      "decode_ms": 14.121277000413102
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "medium",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 973615,
+      "psnr_yuv": [
+        56.58170701697421,
+        63.53722134518614,
+        64.6080508816735
+      ],
+      "encode_ms": 5.561086999932741,
+      "decode_ms": 12.844910000239906
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "medium",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 920009,
+      "psnr_yuv": [
+        53.168388296653745,
+        63.152273962425596,
+        64.03895955797611
+      ],
+      "encode_ms": 11.01471300034973,
+      "decode_ms": 10.111941999639384
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "medium",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 965053,
+      "psnr_yuv": [
+        56.73187206265531,
+        63.75009594615825,
+        64.77413647091385
+      ],
+      "encode_ms": 64.54556000016964,
+      "decode_ms": 12.587413999881392
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "high",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 1130901,
+      "psnr_yuv": [
+        59.4115510156885,
+        66.03290225327879,
+        66.88022560243404
+      ],
+      "encode_ms": 5.799481999929412,
+      "decode_ms": 9.802280999792856
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "high",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 1099802,
+      "psnr_yuv": [
+        59.40164421118884,
+        65.94738632537918,
+        66.40768730679214
+      ],
+      "encode_ms": 11.823009999716305,
+      "decode_ms": 10.19363399973372
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "high",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 1122798,
+      "psnr_yuv": [
+        59.55171061963435,
+        66.1908704953185,
+        66.99755723998211
+      ],
+      "encode_ms": 65.99930599986692,
+      "decode_ms": 11.134050999771716
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "ultra",
+      "mode": "v2",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 1694863,
+      "psnr_yuv": [
+        69.08698114390647,
+        71.51529428562925,
+        71.90857259113203
+      ],
+      "encode_ms": 8.08417999996891,
+      "decode_ms": 14.219069999853673
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "ultra",
+      "mode": "v2-aq-rdo",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 1613375,
+      "psnr_yuv": [
+        68.76220557218942,
+        71.89938931200427,
+        71.26661087840384
+      ],
+      "encode_ms": 16.202918000089994,
+      "decode_ms": 13.017671999932645
+    },
+    {
+      "input": "real25.raw",
+      "sha256": "d4b2d8cc58efb43ff1dda29aa6dce5e05a172323c468302707cbe3e7767c04b5",
+      "tier": "ultra",
+      "mode": "intra",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 1689597,
+      "psnr_yuv": [
+        69.25734437872683,
+        71.69945494952702,
+        72.05640921453909
+      ],
+      "encode_ms": 75.92974299996058,
+      "decode_ms": 13.36273600009008
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "low",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 499845,
+      "psnr_yuv": [
+        51.20056499864766,
+        68.76399685904701,
+        68.18876607926438
+      ],
+      "encode_ms": 4.472135000014532,
+      "decode_ms": 6.5686759999152855
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "low",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 362964,
+      "psnr_yuv": [
+        48.57336332183312,
+        67.02807864603318,
+        66.48425024336306
+      ],
+      "encode_ms": 9.230913000010332,
+      "decode_ms": 5.887301999791816
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "low",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 499287,
+      "psnr_yuv": [
+        51.23918562233236,
+        69.07234446434359,
+        68.47260502361829
+      ],
+      "encode_ms": 58.6170100000345,
+      "decode_ms": 8.516954999777226
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "medium",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 605391,
+      "psnr_yuv": [
+        53.41545887604941,
+        69.62384424469721,
+        68.99557032553822
+      ],
+      "encode_ms": 4.8874369999794,
+      "decode_ms": 7.427622000250267
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "medium",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 509495,
+      "psnr_yuv": [
+        50.832079280300995,
+        69.65271654310189,
+        68.981459599127
+      ],
+      "encode_ms": 9.982021999803692,
+      "decode_ms": 7.313236999834771
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "medium",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 604230,
+      "psnr_yuv": [
+        53.45149413566255,
+        69.91220178838157,
+        69.24819514367623
+      ],
+      "encode_ms": 61.74612699987847,
+      "decode_ms": 9.331214999747317
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "high",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 768018,
+      "psnr_yuv": [
+        61.172564973158856,
+        72.28750863239028,
+        71.62637574394127
+      ],
+      "encode_ms": 5.78009499986365,
+      "decode_ms": 8.32503399988127
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "high",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 741913,
+      "psnr_yuv": [
+        57.40691991882706,
+        72.54481226342521,
+        71.86623100851375
+      ],
+      "encode_ms": 10.345071000301687,
+      "decode_ms": 7.293579999895883
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "high",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 764537,
+      "psnr_yuv": [
+        61.23307398435496,
+        72.49234488899481,
+        71.80187633961643
+      ],
+      "encode_ms": 62.053036999714095,
+      "decode_ms": 10.199210000337189
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "ultra",
+      "mode": "v2",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 1115154,
+      "psnr_yuv": [
+        69.41197048034728,
+        76.00414564021695,
+        75.43188878412847
+      ],
+      "encode_ms": 5.922532000113279,
+      "decode_ms": 9.072434000245266
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "ultra",
+      "mode": "v2-aq-rdo",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 1066314,
+      "psnr_yuv": [
+        69.4250466140382,
+        76.50287017370796,
+        75.89997741684789
+      ],
+      "encode_ms": 12.18439300009777,
+      "decode_ms": 8.081273000243527
+    },
+    {
+      "input": "real125.raw",
+      "sha256": "b5e140784f508de1b9877c43570f6d042ed010cc50358beeabd930d5168e6e55",
+      "tier": "ultra",
+      "mode": "intra",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 1106189,
+      "psnr_yuv": [
+        69.4967775294273,
+        76.24854586067718,
+        75.62587459725437
+      ],
+      "encode_ms": 66.41886700026589,
+      "decode_ms": 10.86750900003608
+    }
+  ],
+  "measurement_date": "2026-09-05",
+  "report_date": "2026-09-06",
+  "machine": "macOS x86_64 Intel Core i9-9900K, CMake Release, 4 slice workers",
+  "source": "Ep04 30s-给调色.mov, frames 25 and 125; native 1920x1080 yuv422p10le 25fps BT.709",
+  "directional_diagnostic": {
+    "width": 256,
+    "height": 256,
+    "bit_depth": 10,
+    "pixel_format": "yuv422p10le",
+    "threads": 4,
+    "repeats": 3,
+    "comparison": "same QP; inspect PSNR separately",
+    "results": [
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "low",
+        "mode": "v2",
+        "qm": 1,
+        "qp": 63,
+        "bytes": 26835,
+        "psnr_yuv": [
+          71.0577193800225,
+          64.93492781492603,
+          64.93492781492603
+        ],
+        "encode_ms": 0.26746399998955894,
+        "decode_ms": 0.5432859998109052
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "low",
+        "mode": "v2-aq-rdo",
+        "qm": 1,
+        "qp": 63,
+        "bytes": 26835,
+        "psnr_yuv": [
+          71.0577193800225,
+          71.26961237072189,
+          71.26961237072189
+        ],
+        "encode_ms": 0.455742000212922,
+        "decode_ms": 0.4919790003441449
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "low",
+        "mode": "intra",
+        "qm": 1,
+        "qp": 63,
+        "bytes": 4971,
+        "psnr_yuv": [
+          71.0577193800225,
+          67.09904937953078,
+          67.09904937953078
+        ],
+        "encode_ms": 3.469573000074888,
+        "decode_ms": 0.541938999958802
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "medium",
+        "mode": "v2",
+        "qm": 1,
+        "qp": 61,
+        "bytes": 27759,
+        "psnr_yuv": [
+          66.28650683282588,
+          71.26961237072189,
+          71.26961237072189
+        ],
+        "encode_ms": 0.28782499975932296,
+        "decode_ms": 0.3314740001769678
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "medium",
+        "mode": "v2-aq-rdo",
+        "qm": 1,
+        "qp": 61,
+        "bytes": 27759,
+        "psnr_yuv": [
+          74.2799123273617,
+          null,
+          null
+        ],
+        "encode_ms": 0.4781669999829319,
+        "decode_ms": 0.34015599976555677
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "medium",
+        "mode": "intra",
+        "qm": 1,
+        "qp": 61,
+        "bytes": 4667,
+        "psnr_yuv": [
+          66.28650683282588,
+          83.31081219728114,
+          83.31081219728114
+        ],
+        "encode_ms": 3.3819479999692703,
+        "decode_ms": 0.38241899983404437
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "high",
+        "mode": "v2",
+        "qm": 1,
+        "qp": 58,
+        "bytes": 28993,
+        "psnr_yuv": [
+          71.0577193800225,
+          null,
+          null
+        ],
+        "encode_ms": 0.2676169997357647,
+        "decode_ms": 0.31608900007995544
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "high",
+        "mode": "v2-aq-rdo",
+        "qm": 1,
+        "qp": 58,
+        "bytes": 28993,
+        "psnr_yuv": [
+          null,
+          null,
+          null
+        ],
+        "encode_ms": 0.4245549998813658,
+        "decode_ms": 0.3056569998989289
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "high",
+        "mode": "intra",
+        "qm": 1,
+        "qp": 58,
+        "bytes": 6089,
+        "psnr_yuv": [
+          71.0577193800225,
+          null,
+          null
+        ],
+        "encode_ms": 3.405888000088453,
+        "decode_ms": 0.35074799961876124
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "ultra",
+        "mode": "v2",
+        "qm": 0,
+        "qp": 58,
+        "bytes": 31085,
+        "psnr_yuv": [
+          null,
+          null,
+          null
+        ],
+        "encode_ms": 0.2354300004299148,
+        "decode_ms": 0.22657099998468766
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "ultra",
+        "mode": "v2-aq-rdo",
+        "qm": 0,
+        "qp": 58,
+        "bytes": 31085,
+        "psnr_yuv": [
+          null,
+          null,
+          null
+        ],
+        "encode_ms": 0.39087400000425987,
+        "decode_ms": 0.24172000030375784
+      },
+      {
+        "input": "vertical.raw",
+        "sha256": "ebce37f2517974e76725a0d4bc3ec39eb10c4e84b6f86d5bbe03cd3db5928106",
+        "tier": "ultra",
+        "mode": "intra",
+        "qm": 0,
+        "qp": 58,
+        "bytes": 4679,
+        "psnr_yuv": [
+          null,
+          null,
+          null
+        ],
+        "encode_ms": 3.3722709999892686,
+        "decode_ms": 0.2940100002888357
+      }
+    ]
+  }
+}

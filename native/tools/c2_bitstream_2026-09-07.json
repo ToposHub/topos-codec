@@ -1,0 +1,112 @@
+{
+  "tool": "bench_c1_bitstream.py",
+  "tool_version": 2,
+  "width": 640,
+  "height": 360,
+  "rows": [
+    {
+      "entropy": "v1_rice",
+      "qp": 24,
+      "frames": 3,
+      "packet_bytes": [
+        1023604,
+        1023577,
+        1023270
+      ],
+      "mean_packet_bytes": 1023483.6666666666,
+      "encode_ms_per_frame": 9.884356,
+      "decode_ms_per_frame": 2.480228111111111,
+      "blocks_per_frame": 7200,
+      "decode_ns_per_block": 344.4761265432099,
+      "decode_ms_samples": [
+        2.1724,
+        2.5407,
+        2.5253,
+        2.6653,
+        2.5787,
+        2.751,
+        2.122,
+        2.4853,
+        2.4814
+      ]
+    },
+    {
+      "entropy": "v2_vlc",
+      "qp": 24,
+      "frames": 3,
+      "packet_bytes": [
+        1000185,
+        999975,
+        999912
+      ],
+      "mean_packet_bytes": 1000024.0,
+      "encode_ms_per_frame": 3.0917166666666667,
+      "decode_ms_per_frame": 1.8588004444444446,
+      "blocks_per_frame": 7200,
+      "decode_ns_per_block": 258.16672839506174,
+      "decode_ms_samples": [
+        1.5959,
+        1.9875,
+        1.8777,
+        1.7504,
+        2.1228,
+        1.7144,
+        1.7563,
+        1.7694,
+        2.1548
+      ]
+    },
+    {
+      "entropy": "c1_pair",
+      "qp": 24,
+      "frames": 3,
+      "packet_bytes": [
+        1734387,
+        1734381,
+        1734684
+      ],
+      "mean_packet_bytes": 1734484.0,
+      "encode_ms_per_frame": 4.21513,
+      "decode_ms_per_frame": 3.7657896666666666,
+      "blocks_per_frame": 7200,
+      "decode_ns_per_block": 523.0263425925925,
+      "decode_ms_samples": [
+        4.1524,
+        4.4857,
+        4.616,
+        4.0181,
+        3.974,
+        3.9344,
+        2.6599,
+        2.824,
+        3.2277
+      ]
+    },
+    {
+      "entropy": "c2_pair_table",
+      "qp": 24,
+      "frames": 3,
+      "packet_bytes": [
+        1333917,
+        1333753,
+        1333840
+      ],
+      "mean_packet_bytes": 1333836.6666666667,
+      "encode_ms_per_frame": 4.258918,
+      "decode_ms_per_frame": 2.875416111111111,
+      "blocks_per_frame": 7200,
+      "decode_ns_per_block": 399.3633487654321,
+      "decode_ms_samples": [
+        2.2417,
+        2.5881,
+        2.3686,
+        2.5827,
+        2.6157,
+        2.7769,
+        2.8846,
+        3.3744,
+        4.446
+      ]
+    }
+  ]
+}

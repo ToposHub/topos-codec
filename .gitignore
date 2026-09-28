@@ -1,0 +1,22 @@
+# Build and packaging outputs
+build/
+native/build/
+native/dist/
+dist/
+*.egg-info/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local codec caches and platform metadata
+.cache/
+native/.cache/
+.DS_Store
+
+# Optional bundled native libraries; publish them through release artifacts
+python/topos_codec/lib/*
+!python/topos_codec/lib/.gitkeep

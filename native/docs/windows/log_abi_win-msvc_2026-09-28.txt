@@ -1,0 +1,6 @@
+Debug/test_abi exit=0
+Debug/test_abi_compat exit=0
+Debug/test_abi_cpp exit=0
+Release/test_abi exit=0
+Release/test_abi_compat exit=0
+Release/test_abi_cpp exit=0

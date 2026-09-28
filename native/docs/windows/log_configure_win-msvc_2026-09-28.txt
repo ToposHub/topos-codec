@@ -1,0 +1,19 @@
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35228.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- topos_codec: TOPOS_GIT_COMMIT = a77733b4
+-- Looking for a CXX compiler
+-- Looking for a CXX compiler - C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+-- The CXX compiler identification is MSVC 19.44.35228.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (8.1s)
+-- Generating done (1.4s)
+-- Build files have been written to: C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc

@@ -1,0 +1,25 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1
+configfile: pytest.ini
+collected 131 items
+
+tests\native\test_a1_fcache_differential.py ....                         [  3%]
+tests\native\test_decode_worker_budget.py ..                             [  4%]
+tests\native\test_release_scripts.py .......s...........                 [ 19%]
+tests\native\test_sdk_doc_consistency.py ...                             [ 21%]
+tests\native\test_stage10_concurrency.py ...                             [ 23%]
+tests\native\test_topos_binding.py ..................................... [ 51%]
+..                                                                       [ 53%]
+tests\native\test_topos_float_tier_nonfinite.py s                        [ 54%]
+tests\native\test_topos_native_domain_metrics.py .                       [ 54%]
+tests\native\test_topos_paired_quality.py s..s                           [ 58%]
+tests\native\test_topos_quality_gate_binding.py ....                     [ 61%]
+tests\native\test_topos_quality_measure_metrics.py ..                    [ 62%]
+tests\native\test_topos_video_16bit.py .......                           [ 67%]
+tests\native\test_v8_conformance.py ....................                 [ 83%]
+tests\native\test_v8_encode.py ............                              [ 92%]
+tests\native\test_v8_roundtrip.py .......                                [ 97%]
+tests\native\test_v8_table_loss_sim.py ...                               [100%]
+
+================== 127 passed, 4 skipped in 66.76s (0:01:06) ==================

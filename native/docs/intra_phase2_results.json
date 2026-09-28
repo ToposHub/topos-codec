@@ -1,0 +1,284 @@
+{
+  "manifest": {
+    "schema": "bench_manifest.v1",
+    "topos_version": "0.1.0",
+    "dylib_commit_embedded": "703d75e7",
+    "git_head": "703d75e7",
+    "git_dirty": false,
+    "dylib_path": "/Users/heng/Documents/vscode/topos-color-multitask /topos-color01/native/topos_codec/build/v6-dev/topos_codec.dylib",
+    "dylib_sha256": "14693c64f52d586187c30213e05399f513bb9d54960015df05b712ba3e508c37",
+    "abi_version": 2,
+    "slice_threads": 16,
+    "simd_avx2": true,
+    "simd_neon": false,
+    "cpu": "Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz",
+    "os": "darwin",
+    "python": "3.13.5",
+    "benchmark_slice_threads": 4
+  },
+  "width": 1920,
+  "height": 1080,
+  "bit_depth": 10,
+  "pixel_format": "yuv422p10le",
+  "threads": 4,
+  "repeats": 3,
+  "comparison": "same QP; inspect PSNR separately",
+  "results": [
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "low",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 169783,
+      "psnr_yuv": [
+        57.37153759236545,
+        67.73432053570383,
+        67.27838984436104
+      ],
+      "encode_ms": 4.801257004146464,
+      "decode_ms": 9.32872699922882
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "low",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 126917,
+      "psnr_yuv": [
+        55.521899047664746,
+        66.8535143098973,
+        66.58612082969891
+      ],
+      "encode_ms": 7.116689994290937,
+      "decode_ms": 8.693934003531467
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "low",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 173961,
+      "psnr_yuv": [
+        57.402207887189874,
+        67.79792704015071,
+        67.34570462200392
+      ],
+      "encode_ms": 50.2453709996189,
+      "decode_ms": 9.580383004504256
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "low",
+      "mode": "intra-range",
+      "qm": 1,
+      "qp": 63,
+      "bytes": 175969,
+      "psnr_yuv": [
+        57.402207887189874,
+        67.79792704015071,
+        67.34570462200392
+      ],
+      "encode_ms": 52.838180999970064,
+      "decode_ms": 7.485087997338269
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "medium",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 212944,
+      "psnr_yuv": [
+        58.453876887932246,
+        68.33841593927116,
+        67.90457030899428
+      ],
+      "encode_ms": 3.511100003379397,
+      "decode_ms": 6.418046999897342
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "medium",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 163451,
+      "psnr_yuv": [
+        56.9974650153355,
+        67.3229557495115,
+        66.84626663583263
+      ],
+      "encode_ms": 6.266848999075592,
+      "decode_ms": 4.146260995185003
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "medium",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 217012,
+      "psnr_yuv": [
+        58.48443330923694,
+        68.38979901029404,
+        67.9625692887381
+      ],
+      "encode_ms": 49.23289300495526,
+      "decode_ms": 7.893228001194075
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "medium",
+      "mode": "intra-range",
+      "qm": 1,
+      "qp": 61,
+      "bytes": 222206,
+      "psnr_yuv": [
+        58.48443330923694,
+        68.38979901029404,
+        67.9625692887381
+      ],
+      "encode_ms": 55.45594399882248,
+      "decode_ms": 7.877563999500126
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "high",
+      "mode": "v2",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 312568,
+      "psnr_yuv": [
+        60.31742147784959,
+        69.43638658949163,
+        69.02012740646494
+      ],
+      "encode_ms": 4.321071995946113,
+      "decode_ms": 6.324373003735673
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "high",
+      "mode": "v2-aq-rdo",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 261515,
+      "psnr_yuv": [
+        59.43746419815068,
+        68.83292502542135,
+        68.26623446930208
+      ],
+      "encode_ms": 7.59041899436852,
+      "decode_ms": 5.547542001295369
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "high",
+      "mode": "intra",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 316828,
+      "psnr_yuv": [
+        60.35150168068676,
+        69.46541526192176,
+        69.05347391692547
+      ],
+      "encode_ms": 51.28055700333789,
+      "decode_ms": 9.364746998471674
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "high",
+      "mode": "intra-range",
+      "qm": 1,
+      "qp": 58,
+      "bytes": 328601,
+      "psnr_yuv": [
+        60.35150168068676,
+        69.46541526192176,
+        69.05347391692547
+      ],
+      "encode_ms": 55.79786100133788,
+      "decode_ms": 8.410394999373239
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "ultra",
+      "mode": "v2",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 784984,
+      "psnr_yuv": [
+        70.59089397997579,
+        74.85450404420187,
+        74.71111659999562
+      ],
+      "encode_ms": 5.708279000828043,
+      "decode_ms": 9.75053299771389
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "ultra",
+      "mode": "v2-aq-rdo",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 682280,
+      "psnr_yuv": [
+        69.00827744382185,
+        71.95748288770636,
+        70.84191328969742
+      ],
+      "encode_ms": 10.508321000088472,
+      "decode_ms": 9.123837000515778
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "ultra",
+      "mode": "intra",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 788777,
+      "psnr_yuv": [
+        70.65802072808565,
+        74.89829923037702,
+        74.74846270643297
+      ],
+      "encode_ms": 61.334059995715506,
+      "decode_ms": 9.658413000579458
+    },
+    {
+      "input": "topos_v6_2k_frame.yuv",
+      "sha256": "a1468fe917411427209fab578f3ccbd1bdfd92cac288bc8919251781bec8505c",
+      "tier": "ultra",
+      "mode": "intra-range",
+      "qm": 0,
+      "qp": 58,
+      "bytes": 837745,
+      "psnr_yuv": [
+        70.65802072808565,
+        74.89829923037702,
+        74.74846270643297
+      ],
+      "encode_ms": 70.34723499964457,
+      "decode_ms": 10.760944001958705
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+Internal ctest changing into directory: C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+Test project C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+      Start  1: unit_abi
+ 1/93 Test  #1: unit_abi .........................   Passed    0.08 sec
+      Start  2: unit_abi_compat
+ 2/93 Test  #2: unit_abi_compat ..................   Passed    0.09 sec
+      Start  3: unit_checked
+ 3/93 Test  #3: unit_checked .....................   Passed    0.07 sec
+      Start  4: unit_bufview
+ 4/93 Test  #4: unit_bufview .....................   Passed    0.06 sec
+      Start  5: unit_endian
+ 5/93 Test  #5: unit_endian ......................   Passed    0.08 sec
+      Start  6: unit_error
+ 6/93 Test  #6: unit_error .......................   Passed    0.07 sec
+      Start  7: unit_cpudetect
+ 7/93 Test  #7: unit_cpudetect ...................   Passed    0.07 sec
+      Start  8: unit_transform
+ 8/93 Test  #8: unit_transform ...................   Passed    0.82 sec
+      Start  9: unit_transform16
+ 9/93 Test  #9: unit_transform16 .................   Passed    0.21 sec
+      Start 10: unit_quant
+10/93 Test #10: unit_quant .......................   Passed    0.17 sec
+      Start 11: unit_plane
+11/93 Test #11: unit_plane .......................   Passed    0.08 sec
+      Start 12: unit_base_scale
+12/93 Test #12: unit_base_scale ..................   Passed    0.07 sec
+      Start 13: unit_base_encoder
+13/93 Test #13: unit_base_encoder ................   Passed    0.54 sec
+      Start 14: unit_base_residual
+14/93 Test #14: unit_base_residual ...............   Passed    0.09 sec
+      Start 15: unit_base_decoder
+15/93 Test #15: unit_base_decoder ................   Passed    0.08 sec
+      Start 16: unit_base_policy
+16/93 Test #16: unit_base_policy .................   Passed    0.08 sec
+      Start 17: unit_range
+17/93 Test #17: unit_range .......................   Passed    0.07 sec
+      Start 18: unit_crc32
+18/93 Test #18: unit_crc32 .......................   Passed    0.09 sec
+      Start 19: unit_bitio
+19/93 Test #19: unit_bitio .......................   Passed    0.09 sec
+      Start 20: unit_rice
+20/93 Test #20: unit_rice ........................   Passed    0.10 sec
+      Start 21: unit_vlc
+21/93 Test #21: unit_vlc .........................   Passed    0.26 sec
+      Start 22: unit_rans
+22/93 Test #22: unit_rans ........................   Passed    0.09 sec
+      Start 23: unit_rans2_slice
+23/93 Test #23: unit_rans2_slice .................   Passed    0.16 sec
+      Start 24: unit_ctx_ceiling
+24/93 Test #24: unit_ctx_ceiling .................   Passed    0.15 sec
+      Start 25: unit_block_coding
+25/93 Test #25: unit_block_coding ................   Passed    0.18 sec
+      Start 26: unit_frame_header
+26/93 Test #26: unit_frame_header ................   Passed    0.08 sec
+      Start 27: unit_slice_codec
+27/93 Test #27: unit_slice_codec .................   Passed    0.16 sec
+      Start 28: unit_packet
+28/93 Test #28: unit_packet ......................   Passed    0.43 sec
+      Start 29: unit_codec
+29/93 Test #29: unit_codec .......................   Passed    0.45 sec
+      Start 30: unit_frame_scenario
+30/93 Test #30: unit_frame_scenario ..............   Passed    0.20 sec
+      Start 31: unit_mov
+31/93 Test #31: unit_mov .........................   Passed    9.44 sec
+      Start 32: unit_mov_audio
+32/93 Test #32: unit_mov_audio ...................   Passed    0.14 sec
+      Start 33: unit_stage9
+33/93 Test #33: unit_stage9 ......................   Passed    0.44 sec
+      Start 34: unit_oom
+34/93 Test #34: unit_oom .........................   Passed    0.15 sec
+      Start 35: unit_r6_perf
+35/93 Test #35: unit_r6_perf .....................   Passed    1.34 sec
+      Start 36: unit_robust_io
+36/93 Test #36: unit_robust_io ...................   Passed    0.78 sec
+      Start 37: unit_stress
+37/93 Test #37: unit_stress ......................   Passed    2.79 sec
+      Start 38: unit_o4_pool_once
+38/93 Test #38: unit_o4_pool_once ................   Passed    0.07 sec
+      Start 39: unit_m10
+39/93 Test #39: unit_m10 .........................   Passed   20.42 sec
+      Start 40: unit_tpool_stats
+40/93 Test #40: unit_tpool_stats .................   Passed    0.09 sec
+      Start 41: unit_enc_cache_stats
+41/93 Test #41: unit_enc_cache_stats .............   Passed    0.08 sec
+      Start 42: unit_color_convert
+42/93 Test #42: unit_color_convert ...............   Passed    0.07 sec
+      Start 43: unit_c1_scratch
+43/93 Test #43: unit_c1_scratch ..................   Passed    2.67 sec
+      Start 44: unit_c2_sized_hint
+44/93 Test #44: unit_c2_sized_hint ...............   Passed    0.27 sec
+      Start 45: unit_retired_read
+45/93 Test #45: unit_retired_read ................   Passed    0.09 sec
+      Start 46: unit_image_container
+46/93 Test #46: unit_image_container .............   Passed    0.15 sec
+      Start 47: unit_image_reader
+47/93 Test #47: unit_image_reader ................   Passed    0.50 sec
+      Start 48: unit_image_writer
+48/93 Test #48: unit_image_writer ................   Passed    0.25 sec
+      Start 49: unit_half_map
+49/93 Test #49: unit_half_map ....................   Passed    0.10 sec
+      Start 50: unit_v7_scalable
+50/93 Test #50: unit_v7_scalable .................   Passed    0.08 sec
+      Start 51: unit_pyramid_transform
+51/93 Test #51: unit_pyramid_transform ...........   Passed    0.18 sec
+      Start 52: unit_v8_format
+52/93 Test #52: unit_v8_format ...................   Passed    0.12 sec
+      Start 53: unit_v9_format
+53/93 Test #53: unit_v9_format ...................   Passed    0.11 sec
+      Start 54: unit_v9_codec
+54/93 Test #54: unit_v9_codec ....................   Passed    0.14 sec
+      Start 55: unit_v7r3_format
+55/93 Test #55: unit_v7r3_format .................   Passed    0.08 sec
+      Start 56: unit_deblock
+56/93 Test #56: unit_deblock .....................   Passed    0.11 sec
+      Start 57: unit_out_atomicity
+57/93 Test #57: unit_out_atomicity ...............   Passed    0.12 sec
+      Start 58: unit_mode_domain
+58/93 Test #58: unit_mode_domain .................   Passed    0.08 sec
+      Start 59: unit_slot_watermark
+59/93 Test #59: unit_slot_watermark ..............   Passed    0.30 sec
+      Start 60: unit_abi_cpp
+60/93 Test #60: unit_abi_cpp .....................   Passed    0.08 sec
+      Start 61: conformance_transform
+61/93 Test #61: conformance_transform ............   Passed    0.08 sec
+      Start 62: conformance_bitstream
+62/93 Test #62: conformance_bitstream ............   Passed    0.24 sec
+      Start 63: conformance_codec
+63/93 Test #63: conformance_codec ................   Passed    0.13 sec
+      Start 64: conformance_codec_bd12
+64/93 Test #64: conformance_codec_bd12 ...........   Passed    0.05 sec
+      Start 65: conformance_codec_pf444
+65/93 Test #65: conformance_codec_pf444 ..........   Passed    0.07 sec
+      Start 66: conformance_codec_gbr
+66/93 Test #66: conformance_codec_gbr ............   Passed    0.06 sec
+      Start 67: conformance_codec_profiles
+67/93 Test #67: conformance_codec_profiles .......   Passed    0.07 sec
+      Start 68: conformance_codec_vlc
+68/93 Test #68: conformance_codec_vlc ............   Passed    0.08 sec
+      Start 69: conformance_codec_v7r2_intra
+69/93 Test #69: conformance_codec_v7r2_intra .....   Passed    0.06 sec
+      Start 70: conformance_codec_traw
+70/93 Test #70: conformance_codec_traw ...........   Passed    0.05 sec
+      Start 71: conformance_v8
+71/93 Test #71: conformance_v8 ...................   Passed    0.12 sec
+      Start 72: conformance_v9
+72/93 Test #72: conformance_v9 ...................   Passed    0.06 sec
+      Start 73: conformance_v73
+73/93 Test #73: conformance_v73 ..................   Passed    0.10 sec
+      Start 74: conformance_image
+74/93 Test #74: conformance_image ................   Passed    0.24 sec
+      Start 75: cli_image_probe
+75/93 Test #75: cli_image_probe ..................   Passed    0.07 sec
+      Start 76: cli_image_verify
+76/93 Test #76: cli_image_verify .................   Passed    0.01 sec
+      Start 77: cli_image_decode
+77/93 Test #77: cli_image_decode .................   Passed    0.01 sec
+      Start 78: cli_image_bench
+78/93 Test #78: cli_image_bench ..................   Passed    0.01 sec
+      Start 79: conformance_mov
+79/93 Test #79: conformance_mov ..................   Passed    0.11 sec
+      Start 80: conformance_mov_audio
+80/93 Test #80: conformance_mov_audio ............   Passed    0.11 sec
+      Start 81: fuzz_replay
+81/93 Test #81: fuzz_replay ......................   Passed    0.09 sec
+      Start 82: fuzz_bitstream_replay
+82/93 Test #82: fuzz_bitstream_replay ............   Passed    0.12 sec
+      Start 83: fuzz_v8_replay
+83/93 Test #83: fuzz_v8_replay ...................   Passed    4.09 sec
+      Start 84: fuzz_v9_replay
+84/93 Test #84: fuzz_v9_replay ...................   Passed    6.51 sec
+      Start 85: fuzz_codec_replay
+85/93 Test #85: fuzz_codec_replay ................   Passed    0.10 sec
+      Start 86: fuzz_intra_replay
+86/93 Test #86: fuzz_intra_replay ................   Passed    0.74 sec
+      Start 87: fuzz_mov_replay
+87/93 Test #87: fuzz_mov_replay ..................   Passed    0.10 sec
+      Start 88: fuzz_mov_audio_seeds
+88/93 Test #88: fuzz_mov_audio_seeds .............   Passed    0.02 sec
+      Start 89: fuzz_image_replay
+89/93 Test #89: fuzz_image_replay ................   Passed    0.41 sec
+      Start 90: fuzz_encode_replay
+90/93 Test #90: fuzz_encode_replay ...............   Passed   53.97 sec
+      Start 91: fuzz_bitstream_corpus
+91/93 Test #91: fuzz_bitstream_corpus ............   Passed    0.39 sec
+      Start 92: inspect_cli_ok
+92/93 Test #92: inspect_cli_ok ...................   Passed    0.16 sec
+      Start 93: inspect_cli_truncated
+93/93 Test #93: inspect_cli_truncated ............   Passed    0.11 sec
+
+100% tests passed, 0 tests failed out of 93
+
+Total Test time (real) = 115.05 sec

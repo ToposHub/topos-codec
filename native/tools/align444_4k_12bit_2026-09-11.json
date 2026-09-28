@@ -1,0 +1,216 @@
+{
+ "label": "4k",
+ "axis": "12bit",
+ "width": 3840,
+ "height": 2160,
+ "frames": 16,
+ "bit_depth": 12,
+ "anchors": [
+  {
+   "anchor": "4444",
+   "bytes": 92307627,
+   "bpp": 5.564454752604167,
+   "frame_bytes": 5769226,
+   "psnr": {
+    "psnr_y": 53.939037926227265,
+    "psnr_u": 54.141371379474464,
+    "psnr_v": 54.09660708174513,
+    "combined": 54.05813529069345
+   }
+  },
+  {
+   "anchor": "4444xq",
+   "bytes": 126100759,
+   "bpp": 7.601560028452932,
+   "frame_bytes": 7881297,
+   "psnr": {
+    "psnr_y": 60.74187095297163,
+    "psnr_u": 61.025066411012844,
+    "psnr_v": 60.92816736696441,
+    "combined": 60.89677316483407
+   }
+  }
+ ],
+ "runs": [
+  {
+   "run": "matched@4444/flat",
+   "profile": 5,
+   "qmatrix": 0,
+   "dchroma": 4,
+   "target_frame_bytes": 5769226,
+   "bytes": 92665387,
+   "bpp": 5.586021110628858,
+   "secs": 4.460322156999609,
+   "qp0": 69,
+   "qp_mean": 68.25,
+   "psnr": {
+    "psnr_y": 63.06736413874654,
+    "psnr_u": 58.326014870374166,
+    "psnr_v": 58.2993933262858,
+    "combined": 59.40176280811846
+   }
+  },
+  {
+   "run": "matched@4444/standard",
+   "profile": 5,
+   "qmatrix": 1,
+   "dchroma": 4,
+   "target_frame_bytes": 5769226,
+   "bytes": 90724273,
+   "bpp": 5.469007583429784,
+   "secs": 4.24654281200128,
+   "qp0": 64,
+   "qp_mean": 64.0,
+   "psnr": {
+    "psnr_y": 59.97317355411059,
+    "psnr_u": 58.597096143101226,
+    "psnr_v": 58.46044437471726,
+    "combined": 58.95858388499648
+   }
+  },
+  {
+   "run": "matched@4444/flat-dc0",
+   "profile": 5,
+   "qmatrix": 0,
+   "dchroma": 0,
+   "target_frame_bytes": 5769226,
+   "bytes": 91776596,
+   "bpp": 5.532443335262346,
+   "secs": 4.210135623001406,
+   "qp0": 71,
+   "qp_mean": 71.0,
+   "psnr": {
+    "psnr_y": 59.555177015680115,
+    "psnr_u": 59.596860405059374,
+    "psnr_v": 59.641913892010365,
+    "combined": 59.5978393597608
+   }
+  },
+  {
+   "run": "matched@4444xq/flat",
+   "profile": 6,
+   "qmatrix": 0,
+   "dchroma": 4,
+   "target_frame_bytes": 7881297,
+   "bytes": 126920034,
+   "bpp": 7.650947265625,
+   "secs": 4.4142592909993255,
+   "qp0": 64,
+   "qp_mean": 64.25,
+   "psnr": {
+    "psnr_y": 68.03685146499292,
+    "psnr_u": 63.18106306822425,
+    "psnr_v": 63.19155905307905,
+    "combined": 64.28899725216093
+   }
+  },
+  {
+   "run": "matched@4444xq/standard",
+   "profile": 6,
+   "qmatrix": 1,
+   "dchroma": 4,
+   "target_frame_bytes": 7881297,
+   "bytes": 124244370,
+   "bpp": 7.489653862847222,
+   "secs": 4.232561330001772,
+   "qp0": 64,
+   "qp_mean": 62.125,
+   "psnr": {
+    "psnr_y": 63.21850619572194,
+    "psnr_u": 63.13440614910108,
+    "psnr_v": 63.04066799329249,
+    "combined": 63.13058579428287
+   }
+  },
+  {
+   "run": "matched@4444xq/flat-dc0",
+   "profile": 6,
+   "qmatrix": 0,
+   "dchroma": 0,
+   "target_frame_bytes": 7881297,
+   "bytes": 125004672,
+   "bpp": 7.535486111111111,
+   "secs": 4.268938839999464,
+   "qp0": 66,
+   "qp_mean": 66.0,
+   "psnr": {
+    "psnr_y": 65.95856773355824,
+    "psnr_u": 66.10201056508386,
+    "psnr_v": 66.07370634247137,
+    "combined": 66.04431725498343
+   }
+  },
+  {
+   "run": "tier@pro444/standard",
+   "profile": 5,
+   "qmatrix": 1,
+   "dchroma": 4,
+   "target_frame_bytes": 4261901,
+   "bytes": 68343540,
+   "bpp": 4.119860387731482,
+   "secs": 3.9882649460014363,
+   "qp0": 68,
+   "qp_mean": 67.5,
+   "psnr": {
+    "psnr_y": 55.487667373057825,
+    "psnr_u": 52.07979329896403,
+    "psnr_v": 52.072618172403494,
+    "combined": 52.9453395331105
+   }
+  },
+  {
+   "run": "tier@pro444/flat",
+   "profile": 5,
+   "qmatrix": 0,
+   "dchroma": 4,
+   "target_frame_bytes": 4261901,
+   "bytes": 68377915,
+   "bpp": 4.121932568962191,
+   "secs": 4.108564980000665,
+   "qp0": 73,
+   "qp_mean": 72.125,
+   "psnr": {
+    "psnr_y": 58.17343639429385,
+    "psnr_u": 52.108946925336255,
+    "psnr_v": 52.10089236968485,
+    "combined": 53.35960341135313
+   }
+  },
+  {
+   "run": "tier@extreme/standard",
+   "profile": 6,
+   "qmatrix": 1,
+   "dchroma": 4,
+   "target_frame_bytes": 7011837,
+   "bytes": 112410216,
+   "bpp": 6.776271701388889,
+   "secs": 4.634323025999038,
+   "qp0": 64,
+   "qp_mean": 63.125,
+   "psnr": {
+    "psnr_y": 61.63528030132142,
+    "psnr_u": 60.73149694597144,
+    "psnr_v": 60.615575680023646,
+    "combined": 60.97078939493353
+   }
+  },
+  {
+   "run": "tier@extreme/flat",
+   "profile": 6,
+   "qmatrix": 0,
+   "dchroma": 4,
+   "target_frame_bytes": 7011837,
+   "bytes": 112380742,
+   "bpp": 6.774494960455247,
+   "secs": 4.333295125001314,
+   "qp0": 66,
+   "qp_mean": 65.1875,
+   "psnr": {
+    "psnr_y": 66.82073624885346,
+    "psnr_u": 62.28573255850473,
+    "psnr_v": 62.24237326657178,
+    "combined": 63.32414805896846
+   }
+  }
+ ]
+}

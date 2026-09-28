@@ -1,0 +1,4844 @@
+-- Building for: Visual Studio 17 2022
+CMake Error at CMakeLists.txt:16 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:18 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:20 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:24 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:27 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:29 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:31 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:35 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:38 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:40 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:42 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:47 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:50 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:52 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:54 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:58 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:58 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+CMake Error at CMakeLists.txt:67 (file):
+  file failed to open for writing (Permission denied):
+
+    C:/Users/heng/Documents/vscode/topos-color-multitask/topos_1/native/topos_codec/build/win-msvc
+
+
+Error: --system-information failed on internal CMake!

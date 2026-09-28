@@ -1,0 +1,129 @@
+name: codec-release
+
+# R7 任务 6/7/8：发布 job —— 每平台构建 Release codec、打包 SDK 骨架、
+# 生成 RELEASE-MANIFEST.json（机器/编译器/commit/逐文件 sha256/加载测试结论）、
+# 上传 artifact。macOS 真签名/公证经 secrets 门控（R-27：无凭据时 ad-hoc，
+# 首次正式分发填 TOPOS_SIGN_IDENTITY / TOPOS_NOTARY_PROFILE 后即真链路）。
+#
+# 注：仓库主 remote 为 gitee；本 workflow 按 GitHub Actions 语法维护，
+# 在自有 runner / GitHub 镜像上手动触发（workflow_dispatch）。
+on:
+  workflow_dispatch:
+    inputs:
+      run_tests:
+        description: "发布前先跑全量门禁（推荐）"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: sdk-${{ matrix.name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: linux-gcc, os: ubuntu-latest, cc: gcc }
+          - { name: macos-universal, os: macos-latest, cc: clang }
+          - { name: windows-msvc, os: windows-latest, cc: cl }
+    runs-on: ${{ matrix.os }}
+    env:
+      CC: ${{ matrix.cc }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Optional full gate before packaging
+        if: ${{ inputs.run_tests && runner.os != 'Windows' }}
+        run: bash native/run_tests.sh --skip-python
+      - name: "Optional full gate (Windows: build + ctest + DLL load)"
+        if: ${{ inputs.run_tests && runner.os == 'Windows' }}
+        shell: bash
+        run: |
+          cmake -S native -B build -DTOPOS_ENABLE_TESTS=ON \
+                -DTOPOS_GIT_COMMIT="${GITHUB_SHA::7}"
+          cmake --build build --config Debug -j
+          ctest --test-dir build -C Debug --output-on-failure
+          python native/scripts/dll_load_test.py build/Debug/topos_codec.dll
+
+      # ---- macOS：universal dylib + 签名/公证（build_sdk.sh 全链路） ----
+      - name: Build + package SDK (macOS universal, sign/notarize via secrets)
+        if: runner.os == 'macOS'
+        env:
+          TOPOS_SIGN_IDENTITY: ${{ secrets.TOPOS_SIGN_IDENTITY }}
+          TOPOS_NOTARY_PROFILE: ${{ secrets.TOPOS_NOTARY_PROFILE }}
+        run: |
+          if [ -z "$TOPOS_SIGN_IDENTITY" ]; then
+            echo "（R-27）未配置签名证书 → ad-hoc 签名；正式分发时填 secrets 后重跑"
+          fi
+          bash native/scripts/build_sdk.sh
+          DIST="$(ls -d native/dist/topos-codec-sdk-* | tail -1)"
+          mkdir -p release
+          (cd "$DIST" && zip -qr "$GITHUB_WORKSPACE/release/$(basename "$DIST").zip" .)
+          cp "$DIST/RELEASE-MANIFEST.json" "release/manifest-$(basename "$DIST").json"
+
+      # ---- Linux / Windows：cmake Release + package_codec.py（跨平台单一实现） ----
+      - name: Build + package SDK (Linux/Windows)
+        if: runner.os != 'macOS'
+        shell: bash
+        run: |
+          if [ "$(uname)" = "Linux" ]; then
+            RELEASE_FLAGS=(-DCMAKE_C_FLAGS_RELEASE="-O2 -DNDEBUG")
+          else
+            RELEASE_FLAGS=()
+          fi
+          cmake -S native -B build-rel -DCMAKE_BUILD_TYPE=Release \
+                "${RELEASE_FLAGS[@]}" -DTOPOS_ENABLE_TESTS=OFF \
+                -DTOPOS_GIT_COMMIT="${GITHUB_SHA::7}"
+          cmake --build build-rel --config Release -j --target topos_codec
+          if [ "$(uname)" = "Linux" ]; then
+            LIB=build-rel/topos_codec.so
+            IMPORT_LIB=()
+          else
+            LIB=build-rel/Release/topos_codec.dll
+            IMPORT_LIB=(--import-lib build-rel/Release/topos_codec.lib)
+          fi
+          DIST="native/dist/release-$(uname -m 2>/dev/null || echo x64)"
+          python native/scripts/package_codec.py --lib "$LIB" \
+            --dist "$DIST" --build-dir build-rel "${IMPORT_LIB[@]}"
+          python native/scripts/sdk_consumer_smoke.py "$DIST"
+          mkdir -p release
+          (cd "$DIST" && zip -qr "$GITHUB_WORKSPACE/release/$(basename "$DIST").zip" .)
+          cp "$DIST/RELEASE-MANIFEST.json" "release/manifest-$(basename "$DIST").json"
+
+      - name: Upload SDK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: topos-codec-sdk-${{ matrix.name }}
+          path: release/
+          retention-days: 90
+
+  manifest-summary:
+    name: Release manifest summary
+    needs: release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all manifests
+        uses: actions/download-artifact@v4
+        with:
+          pattern: topos-codec-sdk-*
+          path: artifacts
+      - name: Print machine/compiler/commit/hashes
+        run: |
+          set -e
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for m in sorted(Path("artifacts").rglob("manifest-*.json")):
+              d = json.loads(m.read_text())
+              print(f"{m.name}:")
+              print(f"  version={d['version']} commit={d['git_commit']} abi=v{d['abi_version']}")
+              mach = d["machine"]
+              print(f"  machine={mach['system']}/{mach['machine']} node={mach['node']}")
+              print(f"  compiler={d['compiler'].get('version')}")
+              print(f"  lib={d['lib']['name']} sha256={d['lib']['sha256']}")
+              print(f"  load_test={d['load_test']}")
+          PY

@@ -1,0 +1,17 @@
+Topos Video Codec (libtopos_codec)
+Copyright (c) 2026 Topos Color project authors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE;
+http://www.apache.org/licenses/LICENSE-2.0).
+This library has no third-party code dependencies (zero external
+library linkage; C11 + libc/pthread/Win32 threading primitives).
+
+Trademarks: Apple, ProRes and QuickTime are trademarks of Apple Inc.,
+registered in the U.S. and other countries. DNxHR is a trademark of
+Avid Technology, Inc. DaVinci Resolve is a trademark of Blackmagic
+Design Pty Ltd. Topos Video Codec is an independent, originally
+developed format: it is not affiliated with, sponsored by, or
+endorsed by the owners of these marks, and those names appear in the
+documentation solely to identify and compare the respective
+technologies. Comparative figures are measured against FFmpeg's
+open-source software implementations.

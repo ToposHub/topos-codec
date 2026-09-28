@@ -1,0 +1,14 @@
+== 3 rounds x threads sweep ==
+round=1 threads=1 exit=0 2076ms
+round=1 threads=4 exit=0 1055ms
+round=1 threads=24 exit=0 966ms
+round=2 threads=1 exit=0 2108ms
+round=2 threads=4 exit=0 1031ms
+round=2 threads=24 exit=0 994ms
+round=3 threads=1 exit=0 2062ms
+round=3 threads=4 exit=0 1078ms
+round=3 threads=24 exit=0 968ms
+== slot watermark (high->low->high) ==
+slot_watermark exit=0
+== tpool stats ==
+tpool_stats exit=0

@@ -1,0 +1,147 @@
+{
+  "schema": "topos.image_size_comparison_compact.v1",
+  "date": "2026-09-07",
+  "git_base_commit": "8a9713a21c2264d6b1fdfe7e5cd6e1a84211181c",
+  "source": {
+    "path": "tests/test_videos/2K_h264.mp4",
+    "sha256": "3d420027cb4b6afcff11e5cc7b3510ddbb019de732ee403d21f6f40b3f1af04f",
+    "frame_index": 0,
+    "size": "1920x1080",
+    "source_pix_fmt": "yuv420p",
+    "derived_inputs": {
+      "422": "yuv422p10le planar uint16 LE (Y,U,V)",
+      "444": "gbrp12le planar uint16 LE (G,B,R)"
+    }
+  },
+  "environment": {
+    "os": "15.3.1",
+    "cpu": "Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz",
+    "logical_cpus": "16",
+    "binary": "native/topos_codec/build/release/toos",
+    "benchmark_iters": 20,
+    "cache": "hot cache for toos benchmark"
+  },
+  "current_tiers": [
+    {
+      "tier": "422-low",
+      "bytes": 1116689,
+      "mb": 1.116689,
+      "mib": 1.064957618713379,
+      "encode_ms": 74.25049800076522,
+      "verify": true,
+      "decode": {
+        "p50_ms": 3.975,
+        "p95_ms": 4.531
+      },
+      "validate": {
+        "p50_ms": 0.599,
+        "p95_ms": 0.653
+      },
+      "quality_psnr_db": null
+    },
+    {
+      "tier": "422-medium",
+      "bytes": 1364980,
+      "mb": 1.36498,
+      "mib": 1.3017463684082031,
+      "encode_ms": 76.1469240023871,
+      "verify": true,
+      "decode": {
+        "p50_ms": 4.698,
+        "p95_ms": 5.502
+      },
+      "validate": {
+        "p50_ms": 0.736,
+        "p95_ms": 0.765
+      },
+      "quality_psnr_db": null
+    },
+    {
+      "tier": "422-high",
+      "bytes": 1769571,
+      "mb": 1.769571,
+      "mib": 1.6875944137573242,
+      "encode_ms": 79.09612899675267,
+      "verify": true,
+      "decode": {
+        "p50_ms": 6.116,
+        "p95_ms": 6.688
+      },
+      "validate": {
+        "p50_ms": 1.027,
+        "p95_ms": 1.201
+      },
+      "quality_psnr_db": null
+    },
+    {
+      "tier": "422-ultra",
+      "bytes": 2793851,
+      "mb": 2.793851,
+      "mib": 2.664423942565918,
+      "encode_ms": 85.1772570022149,
+      "verify": true,
+      "decode": {
+        "p50_ms": 8.307,
+        "p95_ms": 8.812
+      },
+      "validate": {
+        "p50_ms": 1.589,
+        "p95_ms": 1.695
+      },
+      "quality_psnr_db": null
+    },
+    {
+      "tier": "444-high",
+      "bytes": 4176025,
+      "mb": 4.176025,
+      "mib": 3.98256778717041,
+      "encode_ms": 100.4803819960216,
+      "verify": true,
+      "decode": {
+        "p50_ms": 12.018,
+        "p95_ms": 12.582
+      },
+      "validate": {
+        "p50_ms": 2.392,
+        "p95_ms": 2.55
+      },
+      "quality_psnr_db": 52.4015
+    },
+    {
+      "tier": "444-ultra",
+      "bytes": 4464887,
+      "mb": 4.464887,
+      "mib": 4.258048057556152,
+      "encode_ms": 101.6557000039029,
+      "verify": true,
+      "decode": {
+        "p50_ms": 12.554,
+        "p95_ms": 13.37
+      },
+      "validate": {
+        "p50_ms": 2.505,
+        "p95_ms": 2.763
+      },
+      "quality_psnr_db": 54.1621
+    }
+  ],
+  "before_compact_444": {
+    "444-high": {
+      "bytes": 7001195,
+      "mb": 7.001195,
+      "qmatrix": 0,
+      "qp": 58
+    },
+    "444-ultra": {
+      "bytes": 7643358,
+      "mb": 7.643358,
+      "qmatrix": 0,
+      "qp": 55
+    }
+  },
+  "commands": {
+    "encode": "toos encode <gbrp12.raw> -o <out.toos> --width 1920 --height 1080 --tier 444-high|444-ultra --overwrite",
+    "verify": "toos verify <out.toos> --deep",
+    "benchmark": "toos benchmark <out.toos> --iters 20"
+  }
+}

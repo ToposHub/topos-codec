@@ -1,0 +1,1 @@
+SDK CMake 消费者: OK

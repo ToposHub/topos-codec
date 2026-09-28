@@ -1,0 +1,437 @@
+{
+ "version": 1,
+ "stage": "0 (2026-08-29 冻结；生成器在阶段 2/3 交付)",
+ "purpose": "Topos Video Codec 一致性/画质/鲁棒性测试向量清单。每个条目必须可由确定性生成器重建（numpy.random.default_rng(seed)），禁止依赖外部下载的不可复现素材。",
+ "conventions": {
+  "rng": "numpy.random.default_rng(seed)，所有随机量注明 seed",
+  "pixfmt_v1": "yuv422p10：Y/U/V uint16，码值 0..1023；U/V 平面宽 = ceil(w/2)",
+  "alpha_v1": "uint16，0..65535，straight",
+  "base_sizes": [
+   "8x8",
+   "64x64",
+   "1920x1080"
+  ],
+  "odd_sizes": [
+   "1x1",
+   "7x5",
+   "33x17",
+   "1919x1079"
+  ],
+  "golden_output": "native/topos_codec/tests/conformance/golden_codec_<id>.bin（记录内嵌 count + splitmix64 fold；退役代 golden 移 tests/fuzz/corpus_retired/）",
+  "note_sizes": "odd_sizes 用于 padding/crop 正确性；1x1/7x5 不含 8x8 整块，验证逐平面独立 padding",
+  "pixfmt_v1_12bit": "yuv422p12 变体（R4.1/v1.2）：与 pixfmt_v1 同布局，颜色平面 12-bit 满刻度 0..4095；帧头 minor=1；golden_codec_v1_bd12.bin（10 记录，fold 1017cb22f67dd52e）；fuzz corpus 含 seed_bd12 族",
+  "pixfmt_v1_pf444": "yuv444p 变体（R4.2/v1.3）：与 pixfmt_v1 同布局但 U/V 全宽（无子采样），帧头 pixel_format=1/minor=2；golden_codec_v1_pf444.bin（12 记录，fold 8f659edc98ad814f）；fuzz corpus 含 seed_pf444 族",
+  "pixfmt_v1_gbr": "GBR 变体（R4.3/v1.4）：平面序 G,B,R（FFmpeg gbrp 约定）全宽满刻度，帧头 pixel_format=2/minor=3/matrix=0；golden_codec_v1_gbr.bin（12 记录，fold b31795ee8e9f1afc）；fuzz corpus 含 seed_gbr 族",
+  "profile_v1_56": "Pro444/Extreme 用例（R4.4）：profile 5（4:4:4 10/12）与 6（4:4:4 12）格式交叉组合；golden_codec_v1_profiles.bin（12 记录，fold 3c8b52c2720bd5a6）；fuzz corpus 含 seed_pro444/seed_extreme 族",
+  "container_r5_interop": "R5 互操作 fixtures 由 tests/interop/interop_oracle.py 按需生成（非冻结二进制）：standard_vfr.mov（binding mux，96x64，dur 1/2/3 循环，SAR 5/4）、hand_co64.mov（stco→co64 独立变换）、faststart.mov（encoder CLI --faststart，timescale 24000/dur 1000）；三方 oracle（独立 parser/PyAV demux/ffprobe 包级）逐包断言",
+  "container_r5_unit_fixtures": "R5 确定性容器 fixtures 内联于 tests/unit/test_mov.c（测试侧独立 atom walker）：手工 co64 双布局、未知 atom 四级插入、损坏 sample 表六类、VFR/SAR 权威、2000 帧长文件——无新增冻结二进制，golden_mov_v1 不变",
+  "perf_r6_ab": {
+   "what": "R6 性能 A/B：交替 T0(c44b3720)/T1 测量 + 逐轮负载记录（bench_perf_r6_2026-08-30）",
+   "where": "docs/codec/bench_perf_r6_2026-08-30.md + .json；原始逐轮输出 bench_results/（不入库）"
+  },
+  "perf_r6_sized_differential": {
+    "o3_mdat_containment": "test_mov.c::test_o3_mdat_required_and_containment——JUNK/EOF/ftyp 三反例 + 未篡改基线（P1-12）",
+    "o3_co64_sparse_4g": "test_mov.c::test_o3_co64_over_4g_sparse——真实 4GiB+ APFS 稀疏文件手工 co64（P1-13）",
+    "o4_pool_once_race": "test_o4_pool_once 独立可执行——并发首调竞争（P1-15，tsan 配置为竞争回归门）",
+    "o4_slot_growth_oom": "test_oom.c::test_o4_slot_growth_oom_sweep——320x240x4线程槽位增长 512 故障点（P1-16）",
+   "what": "sized 快速搜索 vs legacy 差分语料（14 组内容×预算×qp 域×slice_rows×alpha；含 8 线程）",
+   "where": "native/topos_codec/tests/unit/test_r6_perf.c::test_r6_sized_differential"
+  }
+ },
+ "categories": [
+  {
+   "id": "solid",
+   "desc": "纯色与近纯色",
+   "cases": [
+    {
+     "name": "black_limited",
+     "yuv": [
+      0,
+      512,
+      512
+     ]
+    },
+    {
+     "name": "mid_gray",
+     "yuv": [
+      512,
+      512,
+      512
+     ]
+    },
+    {
+     "name": "white_limited",
+     "yuv": [
+      1023,
+      512,
+      512
+     ]
+    },
+    {
+     "name": "near_solid_pm1",
+     "base": [
+      512,
+      512,
+      512
+     ],
+     "jitter_lsb": 1,
+     "seed": 101
+    },
+    {
+     "name": "near_solid_pm2",
+     "base": [
+      512,
+      512,
+      512
+     ],
+     "jitter_lsb": 2,
+     "seed": 102
+    }
+   ],
+   "checks": [
+    "roundtrip: 颜色 PSNR >= 阈值(质量档)",
+    "无 EOB-only 帧以外的异常",
+    "码率接近帧下限"
+   ]
+  },
+  {
+   "id": "gradients",
+   "desc": "1-LSB 与低幅渐变（banding/死区检查）",
+   "cases": [
+    {
+     "name": "ramp_h_1lsb",
+     "desc": "Y 沿 x 每 2 像素 +1"
+    },
+    {
+     "name": "ramp_v_1lsb",
+     "desc": "Y 沿 y 每 2 行 +1"
+    },
+    {
+     "name": "ramp_full",
+     "desc": "Y 0..1023 全量程"
+    },
+    {
+     "name": "sine_luma_amp4",
+     "desc": "Y = 512 + 4*sin(2πx/64)，量化死区后不应出现台阶状 banding 超过阈值"
+    },
+    {
+     "name": "chroma_ramp",
+     "desc": "U/V 对角渐变"
+    }
+   ],
+   "checks": [
+    "PSNR-Y >= 55 dB（渐变类对死区量化最敏感）",
+    "解码后 1-LSB 台阶最大高度记录进报告"
+   ]
+  },
+  {
+   "id": "high_freq",
+   "desc": "高频：棋盘/文字/线条/UI",
+   "cases": [
+    {
+     "name": "checker_1px"
+    },
+    {
+     "name": "checker_2px"
+    },
+    {
+     "name": "checker_alternating",
+     "desc": "1/2/4px 混合"
+    },
+    {
+     "name": "vlines_1px",
+     "desc": "每 8 像素 1 条竖线（跨块列对齐与不对齐两种 seed）",
+     "seed": [
+      201,
+      202
+     ]
+    },
+    {
+     "name": "text_like",
+     "desc": "确定性伪随机 0/1 字符块模拟（seed 固定）",
+     "seed": 203
+    },
+    {
+     "name": "ui_flat_sharp",
+     "desc": "大 flat 区域 + 锐利边缘（最坏量化矩阵场景）"
+    }
+   ],
+   "checks": [
+    "ringing 有界：解码值与源差值直方图记录",
+    "无爆码：帧大小 <= max_frame_size"
+   ]
+  },
+  {
+   "id": "noise",
+   "desc": "胶片颗粒/传感器/随机噪声（爆码风险场景）",
+   "cases": [
+    {
+     "name": "gauss_sigma2",
+     "sigma_lsb": 2,
+     "seed": 301
+    },
+    {
+     "name": "gauss_sigma8",
+     "sigma_lsb": 8,
+     "seed": 302
+    },
+    {
+     "name": "gauss_sigma32",
+     "sigma_lsb": 32,
+     "seed": 303
+    },
+    {
+     "name": "film_grain",
+     "desc": "低频相关场 + gauss_sigma4（近似胶片颗粒）",
+     "seed": 304
+    },
+    {
+     "name": "uniform_full",
+     "desc": "0..1023 均匀随机（最坏情况）",
+     "seed": 305
+    }
+   ],
+   "checks": [
+    "帧大小 <= 256MiB 硬限与 max_frame_size 配置",
+    "escape 路径覆盖（高幅值符号比例记录）",
+    "编码时间无失控（对比基准环境块）"
+   ]
+  },
+  {
+   "id": "color_sets",
+   "desc": "肤色/天空/霓虹/高饱和（确定性合成，bt709 整数矩阵生成）",
+   "cases": [
+    {
+     "name": "skin_patch",
+     "desc": "RGB(115,85,70)±少量确定性变化"
+    },
+    {
+     "name": "sky_gradient_blue"
+    },
+    {
+     "name": "neon_saturated",
+     "desc": "R/G/B 极值霓虹条带"
+    },
+    {
+     "name": "saturation_sweep",
+     "desc": "HSL 饱和度 0..1 扫描"
+    }
+   ],
+   "checks": [
+    "多代（10 代）后色偏：U/V 均值漂移 <= 1 LSB",
+    "PSNR-U/V 与 PSNR-Y 同代劣化曲线记录"
+   ]
+  },
+  {
+   "id": "hdr",
+   "desc": "SDR/PQ/HLG/线性工作流（10-bit 码值域，元数据标签为主）",
+   "cases": [
+    {
+     "name": "pq_ramp",
+     "transfer": 16
+    },
+    {
+     "name": "hlg_ramp",
+     "transfer": 18
+    },
+    {
+     "name": "linear_superwhite",
+     "desc": "码值使用 >940（limited 超白区），验证不被 clamp"
+    },
+    {
+     "name": "bt2020_matrix",
+     "primaries": 9,
+     "matrix": 9
+    }
+   ],
+   "checks": [
+    "header 色彩标签 roundtrip 精确还原到 VideoMetadata",
+    "解码不因 range/primaries 猜测而改值（码值透传）"
+   ]
+  },
+  {
+   "id": "alpha",
+   "desc": "Alpha 全场景（v1.0 无损 = bit-exact）",
+   "cases": [
+    {
+     "name": "fully_transparent",
+     "a": 0
+    },
+    {
+     "name": "fully_opaque",
+     "a": 65535
+    },
+    {
+     "name": "hard_edge_circle",
+     "desc": "半径 r 硬边圆"
+    },
+    {
+     "name": "feathered_edge",
+     "desc": "16px 羽化带（全 65536 值域覆盖）"
+    },
+    {
+     "name": "alpha_noise",
+     "seed": 401
+    },
+    {
+     "name": "animated_mask_60f",
+     "frames": 60,
+     "desc": "每帧平移的软边遮罩（预测器跨帧行为）"
+    },
+    {
+     "name": "alpha_random_16bit",
+     "desc": "0..65535 均匀随机（MED 最坏情况）",
+     "seed": 402
+    },
+    {
+     "name": "alpha_scene_cut",
+     "frames": 8,
+     "desc": "全透明→随机→全不透明突变"
+    },
+    {
+     "name": "premult_flagged",
+     "desc": "输入 premultiplied，验证标志透传不静默转换"
+    }
+   ],
+   "checks": [
+    "bit-exact（无损承诺，逐平面 sha256 相等）",
+    "Alpha payload 统计暴露正确（颜色/Alpha/总 分开）",
+    "Alpha slice concealment: 破坏后填充 65535 且颜色平面不受影响"
+   ]
+  },
+  {
+   "id": "odd_and_padding",
+   "desc": "奇数/非 8 倍数尺寸与 padding/crop",
+   "sizes": [
+    "1x1",
+    "7x5",
+    "33x17",
+    "1919x1079"
+   ],
+   "cases": [
+    {
+     "name": "odd_solid"
+    },
+    {
+     "name": "odd_noise",
+     "seed": 501
+    },
+    {
+     "name": "odd_alpha",
+     "seed": 502
+    }
+   ],
+   "checks": [
+    "visible 区域逐像素相等（无损路径）/PSNR（有损路径）",
+    "chroma 独立 padding：coded_w 与 chroma coded_w 解耦正确",
+    "输出 tight：stride == visible_width*2"
+   ]
+  },
+  {
+   "id": "large_and_duration",
+   "desc": "大分辨率与极短/极长文件（结构与索引）",
+   "cases": [
+    {
+     "name": "uhd_4k_noise",
+     "size": "3840x2160",
+     "frames": 3,
+     "seed": 601
+    },
+    {
+     "name": "max_8192_structural",
+     "size": "8192x8192",
+     "frames": 1,
+     "desc": "仅结构/哈希向量，golden 用 sha256 不落盘像素"
+    },
+    {
+     "name": "single_frame"
+    },
+    {
+     "name": "anim_1000f",
+     "frames": 1000,
+     "desc": "确定性动画，用于容器随机访问索引测试（阶段 5）"
+    }
+   ],
+   "checks": [
+    "max 维度边界接受/拒绝正确（8193 → TC_ERR_LIMIT_EXCEEDED）",
+    "1000 帧内任意帧号 seek 解码与顺序解码 bit-exact 一致"
+   ]
+  },
+  {
+   "id": "corruption",
+   "desc": "损坏/截断/恶意输入（由以上任一有效向量派生，不单独生成像素）",
+   "derivations": [
+    {
+     "name": "truncate_each_1_16",
+     "desc": "在 packet 长度的每个 1/16 边界截断",
+     "expect": "TC_ERR_TRUNCATED 或 concealment，禁止越界/死循环"
+    },
+    {
+     "name": "bitflips_seeded",
+     "per_frame_flips": 8,
+     "seed": 701,
+     "expect": "CRC 拦截或 concealment；解码必须有限步终止"
+    },
+    {
+     "name": "forged_header_fields",
+     "desc": "随机化 header 字段（size/counts/offsets 全域模糊）",
+     "expect": "错误码符合 §9/§10，无未检查算术"
+    },
+    {
+     "name": "forged_slice_geometry",
+     "desc": "覆盖缺口/重叠/越界 block_y0",
+     "expect": "TC_ERR_MALFORMED 整帧拒绝"
+    },
+    {
+     "name": "overlong_unary_abuse",
+     "desc": "构造 31+ 位全 1 流",
+     "expect": "unary 上限拦截，TC_ERR_MALFORMED"
+    },
+    {
+     "name": "escape_overflow",
+     "desc": "escape 字面值超出符号值域",
+     "expect": "域校验拦截"
+    },
+    {
+     "name": "crc_collision_targeted",
+     "desc": "对 payload 定向改字节使 slice CRC 失效",
+     "expect": "concealment 且颜色/Alpha 平面互不污染"
+    }
+   ],
+   "checks": [
+    "全部路径 ASan/UBSan 干净",
+    "单 slice 故障不影响后续帧解码",
+    "有限时间完成（fuzz timeout 基准）"
+   ]
+  }
+ ],
+ "conformance_matrix": {
+  "desc": "每个有效类别向量同时作为 encoder/decoder golden：输入平面 + packet + 重建平面三重 sha256 入库；任何实现变更导致 sha256 变化即 conformance 失败（除非走 minor 版本流程）",
+  "freeze_stage": "阶段 3 结束时冻结 v1.0 golden 集合；此后永久回归（计划阶段 10）"
+ },
+ "v3_intra": {
+  "status": "retired (V 代际收纳 2026-09-13: generation 3 retired, em 编号封存)",
+  "golden": "tests/fuzz/corpus_retired/golden_codec_v3_intra.bin",
+  "generator": "已冻结：退役代写端不可再生（再生需回溯 2026-09-13 收纳前 commit）；golden_codec.c 的 intra 生成模式已随宿主迁移移除",
+  "records": 16,
+  "cases": 8,
+  "checks": [
+   "test_retired_read（TOPOS_CORPUS_RETIRED_DIR 全拒绝语料）"
+  ],
+  "syntax": "docs/bitstream_spec_v3.md"
+ },
+ "v7r2_intra": {
+  "status": "active",
+  "desc": "V3 intra 案例网格在 V7-R2（cfg em=8）上的等价重建宿主（仅改 entropy_mode 字段，几何/位深/qp/alpha 网格逐格不变）",
+  "golden": "tests/conformance/golden_codec_v7r2_intra.bin",
+  "generator": "topos_golden_codec gen <path> intra-r2",
+  "records": 16,
+  "cases": 8,
+  "checks": [
+   "unit_frame_scenario",
+   "conformance_codec_v7r2_intra",
+   "fuzz_intra_replay"
+  ],
+  "syntax": "docs/ADR-C036-v7r-context-models.md"
+ }
+}

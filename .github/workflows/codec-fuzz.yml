@@ -1,0 +1,58 @@
+name: codec-fuzz
+
+# R7 任务 5：libFuzzer 持续任务（仅 Linux clang 有 libFuzzer runtime；macOS Apple
+# clang 无 runtime，由 codec-matrix 的确定性回放 driver 覆盖）。
+# 每晚长跑 + corpus/crash 留 artifact；发现 crash 即 job 失败（不静默）。
+on:
+  schedule:
+    - cron: "0 18 * * *" # UTC 18:00（北京 02:00）
+  workflow_dispatch:
+    inputs:
+      max_total_time:
+        description: "每个 target 的最长跑秒数"
+        default: "300"
+
+permissions:
+  contents: read
+
+jobs:
+  fuzz:
+    name: libFuzzer long-run (linux-clang)
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      CC: clang
+      MAX_TIME: ${{ github.event.inputs.max_total_time || '300' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build fuzz targets (ASan + libFuzzer)
+        run: |
+          cmake -S native -B build-fuzz \
+            -DCMAKE_BUILD_TYPE=Debug \
+            -DCMAKE_C_FLAGS="-fsanitize=address,fuzzer-no-link -fno-omit-frame-pointer -g" \
+            -DTOPOS_ENABLE_FUZZING=ON -DTOPOS_ENABLE_TESTS=OFF \
+            -DTOPOS_GIT_COMMIT="${GITHUB_SHA::7}"
+          cmake --build build-fuzz -j \
+            --target topos_fuzz_primitives topos_fuzz_bitstream \
+                   topos_fuzz_codec topos_fuzz_mov topos_fuzz_encode
+      - name: Run fuzzers (seed corpus → writable corpus)
+        run: |
+          bash native/scripts/fuzz_longrun.sh build-fuzz "$MAX_TIME"
+      - name: Upload corpus artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fuzz-corpus-${{ github.run_id }}
+          path: build-fuzz/corpus-out/
+          retention-days: 30
+      - name: Upload crash artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fuzz-crash-${{ github.run_id }}
+          path: |
+            build-fuzz/artifacts/crash-*
+            build-fuzz/artifacts/leak-*
+            build-fuzz/artifacts/timeout-*
+          retention-days: 90
+          if-no-files-found: ignore

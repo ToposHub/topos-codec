@@ -1,0 +1,139 @@
+{
+ "generator": "vlc-tables-gen 1.0",
+ "codebook_version": 1,
+ "max_code_bits": 20,
+ "books": 4,
+ "tiers": [
+  "t1_qp12",
+  "t2_qp24",
+  "t3_qp36",
+  "t4_qp48_57"
+ ],
+ "corpus": {
+  "synthetic": {
+   "classes": [
+    "flat",
+    "gradient",
+    "texture",
+    "noise",
+    "animation"
+   ],
+   "formats": [
+    "yuv422(pf0)",
+    "yuv444(pf1)",
+    "gbr identity(pf2)"
+   ],
+   "depths": [
+    10,
+    12
+   ],
+   "frames_per_run": 6,
+   "seed": "RandomState(hash(('vlc-train', cls, bd)) & 0xFFFFFFFF)"
+  },
+  "real": [
+   {
+    "name": "real_2k",
+    "path": "tests/test_videos/2K_prores422HQ.mov",
+    "sha256": "0d1535ff699ee745ebadd93754c6a2e3e51fc4a68d83cb5dc63c70b9271f9567"
+   },
+   {
+    "name": "real_4k",
+    "path": "tests/test_videos/4K_prores422HQ.mov",
+    "sha256": "59c9df4dd12f5744403710a888c2308c052bb2daad0e4a361f659e3bff77fa4d"
+   }
+  ],
+  "real_frames_per_run": 16
+ },
+ "lib_commit_at_collect": "1f8ba883",
+ "tables_sha256": {
+  "dc": "6a663c2fad2cc4e0fde0d0124eb3a2fe91d9f9a7ddefbfbef5a4484b965d5313",
+  "run": "50aa5505fb3a6792cd4ba3f67416e6b29c6f346980536e33fb3a84aec12c9382",
+  "lvl": "4c47d6e67798c5f5ae039f1f4da77e24fe6bba31af2d7150df41225ef3c1c379"
+ },
+ "proofs": {
+  "dc/t1_qp12": {
+   "symbols": 29,
+   "max_len": 13,
+   "entropy_bits_per_sym": 3.7791,
+   "vlc_bits_per_sym": 15.7764,
+   "rice_best_bits_per_sym": 22.3971
+  },
+  "run/t1_qp12": {
+   "symbols": 64,
+   "max_len": 20,
+   "entropy_bits_per_sym": 0.4028,
+   "vlc_bits_per_sym": 1.111,
+   "rice_best_bits_per_sym": 2.4414
+  },
+  "lvl/t1_qp12": {
+   "symbols": 27,
+   "max_len": 10,
+   "entropy_bits_per_sym": 3.8194,
+   "vlc_bits_per_sym": 13.4303,
+   "rice_best_bits_per_sym": 16.7765
+  },
+  "dc/t2_qp24": {
+   "symbols": 29,
+   "max_len": 15,
+   "entropy_bits_per_sym": 3.7591,
+   "vlc_bits_per_sym": 14.9198,
+   "rice_best_bits_per_sym": 19.6718
+  },
+  "run/t2_qp24": {
+   "symbols": 64,
+   "max_len": 20,
+   "entropy_bits_per_sym": 0.4559,
+   "vlc_bits_per_sym": 1.1229,
+   "rice_best_bits_per_sym": 2.4644
+  },
+  "lvl/t2_qp24": {
+   "symbols": 27,
+   "max_len": 12,
+   "entropy_bits_per_sym": 3.8564,
+   "vlc_bits_per_sym": 10.8223,
+   "rice_best_bits_per_sym": 14.4361
+  },
+  "dc/t3_qp36": {
+   "symbols": 29,
+   "max_len": 15,
+   "entropy_bits_per_sym": 3.7712,
+   "vlc_bits_per_sym": 12.4971,
+   "rice_best_bits_per_sym": 16.3292
+  },
+  "run/t3_qp36": {
+   "symbols": 64,
+   "max_len": 20,
+   "entropy_bits_per_sym": 0.8681,
+   "vlc_bits_per_sym": 1.2768,
+   "rice_best_bits_per_sym": 2.765
+  },
+  "lvl/t3_qp36": {
+   "symbols": 27,
+   "max_len": 13,
+   "entropy_bits_per_sym": 3.6727,
+   "vlc_bits_per_sym": 8.3518,
+   "rice_best_bits_per_sym": 12.4413
+  },
+  "dc/t4_qp48_57": {
+   "symbols": 29,
+   "max_len": 14,
+   "entropy_bits_per_sym": 3.7582,
+   "vlc_bits_per_sym": 9.0598,
+   "rice_best_bits_per_sym": 12.4221
+  },
+  "run/t4_qp48_57": {
+   "symbols": 64,
+   "max_len": 20,
+   "entropy_bits_per_sym": 1.6426,
+   "vlc_bits_per_sym": 1.7956,
+   "rice_best_bits_per_sym": 3.8914
+  },
+  "lvl/t4_qp48_57": {
+   "symbols": 27,
+   "max_len": 13,
+   "entropy_bits_per_sym": 3.4397,
+   "vlc_bits_per_sym": 7.1709,
+   "rice_best_bits_per_sym": 12.4138
+  }
+ }
+}

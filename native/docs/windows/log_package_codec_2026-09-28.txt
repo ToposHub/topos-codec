@@ -1,0 +1,3 @@
+发布包就绪: C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\dist\release-x64
+清单: C:\Users\heng\Documents\vscode\topos-color-multitask\topos_1\native\topos_codec\dist\release-x64\RELEASE-MANIFEST.json
+加载测试: codec roundtrip: OK（topos_codec.dll, abi=2, pkt=7835B, qp20@10bit maxdiff≤64）

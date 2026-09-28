@@ -1,0 +1,86 @@
+{
+  "tool": "bench_c1_bitstream.py",
+  "tool_version": 1,
+  "width": 640,
+  "height": 360,
+  "rows": [
+    {
+      "entropy": "v1_rice",
+      "qp": 24,
+      "frames": 3,
+      "packet_bytes": [
+        1023604,
+        1023577,
+        1023270
+      ],
+      "mean_packet_bytes": 1023483.6666666666,
+      "encode_ms_per_frame": 6.051754666666667,
+      "decode_ms_per_frame": 2.6095593333333333,
+      "blocks_per_frame": 7200,
+      "decode_ns_per_block": 362.43879629629635,
+      "decode_ms_samples": [
+        2.5298,
+        2.2318,
+        2.2178,
+        2.9648,
+        2.6702,
+        3.0045,
+        2.8912,
+        2.5916,
+        2.3843
+      ]
+    },
+    {
+      "entropy": "v2_vlc",
+      "qp": 24,
+      "frames": 3,
+      "packet_bytes": [
+        1000185,
+        999975,
+        999912
+      ],
+      "mean_packet_bytes": 1000024.0,
+      "encode_ms_per_frame": 3.013859,
+      "decode_ms_per_frame": 2.065549,
+      "blocks_per_frame": 7200,
+      "decode_ns_per_block": 286.88180555555556,
+      "decode_ms_samples": [
+        1.7952,
+        2.1072,
+        2.3837,
+        2.0906,
+        2.729,
+        2.0169,
+        1.7088,
+        1.8325,
+        1.9261
+      ]
+    },
+    {
+      "entropy": "c1_pair",
+      "qp": 24,
+      "frames": 3,
+      "packet_bytes": [
+        1734387,
+        1734381,
+        1734684
+      ],
+      "mean_packet_bytes": 1734484.0,
+      "encode_ms_per_frame": 4.324107,
+      "decode_ms_per_frame": 3.0183765555555553,
+      "blocks_per_frame": 7200,
+      "decode_ns_per_block": 419.2189660493827,
+      "decode_ms_samples": [
+        2.559,
+        4.0413,
+        2.911,
+        2.9604,
+        2.8899,
+        2.8382,
+        2.7727,
+        3.3876,
+        2.8052
+      ]
+    }
+  ]
+}

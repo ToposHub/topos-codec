@@ -1,0 +1,40 @@
+{
+ "label": "4k12",
+ "family": "444",
+ "src_fmt": "yuv444p12le",
+ "width": 3840,
+ "height": 2160,
+ "frames": 60,
+ "rows": [
+  {
+   "name": "dnxhr_444",
+   "vendor": "dnxhr",
+   "profile": "dnxhr_444",
+   "mbps": 1457.3601733333335,
+   "bpp": 7.028164416152263,
+   "enc_fps": 9.810263623536992,
+   "dec_fps": 51.36351460642407,
+   "psnr": 53.172829839251385
+  },
+  {
+   "name": "topos_pro444",
+   "vendor": "topos",
+   "tier": "pro444",
+   "mbps": 869.88589,
+   "bpp": 4.195051552854938,
+   "enc_fps": 22.41948425599925,
+   "dec_fps": 24.032861765964388,
+   "psnr": 42.70011068513831
+  },
+  {
+   "name": "topos_extreme",
+   "vendor": "topos",
+   "tier": "extreme",
+   "mbps": 1295.50811,
+   "bpp": 6.24762784529321,
+   "enc_fps": 20.882996550393912,
+   "dec_fps": 22.739787103894955,
+   "psnr": 50.21403853479204
+  }
+ ]
+}

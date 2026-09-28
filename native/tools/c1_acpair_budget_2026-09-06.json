@@ -1,0 +1,1672 @@
+{
+  "tool": "bench_c1_acpair.py",
+  "tool_version": 1,
+  "alphabet": {
+    "pair_symbols": 1792,
+    "eob_symbol": 1792,
+    "run_values": 64,
+    "level_categories": 28
+  },
+  "runs": [
+    {
+      "name": "synthetic_flat_640x360",
+      "qp": 24,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 23854,
+      "current_color_payload_bytes": 23442,
+      "dc_symbols": 14400,
+      "ac_pairs": 0,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 86532,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 57732,
+          "estimated_payload_bytes_with_table": 19845,
+          "estimated_total_bytes_with_table": 20257,
+          "joint_alphabet_symbols": 3,
+          "table_bytes_1byte_lengths": 3,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 0.8492076800536598,
+          "estimated_savings_ratio": 0.15079231994634024
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 57732,
+          "estimated_payload_bytes_with_table": 25221,
+          "estimated_total_bytes_with_table": 25633,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 1.0745786870126603,
+          "estimated_savings_ratio": -0.07457868701266035
+        }
+      }
+    },
+    {
+      "name": "synthetic_flat_640x360",
+      "qp": 24,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 11230,
+      "current_color_payload_bytes": 10818,
+      "dc_symbols": 14400,
+      "ac_pairs": 0,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 86532,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 57732,
+          "estimated_payload_bytes_with_table": 7221,
+          "estimated_total_bytes_with_table": 7633,
+          "joint_alphabet_symbols": 3,
+          "table_bytes_1byte_lengths": 3,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 0.6796972395369546,
+          "estimated_savings_ratio": 0.3203027604630454
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 57732,
+          "estimated_payload_bytes_with_table": 12597,
+          "estimated_total_bytes_with_table": 13009,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 1.1584149599287623,
+          "estimated_savings_ratio": -0.1584149599287623
+        }
+      }
+    },
+    {
+      "name": "synthetic_flat_640x360",
+      "qp": 48,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 18460,
+      "current_color_payload_bytes": 18048,
+      "dc_symbols": 14400,
+      "ac_pairs": 0,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 86484,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 57684,
+          "estimated_payload_bytes_with_table": 14451,
+          "estimated_total_bytes_with_table": 14863,
+          "joint_alphabet_symbols": 3,
+          "table_bytes_1byte_lengths": 3,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 0.8051462621885157,
+          "estimated_savings_ratio": 0.1948537378114843
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 57684,
+          "estimated_payload_bytes_with_table": 19827,
+          "estimated_total_bytes_with_table": 20239,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 1.096370530877573,
+          "estimated_savings_ratio": -0.09637053087757308
+        }
+      }
+    },
+    {
+      "name": "synthetic_flat_640x360",
+      "qp": 48,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 11224,
+      "current_color_payload_bytes": 10812,
+      "dc_symbols": 14400,
+      "ac_pairs": 0,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 86484,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 7200,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 0,
+          "seen-only": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1,
+            "table_bytes_1byte_lengths": 1
+          },
+          "full-laplace": {
+            "pair_bits": 3600,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 57684,
+          "estimated_payload_bytes_with_table": 7215,
+          "estimated_total_bytes_with_table": 7627,
+          "joint_alphabet_symbols": 3,
+          "table_bytes_1byte_lengths": 3,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 0.6795260156806843,
+          "estimated_savings_ratio": 0.32047398431931573
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 57684,
+          "estimated_payload_bytes_with_table": 12591,
+          "estimated_total_bytes_with_table": 13003,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 0,
+          "current_entropy_codewords": 28800,
+          "candidate_entropy_codewords": 28800,
+          "estimated_total_ratio": 1.1584996436208126,
+          "estimated_savings_ratio": -0.1584996436208126
+        }
+      }
+    },
+    {
+      "name": "synthetic_gradient_640x360",
+      "qp": 24,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 772128,
+      "current_color_payload_bytes": 771716,
+      "dc_symbols": 14400,
+      "ac_pairs": 443228,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 4735033,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 404178,
+          "seen-only": {
+            "pair_bits": 3387001,
+            "alphabet_symbols": 117,
+            "table_bytes_1byte_lengths": 117
+          },
+          "full-laplace": {
+            "pair_bits": 3390053,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 20250,
+          "seen-only": {
+            "pair_bits": 294030,
+            "alphabet_symbols": 29,
+            "table_bytes_1byte_lengths": 29
+          },
+          "full-laplace": {
+            "pair_bits": 295830,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 18800,
+          "seen-only": {
+            "pair_bits": 275360,
+            "alphabet_symbols": 40,
+            "table_bytes_1byte_lengths": 40
+          },
+          "full-laplace": {
+            "pair_bits": 277760,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 4222849,
+          "estimated_payload_bytes_with_table": 707879,
+          "estimated_total_bytes_with_table": 708291,
+          "joint_alphabet_symbols": 186,
+          "table_bytes_1byte_lengths": 186,
+          "saved_ac_codewords_per_frame": 443228,
+          "current_entropy_codewords": 915256,
+          "candidate_entropy_codewords": 472028,
+          "estimated_total_ratio": 0.9173232935471839,
+          "estimated_savings_ratio": 0.0826767064528161
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 4230101,
+          "estimated_payload_bytes_with_table": 713979,
+          "estimated_total_bytes_with_table": 714391,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 443228,
+          "current_entropy_codewords": 915256,
+          "candidate_entropy_codewords": 472028,
+          "estimated_total_ratio": 0.9252235380662274,
+          "estimated_savings_ratio": 0.07477646193377263
+        }
+      }
+    },
+    {
+      "name": "synthetic_gradient_640x360",
+      "qp": 24,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 582781,
+      "current_color_payload_bytes": 582369,
+      "dc_symbols": 14400,
+      "ac_pairs": 443228,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 4735033,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 404178,
+          "seen-only": {
+            "pair_bits": 3387001,
+            "alphabet_symbols": 117,
+            "table_bytes_1byte_lengths": 117
+          },
+          "full-laplace": {
+            "pair_bits": 3390053,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 20250,
+          "seen-only": {
+            "pair_bits": 294030,
+            "alphabet_symbols": 29,
+            "table_bytes_1byte_lengths": 29
+          },
+          "full-laplace": {
+            "pair_bits": 295830,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 18800,
+          "seen-only": {
+            "pair_bits": 275360,
+            "alphabet_symbols": 40,
+            "table_bytes_1byte_lengths": 40
+          },
+          "full-laplace": {
+            "pair_bits": 277760,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 4222849,
+          "estimated_payload_bytes_with_table": 528043,
+          "estimated_total_bytes_with_table": 528455,
+          "joint_alphabet_symbols": 186,
+          "table_bytes_1byte_lengths": 186,
+          "saved_ac_codewords_per_frame": 443228,
+          "current_entropy_codewords": 915256,
+          "candidate_entropy_codewords": 472028,
+          "estimated_total_ratio": 0.9067814496354548,
+          "estimated_savings_ratio": 0.09321855036454518
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 4230101,
+          "estimated_payload_bytes_with_table": 534142,
+          "estimated_total_bytes_with_table": 534554,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 443228,
+          "current_entropy_codewords": 915256,
+          "candidate_entropy_codewords": 472028,
+          "estimated_total_ratio": 0.9172467873866855,
+          "estimated_savings_ratio": 0.08275321261331448
+        }
+      }
+    },
+    {
+      "name": "synthetic_gradient_640x360",
+      "qp": 48,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 215337,
+      "current_color_payload_bytes": 214925,
+      "dc_symbols": 14400,
+      "ac_pairs": 124781,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 1351860,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 87221,
+          "seen-only": {
+            "pair_bits": 668970,
+            "alphabet_symbols": 103,
+            "table_bytes_1byte_lengths": 103
+          },
+          "full-laplace": {
+            "pair_bits": 670771,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 19800,
+          "seen-only": {
+            "pair_bits": 170010,
+            "alphabet_symbols": 30,
+            "table_bytes_1byte_lengths": 30
+          },
+          "full-laplace": {
+            "pair_bits": 171810,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 17760,
+          "seen-only": {
+            "pair_bits": 156480,
+            "alphabet_symbols": 39,
+            "table_bytes_1byte_lengths": 39
+          },
+          "full-laplace": {
+            "pair_bits": 158320,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 1169196,
+          "estimated_payload_bytes_with_table": 192264,
+          "estimated_total_bytes_with_table": 192676,
+          "joint_alphabet_symbols": 172,
+          "table_bytes_1byte_lengths": 172,
+          "saved_ac_codewords_per_frame": 124781,
+          "current_entropy_codewords": 278362,
+          "candidate_entropy_codewords": 153581,
+          "estimated_total_ratio": 0.8947649498228358,
+          "estimated_savings_ratio": 0.10523505017716417
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 1174637,
+          "estimated_payload_bytes_with_table": 198152,
+          "estimated_total_bytes_with_table": 198564,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 124781,
+          "current_entropy_codewords": 278362,
+          "candidate_entropy_codewords": 153581,
+          "estimated_total_ratio": 0.9221081374775352,
+          "estimated_savings_ratio": 0.07789186252246483
+        }
+      }
+    },
+    {
+      "name": "synthetic_gradient_640x360",
+      "qp": 48,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 168015,
+      "current_color_payload_bytes": 167603,
+      "dc_symbols": 14400,
+      "ac_pairs": 124781,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 1351860,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 87221,
+          "seen-only": {
+            "pair_bits": 668970,
+            "alphabet_symbols": 103,
+            "table_bytes_1byte_lengths": 103
+          },
+          "full-laplace": {
+            "pair_bits": 670771,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 19800,
+          "seen-only": {
+            "pair_bits": 170010,
+            "alphabet_symbols": 30,
+            "table_bytes_1byte_lengths": 30
+          },
+          "full-laplace": {
+            "pair_bits": 171810,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 17760,
+          "seen-only": {
+            "pair_bits": 156480,
+            "alphabet_symbols": 39,
+            "table_bytes_1byte_lengths": 39
+          },
+          "full-laplace": {
+            "pair_bits": 158320,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 1169196,
+          "estimated_payload_bytes_with_table": 146322,
+          "estimated_total_bytes_with_table": 146734,
+          "joint_alphabet_symbols": 172,
+          "table_bytes_1byte_lengths": 172,
+          "saved_ac_codewords_per_frame": 124781,
+          "current_entropy_codewords": 278362,
+          "candidate_entropy_codewords": 153581,
+          "estimated_total_ratio": 0.8733386899979169,
+          "estimated_savings_ratio": 0.12666131000208314
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 1174637,
+          "estimated_payload_bytes_with_table": 152209,
+          "estimated_total_bytes_with_table": 152621,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 124781,
+          "current_entropy_codewords": 278362,
+          "candidate_entropy_codewords": 153581,
+          "estimated_total_ratio": 0.9083772282236705,
+          "estimated_savings_ratio": 0.09162277177632949
+        }
+      }
+    },
+    {
+      "name": "synthetic_texture_640x360",
+      "qp": 24,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 2047112,
+      "current_color_payload_bytes": 2046700,
+      "dc_symbols": 14400,
+      "ac_pairs": 907011,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 15990209,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 453531,
+          "seen-only": {
+            "pair_bits": 7149352,
+            "alphabet_symbols": 32,
+            "table_bytes_1byte_lengths": 32
+          },
+          "full-laplace": {
+            "pair_bits": 7151625,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 226740,
+          "seen-only": {
+            "pair_bits": 3407509,
+            "alphabet_symbols": 30,
+            "table_bytes_1byte_lengths": 30
+          },
+          "full-laplace": {
+            "pair_bits": 3409337,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 226740,
+          "seen-only": {
+            "pair_bits": 3407504,
+            "alphabet_symbols": 30,
+            "table_bytes_1byte_lengths": 30
+          },
+          "full-laplace": {
+            "pair_bits": 3409300,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 14261907,
+          "estimated_payload_bytes_with_table": 1830755,
+          "estimated_total_bytes_with_table": 1831167,
+          "joint_alphabet_symbols": 92,
+          "table_bytes_1byte_lengths": 92,
+          "saved_ac_codewords_per_frame": 907011,
+          "current_entropy_codewords": 1842822,
+          "candidate_entropy_codewords": 935811,
+          "estimated_total_ratio": 0.8945123666902446,
+          "estimated_savings_ratio": 0.10548763330975541
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 14267804,
+          "estimated_payload_bytes_with_table": 1836779,
+          "estimated_total_bytes_with_table": 1837191,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 907011,
+          "current_entropy_codewords": 1842822,
+          "candidate_entropy_codewords": 935811,
+          "estimated_total_ratio": 0.8974550488688455,
+          "estimated_savings_ratio": 0.10254495113115447
+        }
+      }
+    },
+    {
+      "name": "synthetic_texture_640x360",
+      "qp": 24,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 1999195,
+      "current_color_payload_bytes": 1998783,
+      "dc_symbols": 14400,
+      "ac_pairs": 907011,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 15990209,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 453531,
+          "seen-only": {
+            "pair_bits": 7149352,
+            "alphabet_symbols": 32,
+            "table_bytes_1byte_lengths": 32
+          },
+          "full-laplace": {
+            "pair_bits": 7151625,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 226740,
+          "seen-only": {
+            "pair_bits": 3407509,
+            "alphabet_symbols": 30,
+            "table_bytes_1byte_lengths": 30
+          },
+          "full-laplace": {
+            "pair_bits": 3409337,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 226740,
+          "seen-only": {
+            "pair_bits": 3407504,
+            "alphabet_symbols": 30,
+            "table_bytes_1byte_lengths": 30
+          },
+          "full-laplace": {
+            "pair_bits": 3409300,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 14261907,
+          "estimated_payload_bytes_with_table": 1782838,
+          "estimated_total_bytes_with_table": 1783250,
+          "joint_alphabet_symbols": 92,
+          "table_bytes_1byte_lengths": 92,
+          "saved_ac_codewords_per_frame": 907011,
+          "current_entropy_codewords": 1842822,
+          "candidate_entropy_codewords": 935811,
+          "estimated_total_ratio": 0.8919840235694867,
+          "estimated_savings_ratio": 0.1080159764305133
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 14267804,
+          "estimated_payload_bytes_with_table": 1788862,
+          "estimated_total_bytes_with_table": 1789274,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 907011,
+          "current_entropy_codewords": 1842822,
+          "candidate_entropy_codewords": 935811,
+          "estimated_total_ratio": 0.8949972363876461,
+          "estimated_savings_ratio": 0.10500276361235394
+        }
+      }
+    },
+    {
+      "name": "synthetic_texture_640x360",
+      "qp": 48,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 1328204,
+      "current_color_payload_bytes": 1327792,
+      "dc_symbols": 14400,
+      "ac_pairs": 897482,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 9712360,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 449666,
+          "seen-only": {
+            "pair_bits": 4439115,
+            "alphabet_symbols": 37,
+            "table_bytes_1byte_lengths": 37
+          },
+          "full-laplace": {
+            "pair_bits": 4441458,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 223908,
+          "seen-only": {
+            "pair_bits": 2039914,
+            "alphabet_symbols": 32,
+            "table_bytes_1byte_lengths": 32
+          },
+          "full-laplace": {
+            "pair_bits": 2041694,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 223908,
+          "seen-only": {
+            "pair_bits": 2039997,
+            "alphabet_symbols": 32,
+            "table_bytes_1byte_lengths": 32
+          },
+          "full-laplace": {
+            "pair_bits": 2041804,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 8721570,
+          "estimated_payload_bytes_with_table": 1204045,
+          "estimated_total_bytes_with_table": 1204457,
+          "joint_alphabet_symbols": 101,
+          "table_bytes_1byte_lengths": 101,
+          "saved_ac_codewords_per_frame": 897482,
+          "current_entropy_codewords": 1823764,
+          "candidate_entropy_codewords": 926282,
+          "estimated_total_ratio": 0.9068313301269986,
+          "estimated_savings_ratio": 0.09316866987300143
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 8727500,
+          "estimated_payload_bytes_with_table": 1210064,
+          "estimated_total_bytes_with_table": 1210476,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 897482,
+          "current_entropy_codewords": 1823764,
+          "candidate_entropy_codewords": 926282,
+          "estimated_total_ratio": 0.9113630135129844,
+          "estimated_savings_ratio": 0.08863698648701557
+        }
+      }
+    },
+    {
+      "name": "synthetic_texture_640x360",
+      "qp": 48,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 1214368,
+      "current_color_payload_bytes": 1213956,
+      "dc_symbols": 14400,
+      "ac_pairs": 897482,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 9712360,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 449666,
+          "seen-only": {
+            "pair_bits": 4439115,
+            "alphabet_symbols": 37,
+            "table_bytes_1byte_lengths": 37
+          },
+          "full-laplace": {
+            "pair_bits": 4441458,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 223908,
+          "seen-only": {
+            "pair_bits": 2039914,
+            "alphabet_symbols": 32,
+            "table_bytes_1byte_lengths": 32
+          },
+          "full-laplace": {
+            "pair_bits": 2041694,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 223908,
+          "seen-only": {
+            "pair_bits": 2039997,
+            "alphabet_symbols": 32,
+            "table_bytes_1byte_lengths": 32
+          },
+          "full-laplace": {
+            "pair_bits": 2041804,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 8721570,
+          "estimated_payload_bytes_with_table": 1090298,
+          "estimated_total_bytes_with_table": 1090710,
+          "joint_alphabet_symbols": 101,
+          "table_bytes_1byte_lengths": 101,
+          "saved_ac_codewords_per_frame": 897482,
+          "current_entropy_codewords": 1823764,
+          "candidate_entropy_codewords": 926282,
+          "estimated_total_ratio": 0.8981709004189834,
+          "estimated_savings_ratio": 0.1018290995810166
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 8727500,
+          "estimated_payload_bytes_with_table": 1096317,
+          "estimated_total_bytes_with_table": 1096729,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 897482,
+          "current_entropy_codewords": 1823764,
+          "candidate_entropy_codewords": 926282,
+          "estimated_total_ratio": 0.903127388073467,
+          "estimated_savings_ratio": 0.09687261192653296
+        }
+      }
+    },
+    {
+      "name": "synthetic_noise_640x360",
+      "qp": 24,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 1873600,
+      "current_color_payload_bytes": 1873188,
+      "dc_symbols": 14400,
+      "ac_pairs": 906928,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 14889484,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 453513,
+          "seen-only": {
+            "pair_bits": 6753500,
+            "alphabet_symbols": 29,
+            "table_bytes_1byte_lengths": 29
+          },
+          "full-laplace": {
+            "pair_bits": 6756612,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 226706,
+          "seen-only": {
+            "pair_bits": 3128461,
+            "alphabet_symbols": 28,
+            "table_bytes_1byte_lengths": 28
+          },
+          "full-laplace": {
+            "pair_bits": 3131388,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 226709,
+          "seen-only": {
+            "pair_bits": 3128003,
+            "alphabet_symbols": 26,
+            "table_bytes_1byte_lengths": 26
+          },
+          "full-laplace": {
+            "pair_bits": 3131481,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 13270774,
+          "estimated_payload_bytes_with_table": 1670933,
+          "estimated_total_bytes_with_table": 1671345,
+          "joint_alphabet_symbols": 83,
+          "table_bytes_1byte_lengths": 83,
+          "saved_ac_codewords_per_frame": 906928,
+          "current_entropy_codewords": 1842656,
+          "candidate_entropy_codewords": 935728,
+          "estimated_total_ratio": 0.8920500640478224,
+          "estimated_savings_ratio": 0.10794993595217761
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 13280291,
+          "estimated_payload_bytes_with_table": 1677418,
+          "estimated_total_bytes_with_table": 1677830,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 906928,
+          "current_entropy_codewords": 1842656,
+          "candidate_entropy_codewords": 935728,
+          "estimated_total_ratio": 0.895511315115286,
+          "estimated_savings_ratio": 0.10448868488471397
+        }
+      }
+    },
+    {
+      "name": "synthetic_noise_640x360",
+      "qp": 24,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 1861515,
+      "current_color_payload_bytes": 1861103,
+      "dc_symbols": 14400,
+      "ac_pairs": 906928,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 14889484,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 453513,
+          "seen-only": {
+            "pair_bits": 6753500,
+            "alphabet_symbols": 29,
+            "table_bytes_1byte_lengths": 29
+          },
+          "full-laplace": {
+            "pair_bits": 6756612,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 226706,
+          "seen-only": {
+            "pair_bits": 3128461,
+            "alphabet_symbols": 28,
+            "table_bytes_1byte_lengths": 28
+          },
+          "full-laplace": {
+            "pair_bits": 3131388,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 226709,
+          "seen-only": {
+            "pair_bits": 3128003,
+            "alphabet_symbols": 26,
+            "table_bytes_1byte_lengths": 26
+          },
+          "full-laplace": {
+            "pair_bits": 3131481,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 13270774,
+          "estimated_payload_bytes_with_table": 1658930,
+          "estimated_total_bytes_with_table": 1659342,
+          "joint_alphabet_symbols": 83,
+          "table_bytes_1byte_lengths": 83,
+          "saved_ac_codewords_per_frame": 906928,
+          "current_entropy_codewords": 1842656,
+          "candidate_entropy_codewords": 935728,
+          "estimated_total_ratio": 0.891393300618045,
+          "estimated_savings_ratio": 0.108606699381955
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 13280291,
+          "estimated_payload_bytes_with_table": 1665416,
+          "estimated_total_bytes_with_table": 1665828,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 906928,
+          "current_entropy_codewords": 1842656,
+          "candidate_entropy_codewords": 935728,
+          "estimated_total_ratio": 0.894877559407257,
+          "estimated_savings_ratio": 0.105122440592743
+        }
+      }
+    },
+    {
+      "name": "synthetic_noise_640x360",
+      "qp": 48,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 1169388,
+      "current_color_payload_bytes": 1168976,
+      "dc_symbols": 14400,
+      "ac_pairs": 893539,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 8856065,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 448671,
+          "seen-only": {
+            "pair_bits": 4041812,
+            "alphabet_symbols": 33,
+            "table_bytes_1byte_lengths": 33
+          },
+          "full-laplace": {
+            "pair_bits": 4044339,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 222432,
+          "seen-only": {
+            "pair_bits": 1759046,
+            "alphabet_symbols": 29,
+            "table_bytes_1byte_lengths": 29
+          },
+          "full-laplace": {
+            "pair_bits": 1760689,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 222436,
+          "seen-only": {
+            "pair_bits": 1759007,
+            "alphabet_symbols": 31,
+            "table_bytes_1byte_lengths": 31
+          },
+          "full-laplace": {
+            "pair_bits": 1761521,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 7731888,
+          "estimated_payload_bytes_with_table": 1028547,
+          "estimated_total_bytes_with_table": 1028959,
+          "joint_alphabet_symbols": 93,
+          "table_bytes_1byte_lengths": 93,
+          "saved_ac_codewords_per_frame": 893539,
+          "current_entropy_codewords": 1815878,
+          "candidate_entropy_codewords": 922339,
+          "estimated_total_ratio": 0.8799123986221853,
+          "estimated_savings_ratio": 0.12008760137781471
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 7738572,
+          "estimated_payload_bytes_with_table": 1034669,
+          "estimated_total_bytes_with_table": 1035081,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 893539,
+          "current_entropy_codewords": 1815878,
+          "candidate_entropy_codewords": 922339,
+          "estimated_total_ratio": 0.885147615675892,
+          "estimated_savings_ratio": 0.11485238432410805
+        }
+      }
+    },
+    {
+      "name": "synthetic_noise_640x360",
+      "qp": 48,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 1107428,
+      "current_color_payload_bytes": 1107016,
+      "dc_symbols": 14400,
+      "ac_pairs": 893539,
+      "eob_symbols": 14400,
+      "current_pooled_vlc_bits": 8856065,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 448671,
+          "seen-only": {
+            "pair_bits": 4041812,
+            "alphabet_symbols": 33,
+            "table_bytes_1byte_lengths": 33
+          },
+          "full-laplace": {
+            "pair_bits": 4044339,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 222432,
+          "seen-only": {
+            "pair_bits": 1759046,
+            "alphabet_symbols": 29,
+            "table_bytes_1byte_lengths": 29
+          },
+          "full-laplace": {
+            "pair_bits": 1760689,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 222436,
+          "seen-only": {
+            "pair_bits": 1759007,
+            "alphabet_symbols": 31,
+            "table_bytes_1byte_lengths": 31
+          },
+          "full-laplace": {
+            "pair_bits": 1761521,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 7731888,
+          "estimated_payload_bytes_with_table": 966587,
+          "estimated_total_bytes_with_table": 966999,
+          "joint_alphabet_symbols": 93,
+          "table_bytes_1byte_lengths": 93,
+          "saved_ac_codewords_per_frame": 893539,
+          "current_entropy_codewords": 1815878,
+          "candidate_entropy_codewords": 922339,
+          "estimated_total_ratio": 0.8731935620193818,
+          "estimated_savings_ratio": 0.1268064379806182
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 7738572,
+          "estimated_payload_bytes_with_table": 972709,
+          "estimated_total_bytes_with_table": 973121,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 893539,
+          "current_entropy_codewords": 1815878,
+          "candidate_entropy_codewords": 922339,
+          "estimated_total_ratio": 0.8787216866468971,
+          "estimated_savings_ratio": 0.1212783133531029
+        }
+      }
+    },
+    {
+      "name": "real_2k_prores422hq",
+      "qp": 24,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 8207837,
+      "current_color_payload_bytes": 8206813,
+      "dc_symbols": 129600,
+      "ac_pairs": 5152657,
+      "eob_symbols": 129600,
+      "current_pooled_vlc_bits": 54281657,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 3024733,
+          "seen-only": {
+            "pair_bits": 29167153,
+            "alphabet_symbols": 125,
+            "table_bytes_1byte_lengths": 125
+          },
+          "full-laplace": {
+            "pair_bits": 29169696,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 1098663,
+          "seen-only": {
+            "pair_bits": 9808107,
+            "alphabet_symbols": 171,
+            "table_bytes_1byte_lengths": 171
+          },
+          "full-laplace": {
+            "pair_bits": 9811036,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 1029261,
+          "seen-only": {
+            "pair_bits": 9344457,
+            "alphabet_symbols": 168,
+            "table_bytes_1byte_lengths": 168
+          },
+          "full-laplace": {
+            "pair_bits": 9347114,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 49898092,
+          "estimated_payload_bytes_with_table": 7659332,
+          "estimated_total_bytes_with_table": 7660356,
+          "joint_alphabet_symbols": 464,
+          "table_bytes_1byte_lengths": 464,
+          "saved_ac_codewords_per_frame": 5152657,
+          "current_entropy_codewords": 10564514,
+          "candidate_entropy_codewords": 5411857,
+          "estimated_total_ratio": 0.9332977738227501,
+          "estimated_savings_ratio": 0.06670222617724986
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 49906221,
+          "estimated_payload_bytes_with_table": 7665263,
+          "estimated_total_bytes_with_table": 7666287,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 5152657,
+          "current_entropy_codewords": 10564514,
+          "candidate_entropy_codewords": 5411857,
+          "estimated_total_ratio": 0.9340203758919676,
+          "estimated_savings_ratio": 0.06597962410803238
+        }
+      }
+    },
+    {
+      "name": "real_2k_prores422hq",
+      "qp": 24,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 6785022,
+      "current_color_payload_bytes": 6783998,
+      "dc_symbols": 129600,
+      "ac_pairs": 5152657,
+      "eob_symbols": 129600,
+      "current_pooled_vlc_bits": 54281657,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 3024733,
+          "seen-only": {
+            "pair_bits": 29167153,
+            "alphabet_symbols": 125,
+            "table_bytes_1byte_lengths": 125
+          },
+          "full-laplace": {
+            "pair_bits": 29169696,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 1098663,
+          "seen-only": {
+            "pair_bits": 9808107,
+            "alphabet_symbols": 171,
+            "table_bytes_1byte_lengths": 171
+          },
+          "full-laplace": {
+            "pair_bits": 9811036,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 1029261,
+          "seen-only": {
+            "pair_bits": 9344457,
+            "alphabet_symbols": 168,
+            "table_bytes_1byte_lengths": 168
+          },
+          "full-laplace": {
+            "pair_bits": 9347114,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 49898092,
+          "estimated_payload_bytes_with_table": 6237726,
+          "estimated_total_bytes_with_table": 6238750,
+          "joint_alphabet_symbols": 464,
+          "table_bytes_1byte_lengths": 464,
+          "saved_ac_codewords_per_frame": 5152657,
+          "current_entropy_codewords": 10564514,
+          "candidate_entropy_codewords": 5411857,
+          "estimated_total_ratio": 0.91948854403125,
+          "estimated_savings_ratio": 0.08051145596874998
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 49906221,
+          "estimated_payload_bytes_with_table": 6243657,
+          "estimated_total_bytes_with_table": 6244681,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 5152657,
+          "current_entropy_codewords": 10564514,
+          "candidate_entropy_codewords": 5411857,
+          "estimated_total_ratio": 0.920362675316307,
+          "estimated_savings_ratio": 0.079637324683693
+        }
+      }
+    },
+    {
+      "name": "real_2k_prores422hq",
+      "qp": 48,
+      "entropy_mode": 0,
+      "entropy_name": "v1_rice",
+      "frames": 2,
+      "current_packet_bytes": 2696070,
+      "current_color_payload_bytes": 2695046,
+      "dc_symbols": 129600,
+      "ac_pairs": 2093076,
+      "eob_symbols": 129600,
+      "current_pooled_vlc_bits": 15425105,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 1438330,
+          "seen-only": {
+            "pair_bits": 9139633,
+            "alphabet_symbols": 169,
+            "table_bytes_1byte_lengths": 169
+          },
+          "full-laplace": {
+            "pair_bits": 9142716,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 324450,
+          "seen-only": {
+            "pair_bits": 2164841,
+            "alphabet_symbols": 208,
+            "table_bytes_1byte_lengths": 208
+          },
+          "full-laplace": {
+            "pair_bits": 2167960,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 330296,
+          "seen-only": {
+            "pair_bits": 2201274,
+            "alphabet_symbols": 190,
+            "table_bytes_1byte_lengths": 190
+          },
+          "full-laplace": {
+            "pair_bits": 2202903,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 14510021,
+          "estimated_payload_bytes_with_table": 2581228,
+          "estimated_total_bytes_with_table": 2582252,
+          "joint_alphabet_symbols": 567,
+          "table_bytes_1byte_lengths": 567,
+          "saved_ac_codewords_per_frame": 2093076,
+          "current_entropy_codewords": 4445352,
+          "candidate_entropy_codewords": 2352276,
+          "estimated_total_ratio": 0.9577837370691413,
+          "estimated_savings_ratio": 0.04221626293085867
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 14517852,
+          "estimated_payload_bytes_with_table": 2587019,
+          "estimated_total_bytes_with_table": 2588043,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 2093076,
+          "current_entropy_codewords": 4445352,
+          "candidate_entropy_codewords": 2352276,
+          "estimated_total_ratio": 0.959931678331794,
+          "estimated_savings_ratio": 0.04006832166820595
+        }
+      }
+    },
+    {
+      "name": "real_2k_prores422hq",
+      "qp": 48,
+      "entropy_mode": 1,
+      "entropy_name": "v2_vlc",
+      "frames": 2,
+      "current_packet_bytes": 1926384,
+      "current_color_payload_bytes": 1925360,
+      "dc_symbols": 129600,
+      "ac_pairs": 2093076,
+      "eob_symbols": 129600,
+      "current_pooled_vlc_bits": 15425105,
+      "pair_planes": [
+        {
+          "plane": 0,
+          "ac_pairs": 1438330,
+          "seen-only": {
+            "pair_bits": 9139633,
+            "alphabet_symbols": 169,
+            "table_bytes_1byte_lengths": 169
+          },
+          "full-laplace": {
+            "pair_bits": 9142716,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 1,
+          "ac_pairs": 324450,
+          "seen-only": {
+            "pair_bits": 2164841,
+            "alphabet_symbols": 208,
+            "table_bytes_1byte_lengths": 208
+          },
+          "full-laplace": {
+            "pair_bits": 2167960,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        },
+        {
+          "plane": 2,
+          "ac_pairs": 330296,
+          "seen-only": {
+            "pair_bits": 2201274,
+            "alphabet_symbols": 190,
+            "table_bytes_1byte_lengths": 190
+          },
+          "full-laplace": {
+            "pair_bits": 2202903,
+            "alphabet_symbols": 1793,
+            "table_bytes_1byte_lengths": 1793
+          }
+        }
+      ],
+      "candidates": {
+        "seen-only": {
+          "candidate_bits_before_table": 14510021,
+          "estimated_payload_bytes_with_table": 1814320,
+          "estimated_total_bytes_with_table": 1815344,
+          "joint_alphabet_symbols": 567,
+          "table_bytes_1byte_lengths": 567,
+          "saved_ac_codewords_per_frame": 2093076,
+          "current_entropy_codewords": 4445352,
+          "candidate_entropy_codewords": 2352276,
+          "estimated_total_ratio": 0.9423583252352594,
+          "estimated_savings_ratio": 0.05764167476474058
+        },
+        "full-laplace": {
+          "candidate_bits_before_table": 14517852,
+          "estimated_payload_bytes_with_table": 1820111,
+          "estimated_total_bytes_with_table": 1821135,
+          "joint_alphabet_symbols": 5379,
+          "table_bytes_1byte_lengths": 5379,
+          "saved_ac_codewords_per_frame": 2093076,
+          "current_entropy_codewords": 4445352,
+          "candidate_entropy_codewords": 2352276,
+          "estimated_total_ratio": 0.9453644756185683,
+          "estimated_savings_ratio": 0.05463552438143171
+        }
+      }
+    }
+  ]
+}

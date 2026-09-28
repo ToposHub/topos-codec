@@ -1,0 +1,9 @@
+== DLL SHA-256 ==
+c9ac7e10da645b09a42191ada9a7502fb3fa9155b043513eb4789183037ca321 *build/win-msvc/Debug/topos_codec.dll
+deaba5328d746562ee3ee22751bdae02db0d64dcf598bed105d8e4c34bed7477 *build/win-msvc/Release/topos_codec.dll
+== sizes ==
+-rwxr-xr-x 1 heng 197121 1134080 Sep 28 17:02 build/win-msvc/Debug/topos_codec.dll
+-rwxr-xr-x 1 heng 197121  580096 Sep 28 17:06 build/win-msvc/Release/topos_codec.dll
+-rw-r--r-- 1 heng 197121  112550 Sep 28 17:06 build/win-msvc/Release/topos_codec.lib
+== PE machine ==
+0x8664 (0x8664=x64)

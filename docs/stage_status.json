@@ -1,0 +1,117 @@
+{
+  "$comment": "Topos V2.0 整改阶段状态唯一真相源（复验 O5 / P1-20 / R-28 重关条件）。规则：1) status ∈ {complete, partial, incomplete, conditional, pending, forbidden}；2) 任何轮标 complete 前其 requires 全部 complete（tests/media/test_capability_manifest.py::TestStageStatusManifest 机器强制）；3) v2_0_complete 在 R8 独立复审通过前恒为 false。review_verdict = 2026-08-31 复验报告 §2 的结论（历史存档，不随整改自动翻转）。",
+  "schema_version": 1,
+  "v2_0_complete": false,
+  "rounds": {
+    "R0": {
+      "status": "partial",
+      "review_verdict": "partial",
+      "requires": [
+        "O5"
+      ],
+      "note": "范围冻结/命名/ADR 落地，但唯一真相源曾再次漂移；O5 manifest+gate 交付后重验"
+    },
+    "R1": {
+      "status": "partial",
+      "review_verdict": "partial",
+      "requires": [
+        "O1"
+      ],
+      "note": "编码器边界已修；时间线 planar/Alpha 语义链由 O1 重做"
+    },
+    "R2": {
+      "status": "incomplete",
+      "review_verdict": "incomplete",
+      "requires": [
+        "O1"
+      ],
+      "note": "RGBA 翻转/planar 重导出/premultiplied 缺陷由 O1 关闭"
+    },
+    "R3": {
+      "status": "conditional",
+      "review_verdict": "conditional",
+      "requires": [
+        "O2"
+      ],
+      "note": "条件=Pro444/Extreme 矩阵扩至六档 + 饱和标志（O2 交付）"
+    },
+    "R4": {
+      "status": "partial",
+      "review_verdict": "partial",
+      "requires": [
+        "O2"
+      ],
+      "note": "独立矩阵决策（ADR-C023）+ 全入口六档 + GBR 语义由 O2 关闭"
+    },
+    "R5": {
+      "status": "partial",
+      "review_verdict": "partial",
+      "requires": [
+        "O3"
+      ],
+      "note": "mdat 强制/containment/co64>4GiB/nested preflight/probe 退出码由 O3 关闭"
+    },
+    "R6": {
+      "status": "partial",
+      "review_verdict": "partial",
+      "requires": [
+        "O4"
+      ],
+      "note": "优化有效但产品性能门按 P0-05 如实标注；并发缺陷由 O4 关闭"
+    },
+    "O0": {
+      "status": "complete",
+      "requires": [],
+      "note": "状态纠偏+复验结论入库（542324dc）"
+    },
+    "O1": {
+      "status": "complete",
+      "requires": [
+        "O0"
+      ],
+      "note": "数据语义链重做（ac3d9bd4）"
+    },
+    "O2": {
+      "status": "complete",
+      "requires": [
+        "O1"
+      ],
+      "note": "profile 协商与应用一致（30d4849d）"
+    },
+    "O3": {
+      "status": "complete",
+      "requires": [
+        "O2"
+      ],
+      "note": "容器边界（14c02129）"
+    },
+    "O4": {
+      "status": "complete",
+      "requires": [
+        "O3"
+      ],
+      "note": "并发正确性+性能门禁数值化（dbca8ca8）"
+    },
+    "O5": {
+      "status": "complete",
+      "requires": [
+        "O4"
+      ],
+      "note": "单一真相源 manifest+stage gate+ADR rollup+SDK/BUILDINFO"
+    },
+    "R7": {
+      "status": "conditional",
+      "requires": [
+        "O5"
+      ],
+      "note": "CI/发布闭环机器全交付+本地验证（ADR-C025）：windows required 化、符号/DLL/发布清单/fuzz 脚本、Python 测试入 CI、pix_fmt 选择器+alpha_budget_policy UI、产品包坏包修复；条件=真实 CI 首绿+真证书公证+四产品包干净机记录（R-33/R-26/R-27 运行时证据）"
+    },
+    "R8": {
+      "status": "conditional",
+      "requires": [
+        "R7"
+      ],
+      "note": "独立复审已执行（docs/codec/Topos_V2.0_R8_独立复审报告_2026-08-31.md）：门禁五配置×42 + 312 Python 矩阵独立复跑全过；R7 三处 Critical（PE 导出表/fat 偏移/排除链死代码）已在 R8 修复并回归钉死；DoD 11 条中 10 满足、NEON 运行时差分部分。条件=R-33 运行时证据（CI 首绿/真公证/四产品干净机）+ R-25 固定机口径——补齐前v2_0_complete 恒 false"
+    }
+  }
+}

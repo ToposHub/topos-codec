@@ -1,0 +1,98 @@
+[
+ {
+  "name": "2K_prores422HQ.mov",
+  "bytes": 448008914,
+  "sha256": "2421c3ef5575c4603be9570c76521842f2689f19b92da2143e34d8b7c034194a",
+  "width": 1920,
+  "height": 1080,
+  "pix_fmt": "yuv422p10le",
+  "frames": 487,
+  "duration_s": 19.48,
+  "avg_rate": "25",
+  "codec": "prores"
+ },
+ {
+  "name": "4K_prores422HQ.mov",
+  "bytes": 2667990735,
+  "sha256": "59c9df4dd12f5744403710a888c2308c052bb2daad0e4a361f659e3bff77fa4d",
+  "width": 3840,
+  "height": 2160,
+  "pix_fmt": "yuv422p10le",
+  "frames": 743,
+  "duration_s": 29.72,
+  "avg_rate": "25",
+  "codec": "prores"
+ },
+ {
+  "name": "4K_prores4444.mov",
+  "bytes": 2587996910,
+  "sha256": "e62fc71636419cc8b3ae15135fbc1a8ef35ae5eaaff5afec1ac4b89db6d345c2",
+  "width": 3840,
+  "height": 2160,
+  "pix_fmt": "yuv444p12le",
+  "frames": 487,
+  "duration_s": 19.48,
+  "avg_rate": "25",
+  "codec": "prores"
+ },
+ {
+  "name": "4K_prores4444XQ.mov",
+  "bytes": 3934180734,
+  "sha256": "d8d15bc81f3e6966ca90e3d6a80c1188bb6916ce1c6f0f493843d8f3eadaa255",
+  "width": 3840,
+  "height": 2160,
+  "pix_fmt": "yuv444p12le",
+  "frames": 487,
+  "duration_s": 19.48,
+  "avg_rate": "25",
+  "codec": "prores"
+ },
+ {
+  "name": "2K_DNxHR 444 10bit.mov",
+  "bytes": 899263268,
+  "sha256": "a1dabd9f47b98f2124177596159a606438659b3660b78d94a4b2f133b5026e3d",
+  "width": 1920,
+  "height": 1080,
+  "pix_fmt": "yuv444p10le",
+  "frames": 487,
+  "duration_s": 19.48,
+  "avg_rate": "25",
+  "codec": "dnxhd"
+ },
+ {
+  "name": "2K_DNxHR 444 12bit.mov",
+  "bytes": 899263268,
+  "sha256": "bc67a70838d447ea399e5bd789417849655c9393f855e46cf30167cd0ba65199",
+  "width": 1920,
+  "height": 1080,
+  "pix_fmt": "yuv444p12le",
+  "frames": 487,
+  "duration_s": 19.48,
+  "avg_rate": "25",
+  "codec": "dnxhd"
+ },
+ {
+  "name": "4K_DNxHR 444 10bit.mov",
+  "bytes": 3554278180,
+  "sha256": "ba316483ac78f1d240be453f82955fb58a7f6df4e1da6916ef332d2aace0cbeb",
+  "width": 3840,
+  "height": 2160,
+  "pix_fmt": "yuv444p10le",
+  "frames": 487,
+  "duration_s": 19.48,
+  "avg_rate": "25",
+  "codec": "dnxhd"
+ },
+ {
+  "name": "4K_DNxHR 444 12bit.mov",
+  "bytes": 3554278180,
+  "sha256": "3e3d013c63ba0897f9eebb8969ce5aa594443820796146aa97526bcd5453077a",
+  "width": 3840,
+  "height": 2160,
+  "pix_fmt": "yuv444p12le",
+  "frames": 487,
+  "duration_s": 19.48,
+  "avg_rate": "25",
+  "codec": "dnxhd"
+ }
+]

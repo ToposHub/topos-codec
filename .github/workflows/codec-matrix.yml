@@ -1,0 +1,189 @@
+name: codec-matrix
+
+# 阶段 10 / R7 构建矩阵：native 在 Linux/macOS/Windows 上的持续验证。
+# R7（ADR-C025）：windows-msvc 移除 continue-on-error（required 化）；
+# 四平台 native 全门禁 + Windows DLL 符号/加载测试 + Python 绑定与应用测试接入。
+on:
+  push:
+    paths:
+      - "native/**"
+      # Python 音频/导出接线（M-B6 门禁缺口：仅 native 路径触发时，
+      # topos_encoder/topos_source 等改动无音频测试门禁）
+      - "src/shared/export/topos_encoder.py"
+      - "src/shared/media/topos_source.py"
+      - "src/shared/codec/topos_binding.py"
+      - "src/shared/codec/topos_profiles.py"
+      - "src/features/edit/core/timeline_export.py"
+      - ".github/workflows/codec-matrix.yml"
+  pull_request:
+    paths:
+      - "native/**"
+      - "src/shared/export/topos_encoder.py"
+      - "src/shared/media/topos_source.py"
+      - "src/shared/codec/topos_binding.py"
+      - "src/shared/codec/topos_profiles.py"
+      - "src/features/edit/core/timeline_export.py"
+      - ".github/workflows/codec-matrix.yml"
+  workflow_dispatch:
+
+jobs:
+  native:
+    name: ${{ matrix.name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: linux-gcc,   os: ubuntu-latest, cc: gcc }
+          - { name: linux-clang, os: ubuntu-latest, cc: clang }
+          - { name: macos-arm64, os: macos-latest,  cc: clang }
+          - { name: macos-x86_64, os: macos-13,     cc: clang }
+    runs-on: ${{ matrix.os }}
+    env:
+      CC: ${{ matrix.cc }}
+      # R-25 残余收口：CI 共享 runner 与基准固定机口径差 —— 数值门禁保留，
+      # 阈值按协议 §6 放宽 4×（只拦结构性 >4× 回退，精确尾延迟仍以固定机为准）
+      TOPOS_PERF_GATE_MULT: "4.0"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Full gate (sanitizers + fuzz replay + CLI + golden + symbols)
+        run: bash native/run_tests.sh --skip-python
+
+  windows-msvc:
+    # R7：MSVC 无 sanitizer 五配置（Linux/macOS 覆盖）；本 job 覆盖
+    # MSVC 编译 + 全量 ctest + PE 符号表钉死 + DLL 加载 roundtrip + CLI 冒烟。
+    name: windows-msvc
+    runs-on: windows-latest
+    env:
+      TOPOS_PERF_GATE_MULT: "4.0"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Configure + build + ctest (Debug, MSVC)
+        shell: bash
+        run: |
+          cmake -S native -B build -DTOPOS_ENABLE_TESTS=ON \
+                -DTOPOS_GIT_COMMIT="${GITHUB_SHA::7}"
+          cmake --build build --config Debug -j
+          ctest --test-dir build -C Debug --output-on-failure
+      - name: PE symbol pin (public_symbols_v1)
+        shell: bash
+        run: python native/scripts/check_exports.py build/Debug/topos_codec.dll
+      - name: DLL load + roundtrip (ctypes, stdlib-only)
+        shell: bash
+        run: python native/scripts/dll_load_test.py build/Debug/topos_codec.dll
+      - name: CLI smoke (rawgen → encoder → probe --verify → decoder)
+        shell: bash
+        run: |
+          set -e
+          TMPD="$(mktemp -d)"
+          build/Debug/topos_rawgen.exe --width 96 --height 64 --frames 4 --kind 2 --out "$TMPD/s.raw"
+          build/Debug/topos_encoder_cli.exe --width 96 --height 64 --fps 24 --qp 24 --qm 1 \
+            --input "$TMPD/s.raw" --output "$TMPD/s.mov"
+          build/Debug/topos_probe_cli.exe "$TMPD/s.mov" --verify | grep -q "verify: 4/4"
+          build/Debug/topos_decoder_cli.exe --input "$TMPD/s.mov" --output "$TMPD/dec.raw" \
+            | grep -q "decoded=4 concealed_frames=0"
+          echo "Windows CLI 链路: OK"
+
+  python-app:
+    # R7 任务 4：Python 绑定 + 阶段 6–8 应用测试接入 CI（不再 --skip-python）。
+    # W19（Windows 首切计划）：windows-latest 加入矩阵——全部为非 GPU 用例；
+    # VS 多配置生成器产物在 build/debug/Debug/ 且 exe 带 .exe 后缀，由
+    # Resolve 步骤统一解析成 TOPOS_CODEC_LIB / TOPOS_ENCODER_CLI。
+    name: python-${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+      - name: Install project + test deps
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+          pip install av
+      - name: Build codec (Debug)
+        shell: bash
+        run: |
+          cmake -S native -B native/build/debug \
+                -DCMAKE_BUILD_TYPE=Debug -DTOPOS_ENABLE_TESTS=ON \
+                -DTOPOS_GIT_COMMIT="${GITHUB_SHA::7}"
+          # encoder_cli 供 oracle 用（在 TOPOS_ENABLE_TESTS 块内）；只构建需要的目标
+          cmake --build native/build/debug -j \
+                --target topos_codec topos_encoder_cli
+      - name: Resolve codec library path
+        shell: bash
+        run: |
+          set -euo pipefail
+          for lib in \
+            "${GITHUB_WORKSPACE}/native/build/debug/topos_codec.dylib" \
+            "${GITHUB_WORKSPACE}/native/build/debug/topos_codec.so" \
+            "${GITHUB_WORKSPACE}/native/build/debug/libtopos_codec.dylib" \
+            "${GITHUB_WORKSPACE}/native/build/debug/libtopos_codec.so" \
+            "${GITHUB_WORKSPACE}/native/build/debug/topos_codec.dll" \
+            "${GITHUB_WORKSPACE}/native/build/debug/Debug/topos_codec.dll"; do
+            if [ -f "$lib" ]; then
+              echo "TOPOS_CODEC_LIB=$lib" >> "$GITHUB_ENV"
+              echo "使用 codec: $lib"
+              # encoder_cli 同目录（VS 生成器在配置子目录且带 .exe）
+              cli_dir="$(dirname "$lib")"
+              for cli in "topos_encoder_cli" "topos_encoder_cli.exe"; do
+                if [ -f "${cli_dir}/${cli}" ]; then
+                  echo "TOPOS_ENCODER_CLI=${cli_dir}/${cli}" >> "$GITHUB_ENV"
+                  break
+                fi
+              done
+              exit 0
+            fi
+          done
+          echo "Debug codec 动态库未找到" >&2
+          exit 1
+      - name: Binding + stage 6-8 topos application tests
+        shell: bash
+        run: |
+          python -m pytest tests/native \
+            tests/media/test_topos_source.py \
+            tests/media/test_topos_alpha_pipeline.py \
+            tests/media/test_topos_export.py \
+            tests/media/test_topos_timeline_export.py \
+            tests/media/test_topos_image_source.py \
+            tests/media/test_topos_image_sequence.py \
+            tests/file_explorer/test_topos_image_preview.py \
+            tests/media/test_capability_manifest.py \
+            tests/media/test_topos_audio_container.py \
+            tests/media/test_topos_source_audio.py \
+            tests/media/test_topos_export_audio.py \
+            tests/media/test_topos_reimport_playback.py \
+            tests/media/test_topos_multitrack_container.py \
+            tests/media/test_topos_timecode_container.py \
+            tests/media/test_topos_stems_export.py \
+            tests/media/test_topos_budget.py \
+            tests/media/test_topos_frame_rc.py -q
+      - name: Quality gates (P7 capacity/quality/drift)
+        # 画质对齐计划 §5 P7：容量 98% 上限、PSNR/SSIM/块指数阈值、
+        # 档位表/素材指纹漂移——素材不在场时校验已提交 manifest 与
+        # 质量报告（回归即阻断）。
+        run: |
+          python tools/verify_topos_quality_gates.py \
+            --json bench_out/topos_quality/gate_result.json
+      - name: Python SDK example roundtrip
+        shell: bash
+        run: |
+          python native/examples/topos_roundtrip.py
+          python native/scripts/dll_load_test.py \
+            "$TOPOS_CODEC_LIB"
+          python scripts/topos_abi_smoke.py \
+            native/tests/conformance/golden_image_v1_gbr10.bin \
+            --library "$TOPOS_CODEC_LIB"
+      - name: Interop oracle (PyAV + ffprobe)
+        shell: bash
+        run: |
+          python native/tests/interop/interop_oracle.py \
+            --encoder-cli "${TOPOS_ENCODER_CLI:?encoder CLI 未解析}"
