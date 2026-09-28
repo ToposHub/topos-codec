@@ -1,7 +1,7 @@
 # Topos Codec
 
 <p align="center">
-  <img src="docs/media/topos-codec-wordmark.png" alt="Topos Codec" width="560">
+  <img src="docs/media/topos-codec-logo-2.png" alt="Topos Codec" width="560">
 </p>
 
 <p align="center"><strong>面向视频、静态图片、HDR、合成与 RAW 工作流的体系化开源编码方案。</strong></p>
@@ -53,6 +53,17 @@ Topos Codec 是一个面向实际媒体制作流程的原生 C11 编码器与 SD
 | **Topos RAW** | 12-bit 或 16-bit × 2:1 / 4:1 / 6:1 / 8:1 / 12:1 / 16:1 | CFA 相位平面 | 相机 RAW 图片序列、归档 |
 
 `.toos` 使用 TPIM 信封包裹与视频相同的帧编码核心，支持明确的 Alpha 语义、GBR 直通、原子写入和序列工作流。应用可以在 API 边界使用 Float32 缓冲；当前落盘的浮点档是 half-float（`float16`）。完整 22 档注册表见[图片白皮书](Topos_Image_白皮书.md)。
+
+## 标准品牌素材
+
+仓库将这两张原始素材作为 Topos Codec 的标准 Logo：
+
+| 素材 | 用途 |
+| --- | --- |
+| [`topos-codec-logo-1.png`](docs/media/topos-codec-logo-1.png) | 方形图标 |
+| [`topos-codec-logo-2.png`](docs/media/topos-codec-logo-2.png) | 横向字标（`Topos Codec`） |
+
+两张图片均保留原始 RGBA 透明通道。
 
 ## 画质参考
 

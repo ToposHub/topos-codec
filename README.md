@@ -1,7 +1,7 @@
 # Topos Codec
 
 <p align="center">
-  <img src="docs/media/topos-codec-wordmark.png" alt="Topos Codec" width="560">
+  <img src="docs/media/topos-codec-logo-2.png" alt="Topos Codec" width="560">
 </p>
 
 <p align="center"><strong>A systematic, open-source codec family for video, still images, HDR, compositing and RAW workflows.</strong></p>
@@ -54,6 +54,17 @@ Video profiles share the MOV container and in-band geometry, color, range, alpha
 | **Topos RAW** | 12-bit or 16-bit × 2:1 / 4:1 / 6:1 / 8:1 / 12:1 / 16:1 | CFA phase planes | Camera RAW image sequences and archives |
 
 The `.toos` format uses a TPIM envelope around the same frame coding core as video. It supports explicit alpha semantics, GBR pass-through, atomic file writes and sequence-oriented workflows. Float32 buffers can be supplied by applications at the API boundary; the currently encoded float tiers are half-float (`float16`). See the [image whitepaper](Topos_Image_Whitepaper.md) for the complete 22-tier registry.
+
+## Standard brand assets
+
+The repository uses these two supplied assets as the standard Topos Codec marks:
+
+| Asset | Use |
+| --- | --- |
+| [`topos-codec-logo-1.png`](docs/media/topos-codec-logo-1.png) | Square icon |
+| [`topos-codec-logo-2.png`](docs/media/topos-codec-logo-2.png) | Horizontal wordmark (`Topos Codec`) |
+
+Both files preserve their original RGBA transparency.
 
 ## Visual reference
 
