@@ -1,86 +1,171 @@
-# Topos Video Codec
+# Topos Codec
 
-A native C11 mezzanine video codec engine with intra profiles and an optional LP inter-frame tier (10/12-bit baseline, 16-bit extension; 4:2:2 / 4:4:4 / GBR, optional alpha). Licensed under the **Apache License 2.0**.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/media/topos-codec-icon-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="docs/media/topos-codec-icon-light.png">
+    <img src="docs/media/topos-codec-icon-light.png" alt="Topos Codec" width="180">
+  </picture>
+</p>
 
-- **Video whitepaper**: [Topos_Codec_Whitepaper.md](Topos_Codec_Whitepaper.md) (English) · [Topos_Codec_白皮书.md](Topos_Codec_白皮书.md) (中文) — format overview, profile tiers, bitrate tables, performance
-- **Image whitepaper (.toos)**: [Topos_Image_Whitepaper.md](Topos_Image_Whitepaper.md) (English) · [Topos_Image_白皮书.md](Topos_Image_白皮书.md) (中文)
-- **Integration guide**: `docs/SDK.md` · bitstream specs: `docs/bitstream_spec_v1.md` / `docs/bitstream_spec_v2.md` · container: `docs/container_spec_v1.md` · ADRs: `docs/ADR-INDEX.md`
+<p align="center"><strong>A systematic, open-source codec family for video, still images, HDR, compositing and RAW workflows.</strong></p>
 
-## Profile family at a glance
+<p align="center">
+  <a href="https://github.com/ToposHub/topos-codec/actions/workflows/codec-matrix.yml"><img src="https://github.com/ToposHub/topos-codec/actions/workflows/codec-matrix.yml/badge.svg" alt="Codec matrix CI"></a>
+  <a href="https://github.com/ToposHub/topos-codec/actions/workflows/codec-fuzz.yml"><img src="https://github.com/ToposHub/topos-codec/actions/workflows/codec-fuzz.yml/badge.svg" alt="Fuzz CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="Apache 2.0 license"></a>
+  <a href="README.zh-CN.md">简体中文</a>
+</p>
 
-Six intra tiers named to map onto common mezzanine workflows. 422 Proxy / LT / 422 / 422 HQ share one 4:2:2 bitstream profile (profile=3) and differ only in target bitrate and alpha policy; 4444 (profile=5) and 4444 XQ (profile=6) are independent bitstream profiles. All tiers can optionally carry alpha (a8/a10/a12/a16).
+Topos Codec is a native C11 codec and SDK for production-oriented media pipelines. It provides deterministic intra-frame coding, an optional low-latency inter-frame tier, a MOV-based video container, and the `.toos` still-image format. The same public core is used for video, image, floating-point and CFA RAW paths so applications do not need separate pixel implementations.
 
-| Tier | Pixel format | Bit depth | ≈ 1080p25 | ≈ 2160p25 (4K) | Primary use |
-| --- | --- | --- | ---: | ---: | --- |
-| Topos 422 Proxy | YUV 4:2:2 | 10 | 31 Mbps | 126 Mbps | offline proxies, remote editing |
-| Topos 422 LT | YUV 4:2:2 | 10 | 64 Mbps | 256 Mbps | light intermediates, rough cuts |
-| Topos 422 *(default)* | YUV 4:2:2 | 10 | 97 Mbps | 389 Mbps | general editing, render caches |
-| Topos 422 HQ | YUV 4:2:2 / 4:4:4 / GBR | 10/12 | 143 Mbps | 571 Mbps | grading, intermediate mastering |
-| Topos 4444 | YUV/GBR 4:4:4 | 10/12 | 213 Mbps | 852 Mbps | VFX, motion graphics, compositing |
-| Topos 4444 XQ | YUV/GBR 4:4:4 | 12 | 351 Mbps | 1402 Mbps | HDR and multi-generation work |
+> **Preview status:** this repository is currently published as `v0.1.0-preview`. The format, SDK and platform matrix are still evolving. Use the conformance tests and capability manifest as the source of truth before shipping a new integration.
 
-Bitrates are tier targets at 1080p25 / 2160p25, scaling linearly as `bitrate ≈ bpp × width × height × fps`; any tier can also be driven with a fixed QP (0–63) instead of a bitrate target. The full specification table (reference data-rate ranges, alpha budgets, bitstream profile bytes) is in the whitepaper §4.
+## Why Topos
 
-## Key features
+- **One codec family across the pipeline** — proxies, edit intermediates, grading, VFX, image sequences, HDR and RAW are described by one capability model.
+- **High-precision working formats** — 10/12-bit video and image paths, 16-bit extensions, half-float image tiers, and CFA RAW at 12 or 16 bits.
+- **Deterministic output** — fixed-QP and sized modes, frozen golden vectors, explicit metadata, and stable error reporting make builds reproducible.
+- **Editing-friendly access** — intra tiers provide random frame access; the LP tier adds a small IP-2 micro-GOP for cache and preview workloads.
+- **Native performance** — C11 implementation, runtime-dispatched AVX2/NEON kernels, slice-parallel jobs and a bounded thread pool.
+- **Open integration surface** — public C ABI, CMake package, command-line tools, Python bindings and format specifications are included in this repository.
+- **Graceful failure** — malformed packets are rejected before output, while damaged slices can be concealed with per-slice status for recovery-oriented workflows.
 
-- **Intra profiles and optional LP tier** — frame-independent intra profiles support indexed random access; LP uses an IP-2 micro-GOP
-- **Deterministic rate control** — frame-level exact-QP search (sized mode) or fixed QP; byte-reproducible output pinned by frozen golden vectors
-- **V2 canonical VLC entropy coding** — 23–32% bitrate savings at equal quality over V1 Rice; self-describing bitstream, old files decode forever
-- **10/12-bit baseline plus 16-bit extension, 4:2:2 / 4:4:4 / GBR** — GBR pass-through avoids YUV round trips for RGB compositing sources; full/limited range, BT.709/BT.2020-class metadata in-band
-- **Runtime-dispatched SIMD** — AVX2 and NEON paths selected via CPU feature detection; slice-parallel encode and decode with bounded thread pool
-- **Zero third-party dependencies** — pure C11 + libc + pthread; first-class Linux / macOS (universal) / Windows (MSVC & MinGW) CI
-- **FFmpeg-friendly** — optional libavcodec patch decodes Topos .mov in FFmpeg/ffplay; MOV-derived container with FastStart
+## Format family at a glance
 
-## Topos Image (.toos) — still-image format on the same core
+### Video (`.mov`)
 
-`.toos` is a still-image intermediate format built on this same codec core: a TPIM envelope + one complete TPIC intra-frame packet, with pixel coding **100% shared with libtopos_codec** (the spec freezes a 'no second implementation' rule). GBR 4:4:4 pass-through, explicit three-state alpha, atomic writes, first-class render sequence support — and decoding 2.3× faster than PNG.
+| Profile | Coding model | Precision / sampling | Typical use |
+| --- | --- | --- | --- |
+| **Topos 422 Proxy** | Intra | 10-bit YUV 4:2:2 | Offline proxies and remote editing |
+| **Topos 422 LT** | Intra | 10-bit YUV 4:2:2 | Lightweight intermediates and rough cuts |
+| **Topos 422** | Intra | 10-bit YUV 4:2:2 | General editing and render caches |
+| **Topos 422 HQ** | Intra | 10/12/16-bit; YUV 4:2:2, 4:4:4 or GBR | Grading and mastering intermediates |
+| **Topos 4444** | Intra | 10/12/16-bit 4:4:4 or GBR, optional alpha | VFX and motion graphics |
+| **Topos 4444 XQ** | Intra | 12-bit 4:4:4 or GBR, optional alpha | HDR and multi-generation finishing |
+| **Topos 422 LP** | IP-2 micro-GOP | 10-bit YUV 4:2:2, no alpha | Fast preview and transcode caches |
+| **Topos RAW** | Intra CFA | 12/16-bit Bayer phase planes, no alpha | RAW-to-RAW camera intermediates |
 
-| Tier (`toos encode --tier`) | Format | ≈MB/frame (1080p) | Use |
-| --- | --- | ---: | --- |
-| Topos 422 Low | YUV 4:2:2 10-bit | 1.11 | preview / review / proxies |
-| Topos 422 Medium | YUV 4:2:2 10-bit | 1.29 | smaller than PNG 8-bit on the same material |
-| Topos 422 High | YUV 4:2:2 10-bit | 1.71 | the PNG-anchored tier |
-| Topos 422 Ultra *(default)* | YUV 4:2:2 10-bit | 2.86 | visually lossless class |
-| Topos 444 High | GBR 4:4:4 12-bit | 5.10 | high-fidelity compositing |
-| Topos 444 Ultra | GBR 4:4:4 12-bit | 5.79 | 12-bit visually lossless class |
+Video profiles share the MOV container and in-band geometry, color, range, alpha and transfer metadata. Exact target rates, QP ranges and profile bytes are maintained in the [capability manifest](native/docs/capability_manifest.json) and [video whitepaper](Topos_Codec_Whitepaper.md).
 
-Mathematically lossless output is `--qp 28` (10-bit) or a lossless container (PNG/EXR); full color-mode matrix, alpha semantics and sequence grammar are in the image whitepaper.
+### Still images (`.toos`)
+
+| Family | Available tiers | Encoded sample domain | Intended use |
+| --- | --- | --- | --- |
+| **Topos 422** | Low / Medium / High / Ultra | 10-bit YUV 4:2:2 | Review, image sequences and editorial caches |
+| **Topos 444** | High / Ultra | 10 or 12-bit GBR 4:4:4 | Compositing and high-fidelity image work |
+| **Topos float** | Low / Medium / High / Ultra | 16-bit half float | Linear HDR and compositing intermediates |
+| **Topos RAW** | 12-bit or 16-bit × 2:1 / 4:1 / 6:1 / 8:1 / 12:1 / 16:1 | CFA phase planes | Camera RAW image sequences and archives |
+
+The `.toos` format uses a TPIM envelope around the same frame coding core as video. It supports explicit alpha semantics, GBR pass-through, atomic file writes and sequence-oriented workflows. Float32 buffers can be supplied by applications at the API boundary; the currently encoded float tiers are half-float (`float16`). See the [image whitepaper](Topos_Image_Whitepaper.md) for the complete 22-tier registry.
+
+## Visual reference
+
+The following project artwork is included for repository and documentation use. The comparison is a representative rate-matched test image; it is not a universal quality claim. Reproduce measurements with the benchmark reports and your own source material.
+
+<p align="center">
+  <img src="docs/media/topos-proxy-quality-comparison.png" alt="Representative rate-matched Topos proxy quality comparison" width="100%">
+</p>
+
+## SDK surface
+
+| Surface | Location | What it provides |
+| --- | --- | --- |
+| C ABI | `native/include/topos_codec.h` | Frame encode/decode, sized rate control, metadata, capability queries and error codes |
+| Image ABI | `native/include/topos_image.h` | `.toos` read/write, float and CFA RAW metadata, alpha and sequence helpers |
+| CMake package | `native/cmake/` | `find_package(ToposCodec CONFIG REQUIRED)` for native applications |
+| Python bindings | `python/topos_codec/` | ctypes bindings, profile registry, high-level encoder and image helpers |
+| CLI tools | `native/src/cli/` | Inspection, probing, encoding, decoding, RAW generation and quality reports |
+| Specifications | `docs/`, `Topos_*_Whitepaper.md` | Bitstream, MOV container, image envelope, ADRs and benchmark methodology |
+
+The public ABI is designed for long-lived integrations: structures carry `struct_size`, enumerations are capability-queryable, and unsupported combinations fail explicitly instead of silently falling back.
 
 ## Quick start
 
-```bash
-# 1. Build the native library (or: bash native/run_tests.sh for the full gate)
-cmake -S native -B build/release -DCMAKE_BUILD_TYPE=Release
-cmake --build build/release -j
+### Build the native SDK
 
-# 2. Use the Python bindings (either way)
-TOPOS_CODEC_LIB=$(ls build/release/topos_codec*dylib* build/release/*.so 2>/dev/null | head -1) \
-    PYTHONPATH=python python3 native/examples/topos_roundtrip.py
-# ...or drop the library into python/topos_codec/lib/ for configuration-free use:
-cp build/release/topos_codec* python/topos_codec/lib/
-pip install .
+```bash
+cmake -S native -B build/release -DCMAKE_BUILD_TYPE=Release
+cmake --build build/release --parallel
+ctest --test-dir build/release --output-on-failure
 ```
 
-For a bundled platform wheel, build the native library first, then regenerate with `--include-lib` and run `python -m pip wheel .`. Each bundled wheel is for its build platform; source-only wheels require `TOPOS_CODEC_LIB` or a library in `topos_codec/lib/`.
+Run the complete local gate, including sanitizers, conformance, fuzz replay, CLI paths and binding smoke tests:
 
-## Layout
+```bash
+bash native/run_tests.sh
+```
 
-| Path | Contents |
-| --- | --- |
-| `native/` | C11 codec core (src/include/tests/tools/examples/scripts + CMake) |
-| `python/topos_codec/` | ctypes bindings, tier/capability declarations, high-level encoder wrapper |
-| `python/tests/` | binding tests (`pytest python/tests`) |
-| `docs/` | SDK guide, bitstream/container specs, ADRs, benchmark reports (whitepapers at repo root) |
-| `.github/workflows/` | Linux/macOS/Windows CI matrix |
+### Install the Python package
 
-## Quality
+Build the native library first, then either point the bindings at it or copy it into the package:
 
-31 native unit suites, 7 frozen golden vector groups, fuzzing entry points with deterministic replay, and an ABI symbol manifest gate. One-shot gate: `bash native/run_tests.sh`.
+```bash
+TOPOS_CODEC_LIB="$PWD/build/release/libtopos_codec.dylib" \
+  PYTHONPATH=python python3 native/examples/topos_roundtrip.py
 
-## Trademarks
+python3 -m pip install .
+```
 
-Topos Video Codec is an independent, originally developed format. It is not affiliated with, sponsored by, or endorsed by any other codec vendor. Apple, ProRes and QuickTime are trademarks of Apple Inc.; DNxHR is a trademark of Avid Technology, Inc.; DaVinci Resolve is a trademark of Blackmagic Design Pty Ltd. Those names appear in the documentation solely to identify and compare the respective technologies; comparative figures are measured against FFmpeg's open-source software implementations.
+On Linux use the generated `.so`; on Windows use the generated `.dll`. Bundled wheels are platform-specific and are built after the native library is available. See [docs/SDK.md](docs/SDK.md) for CMake, C, Python and packaging examples.
 
-## License
+### Inspect and measure
 
-Apache License 2.0 — see `LICENSE` and `NOTICE`.
+```bash
+build/release/topos_inspect <frame-packet>
+build/release/topos_quality report
+build/release/topos_quality sweep
+```
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Host application] --> B[Public C ABI / Python bindings]
+    B --> C[Capability and profile registry]
+    B --> D[Frame codec core]
+    D --> E[Transform and quantisation]
+    D --> F[Entropy and bitstream]
+    D --> G[AVX2 / NEON dispatch]
+    B --> H[MOV mux / demux]
+    B --> I[TPIM .toos image I/O]
+    I --> J[Float and CFA RAW paths]
+    H --> K[.mov video]
+    I --> L[.toos still image]
+```
+
+The core is deliberately independent of FFmpeg and other third-party codec libraries. Applications may add their own container, demosaic, color-management or host-API layers around the stable C ABI.
+
+## Validation and quality evidence
+
+- Native unit, conformance, golden-vector, fuzz-replay, ABI and CLI tests are part of the repository gate.
+- The current preview snapshot has passed the local CTest matrix on macOS; run the commands above for the exact result on your platform.
+- Benchmark reports include Topos-vs-ProRes bitrate measurements, decode/encode timings and image-size comparisons. These reports are workload-specific and should be read together with their source manifests.
+- The [capability manifest](native/docs/capability_manifest.json) is the single source of truth for advertised profiles. Update it before changing a public capability.
+
+## Documentation map
+
+- [Video whitepaper](Topos_Codec_Whitepaper.md) · [中文视频白皮书](Topos_Codec_白皮书.md)
+- [Image whitepaper](Topos_Image_Whitepaper.md) · [中文图片白皮书](Topos_Image_白皮书.md)
+- [SDK integration guide](docs/SDK.md)
+- [Bitstream specification v1](docs/bitstream_spec_v1.md)
+- [MOV container specification](docs/container_spec_v1.md)
+- [Capability manifest](native/docs/capability_manifest.json)
+- [Benchmark protocol](native/docs/benchmark_protocol.md)
+- [ProRes bitrate comparison](docs/topos_prores_bitrate_comparison_2026-09-07.md)
+- [Image-size comparison](docs/topos_image_size_comparison_2026-09-07.md)
+- [Architecture decisions](docs/ADR-INDEX.md)
+
+## Current scope and limitations
+
+Topos Codec is a preview release. Some host integrations, signed binary distribution, wide-format RAW ingest and cross-platform performance baselines are still being expanded. Topos RAW stores CFA phase planes; debayering and camera-specific color science remain application responsibilities. Comparisons with ProRes or other formats are engineering measurements from the cited test setup, not vendor certification or a claim of universal superiority.
+
+## Contributing
+
+Issues and pull requests are welcome. For format or ABI changes, start with an ADR and update the capability manifest, specifications, golden vectors and tests in the same change. Keep new public behavior documented in both the relevant whitepaper and the SDK guide.
+
+## License and trademarks
+
+The source code is released under the [Apache License 2.0](LICENSE), with additional notices in [NOTICE](NOTICE).
+
+Topos Codec is an independent project. Apple, ProRes, QuickTime, Avid, DaVinci Resolve and other product names remain the trademarks of their respective owners; they are referenced only for compatibility and comparative context.
