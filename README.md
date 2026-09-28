@@ -1,11 +1,7 @@
 # Topos Codec
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/media/topos-codec-icon-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="docs/media/topos-codec-icon-light.png">
-    <img src="docs/media/topos-codec-icon-light.png" alt="Topos Codec" width="180">
-  </picture>
+  <img src="docs/media/topos-codec-wordmark.png" alt="Topos Codec" width="560">
 </p>
 
 <p align="center"><strong>A systematic, open-source codec family for video, still images, HDR, compositing and RAW workflows.</strong></p>

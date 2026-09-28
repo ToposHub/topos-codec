@@ -1,11 +1,7 @@
 # Topos Codec
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/media/topos-codec-icon-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="docs/media/topos-codec-icon-light.png">
-    <img src="docs/media/topos-codec-icon-light.png" alt="Topos Codec" width="180">
-  </picture>
+  <img src="docs/media/topos-codec-wordmark.png" alt="Topos Codec" width="560">
 </p>
 
 <p align="center"><strong>面向视频、静态图片、HDR、合成与 RAW 工作流的体系化开源编码方案。</strong></p>
